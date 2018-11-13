@@ -9,18 +9,31 @@ public class ThirdSessionMain {
         // int first = scanner.nextInt();
         // int second = scanner.nextInt();
 
-        System.out.println("Give text:");
+        System.out.print("Give text: ");
         String input = scanner.next();
-        System.out.println("Give a number:");
-        int number = scanner.nextInt();
+        System.out.print("Give a number: ");
+        double number = scanner.nextDouble();
+
+        System.out.print("Give first nr to compare: ");
+        double first = scanner.nextDouble();
+        System.out.print("Give second nr to compare: ");
+        double second = scanner.nextDouble();
+        System.out.print("Give third nr to compare: ");
+        double third = scanner.nextDouble();
 
         // System.out.println("The bigger number is " + getMax(first, second));
         //System.out.println(matchText(input));
         // System.out.println(equalOrHigherThanTwo(number));
-
-
+        // System.out.println(getInput(input, number));
+        // System.out.println(checkInput(number) + number);
+        //System.out.println(getIntComp(number));
+        //System.out.println(getPressedNr(number));
+        // System.out.println(checkIfEvenNr(number));
+        //System.out.println(checkIfCanVote(number));
+        System.out.println(printGreatestNumber(first, second, third));
     }
 
+    // Given two numbers, see which one is the greatest and print it
     public static int getMax(int a, int b) {
 
         if (a > b) {
@@ -30,32 +43,123 @@ public class ThirdSessionMain {
         }
     }
 
+    //Given a text input, if it is “Evozon”, then print “Learning text comparison”. If not, print “Got to try some more”
     public static String matchText(String input) {
         if (input.equals("Evozon")) {
-            return input;
+            return "Learning text comparison";
         } else {
-            return input;
+            return "Got to try some more";
         }
 
     }
 
     // Given a number, if it’s equal to or higher than 2 and equal to or lower than 8, print the number
-
     public static int equalOrHigherThanTwo(int nr) {
         if (nr >= 2 && nr <= 8) {
             return nr;
-        }
-        return 0;
+        } else
+            return 0;
     }
 
     //Given a text input and a number input, if the text is equal to “Evozon” AND the number
     //is equal to or lower than 3, print the text and the number. If the text is not “Evozon” AND
     //the number is equal to or higher than 4, print the number and the text, in this order.
 
-    public static String getInput(String input, String nr) {
-        if (input.equals("Evozon")) {
-            return input;
+    public static String getInput(String input, int nr) {
+        if (input.equals("Evozon") && nr <= 3) {
+            return String.valueOf(nr);
+        } else if (!input.equals("Evozon") && nr >= 4) {
+            return String.valueOf(nr);
         }
-        return input;
+
+        return String.valueOf(0);
+    }
+
+    // Given a number input, if it is higher than 8 OR equal to 6, print “The amount of snow
+    //this winter was(cm):” and the given number. Else print “The forecast snow is(cm):”
+
+    public static String checkInput(int nr) {
+        if (nr > 8) {
+            return "The amount of snow this winter was(cm): ";
+        } else if (nr == 6) {
+            return "The amount of snow this winter was(cm): ";
+        } else {
+            return "The forecast snow is(cm): ";
+        }
+    }
+
+    // Given a number input, if the number is greater than 3 but not equal to 4, print “The
+    //number is greater than 3 and not equal to 4”. Else if the number is equal to 4 print ”The
+    //number is equal to 4”. Else if the number is lower than 3 print “The number is lower than 3”
+
+    public static String getIntComp(int nr) {
+        if (nr > 3 && nr != 4) {
+            return "The number is greater than 3 and not equal to 4";
+        } else if (nr == 4) {
+            return "The number is equal to 4";
+        } else {
+            return "The number is lower than 3";
+        }
+
+    }
+
+    // If the user pressed number keys( from 0 to 9), the program will tell the number that is
+    //pressed, otherwise, program will show "Not allowed”. (use a switch case for this)
+    public static String getPressedNr(int nr) {
+        switch (nr) {
+            case 0:
+                return String.valueOf(nr);
+            case 1:
+                return String.valueOf(nr);
+            case 2:
+                return String.valueOf(nr);
+            case 3:
+                return String.valueOf(nr);
+            case 4:
+                return String.valueOf(nr);
+            case 5:
+                return String.valueOf(nr);
+            case 6:
+                return String.valueOf(nr);
+            case 7:
+                return String.valueOf(nr);
+            case 8:
+                return String.valueOf(nr);
+            case 9:
+                return String.valueOf(nr);
+            default:
+                return "Not allowed!";
+
+        }
+    }
+
+    //Write a Java program to determine whether an input number is an even number
+    public static String checkIfEvenNr(double nr) {
+        if (nr % 2 == 0) {
+            return "Even number!";
+        } else
+            return "Not even number!";
+    }
+
+    // Write Java program to allow the user to input his/her age. Then the program will show if the
+    //person is eligible to vote. A person who is eligible to vote must be older than or equal to 18 years old.
+    public static String checkIfCanVote(double age) {
+        if (age >= 18) {
+            return "Eligible to vote!";
+        } else {
+            return "Minor...";
+        }
+    }
+
+    // Take three numbers from the user and print the greatest number.
+    public static double printGreatestNumber(double a, double b, double c) {
+        if (a > b && a < c) {
+            return a;
+        } else if (b > a && b > c) {
+            return b;
+        } else {
+            return c;
+        }
+
     }
 }

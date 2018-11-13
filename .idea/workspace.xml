@@ -2,31 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deb20747-63b8-45b0-b91f-4290736c50fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FirstProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Game2ndSession/Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Game2ndSession/Bird.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Game2ndSession/Cat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Game2ndSession/Doctor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Game2ndSession/Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Game2ndSession/Food.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Game2ndSession/GameMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Game2ndSession/Human.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThirdSessionMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_windows/git.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_windows/laf.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_windows/path.macros.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codestyles/Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk.table.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game2ndSession/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game2ndSession/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game2ndSession/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game2ndSession/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game2ndSession/GameMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game2ndSession/GameMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game2ndSession/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game2ndSession/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EvoJavaTraining/Game2ndSession/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EvoJavaTraining/Game2ndSession/Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EvoJavaTraining/Game2ndSession/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EvoJavaTraining/Game2ndSession/Doctor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EvoJavaTraining/Game2ndSession/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EvoJavaTraining/Game2ndSession/Food.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EvoJavaTraining/Game2ndSession/GameMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EvoJavaTraining/Game2ndSession/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EvoJavaTraining/Main.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/" />
@@ -263,6 +248,11 @@
             <path>
               <item name="EvoJavaTraining" type="b2602c69:ProjectViewProjectNode" />
               <item name="EvoJavaTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EvoJavaTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EvoJavaTraining" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,7 +270,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542130408690" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542132893482" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -402,8 +392,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.5" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49932885" visible="true" weight="0.5" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50067115" side_tool="true" weight="0.5" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Run" order="5" weight="0.5322581" />

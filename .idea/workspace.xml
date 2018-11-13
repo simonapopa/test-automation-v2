@@ -2,9 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deb20747-63b8-45b0-b91f-4290736c50fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Game2ndSession/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Game2ndSession/Bird.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Game2ndSession/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Game2ndSession/Doctor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Game2ndSession/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Game2ndSession/Food.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Game2ndSession/GameMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Game2ndSession/Human.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FirstProject/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThirdSessionMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_windows/git.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_windows/laf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_windows/path.macros.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codestyles/Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk.table.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game2ndSession/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game2ndSession/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game2ndSession/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game2ndSession/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game2ndSession/GameMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game2ndSession/GameMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game2ndSession/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game2ndSession/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,21 +74,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="233" selection-start-line="233" selection-end-line="233" />
+            <state relative-caret-position="563">
+              <caret line="124" selection-start-line="124" selection-end-line="124" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#adunare#0;class#Main#0" />
-                <element signature="method#scadere#0;class#Main#0" />
-                <element signature="method#inmultire#0;class#Main#0" />
-                <element signature="method#impartire#0;class#Main#0" />
-                <element signature="method#firstTraining#0;class#Main#0" />
-                <element signature="method#secondExercise#0;class#Main#0" />
-                <element signature="method#forthExercise#0;class#Main#0" />
-                <element signature="method#fifthExercise#0;class#Main#0" />
-                <element signature="method#sixthExercise#0;class#Main#0" />
-                <element signature="method#eightExercise#0;class#Main#0" />
-                <element signature="method#eleventhExercise#0;class#Main#0" />
               </folding>
             </state>
           </provider>
@@ -267,10 +281,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542130408690" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -305,6 +320,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="FirstProject" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="FirstProject" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.GameMain" />
@@ -332,7 +394,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.20469798" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.20469798" />
       <window_info id="Structure" order="1" sideWeight="0.5015674" side_tool="true" weight="0.20469798" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -340,7 +402,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32991204" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.5" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
@@ -407,21 +469,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="233" selection-start-line="233" selection-end-line="233" />
+        <state relative-caret-position="563">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#adunare#0;class#Main#0" />
-            <element signature="method#scadere#0;class#Main#0" />
-            <element signature="method#inmultire#0;class#Main#0" />
-            <element signature="method#impartire#0;class#Main#0" />
-            <element signature="method#firstTraining#0;class#Main#0" />
-            <element signature="method#secondExercise#0;class#Main#0" />
-            <element signature="method#forthExercise#0;class#Main#0" />
-            <element signature="method#fifthExercise#0;class#Main#0" />
-            <element signature="method#sixthExercise#0;class#Main#0" />
-            <element signature="method#eightExercise#0;class#Main#0" />
-            <element signature="method#eleventhExercise#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -549,11 +600,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>EvoJavaTraining</last-edited>
+          <last-edited>FirstProject</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

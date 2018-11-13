@@ -55,8 +55,8 @@ public class Animal {
         System.out.println("Thank you!... I love you :) ");
     }
     public void sick(){
-        System.out.println("I don't feel good...");
-    }
+    System.out.println("I don't feel good...");
+}
 
     public void fear() {
         System.out.println("I'm scared...");

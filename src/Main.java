@@ -6,6 +6,7 @@ public class Main extends Calculator {
 
     public static void main(String args[]) {
         Scanner scanner = new Scanner(in);
+        //Calculator calc = new Calculator();
         /*
         System.out.println("Enter your name:");
         String nume = scanner.next();

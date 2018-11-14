@@ -68,6 +68,7 @@ public class ThirdSessionMain {
     public static String getInput(String input, int nr) {
         if (input.equals("Evozon") && nr <= 3) {
             return String.valueOf(nr);
+           // return input+nr; ambele sunt String
         } else if (!input.equals("Evozon") && nr >= 4) {
             return String.valueOf(nr);
         }

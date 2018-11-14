@@ -31,7 +31,7 @@ public class Calculator {
         return result;
     }
 
-    public static void secondExercise() {
+    public void secondExercise() {
         Scanner scanner = new Scanner(in);
 
         System.out.print("define a byte value:");
@@ -69,12 +69,89 @@ public class Calculator {
     }
 
     // 5. Write a Java program that takes two numbers as input and display the product of two numbers.
-    public static void fifthExercise(long first, long second) {
-        System.out.print(first + "x" + second + "=" + first * second);
+    public static long fifthExercise(long first, long second) {
+        return first * second;
     }
 
     // 8. Write a Java program that takes three numbers as input to calculate and print the average of the numbers.
     public static float seventhExercise(long first, long second, long third) {
         return (float) (first + second + third) / (3);
+    }
+
+    // 1. Write a Java program to print 'Hello' on screen and then print your name on a separate line
+    public static String firstExercise(String name) {
+        return name;
+    }
+
+    /* 4. Write a Java program to print the result of the following operations:
+        a. -5 + 8 * 6
+        b. (55+9) % 9
+        c. 20 + -3*5 / 8
+        d. 5 + 15 / 3 * 2 - 8 % 3
+        */
+    public static void forthExercise() {
+        int a, b, c, sumInt;
+        float sumFloat;
+        a = -5;
+        b = 8;
+        c = 6;
+
+        sumInt = a + b * c;
+        System.out.println("Result for 'a. -5 + 8 * 6' is " + sumInt);
+
+        a = 55;
+        b = 9;
+        c = 9;
+
+        sumFloat = (a + b) % c;
+        System.out.println("Result for 'b. (55+9) % 9' is " + sumFloat);
+
+        a = 20;
+        b = 3;
+        c = 5;
+
+        sumInt = a + (-3 * 5) / 8;
+        System.out.println("Result for 'c. 20 + -3*5 / 8' is " + sumInt);
+
+        a = 5;
+        b = 15;
+        c = 8;
+
+        sumFloat = a + b / 3 * 2 - c % 3;
+        System.out.println("Result for 'd. 5 + 15 / 3 * 2 - 8 % 3' is " + sumFloat);
+
+    }
+
+    // 6. Write a Java program to display the following pattern
+    public static void sixthExercise() {
+        System.out.println("   J    a   v     v  a ");
+        System.out.println("   J   a a   v   v  a a");
+        System.out.println("J  J  aaaaa   V V  aaaaa");
+        System.out.println(" JJ  a     a   V  a     a");
+    }
+
+    // 9. Write a Java program to display the following pattern
+    public static void eightExercise() {
+        System.out.println(" +\"\"\"\"\"+ ");
+        System.out.println("[| o o |]");
+        System.out.println(" |  ^  | ");
+        System.out.println(" | '-' | ");
+        System.out.println(" +-----+ ");
+    }
+
+    // 10.Write a Java program to convert temperature from Fahrenheit to Celsius degree, using this formula: C = 5/9 * (F-32)
+    public static float nineExercise(float temp) {
+        return (5f / 9 * (temp - 32));
+    }
+
+    // 11.Write a Java program that reads a number in inches, converts it to meters. ( one inch is 0.0254 meters)
+    public static double tenthExercise(double number) {
+        return number * 0.0254;
+    }
+
+    // 12.Write a Java program to takes the user for a distance (in meters) and the time was taken (as three numbers: hours, minutes,
+    //seconds), and display the speed, in meters per second, kilometers per hour and miles per hour (hint: 1 mile = 1609 meters)
+    public static float eleventhExercise(int hour, int minute, int second) {
+        return (hour * 3600) + (minute * 60) + second;
     }
 }

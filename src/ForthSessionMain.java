@@ -9,15 +9,22 @@ public class ForthSessionMain {
         LogicalOperation op = new LogicalOperation();
 
         System.out.print("Give first: ");
-        int f = scanner.nextInt();
+        int first = scanner.nextInt();
 
         System.out.print("Give second: ");
-        int s = scanner.nextInt();
+        int second = scanner.nextInt();
 
-        //op.getTwoNumbers(f,s);
-        //op.getTwoNrVersion(f, s);
-        //op.getNumberWithWhile(f);
-        op.getTwoNumbersWithWhile(f, s);
-        //op.getTwoNumbersWithDoWhile(f, s);
+        //For loop exercises
+        //op.getTwoNumbers(first,second);
+        //op.getTwoNrVersion(first, second);
+        //op.givenNumberHundred(first);
+        //op.outputLikeTreeMultipleForLoops();
+        //op.outputLikeTreeSimplified();
+        op.sumAndAverage();
+
+        //While loop exercises
+        //op.getNumberWithWhile(first);
+        //op.getTwoNumbersWithWhile(first, second);
+        //op.getTwoNumbersWithDoWhile(first, second);
     }
 }

@@ -20,11 +20,24 @@ public class ForthSessionMain {
         //op.givenNumberHundred(first);
         //op.outputLikeTreeMultipleForLoops();
         //op.outputLikeTreeSimplified();
-        op.sumAndAverage();
+        //op.sumAndAverage();
 
         //While loop exercises
         //op.getNumberWithWhile(first);
         //op.getTwoNumbersWithWhile(first, second);
         //op.getTwoNumbersWithDoWhile(first, second);
+
+
+    }
+
+    public static void printMaxFromArrayForEach() {
+        int[] array = {2, 1, 6, 8, 3, 0, 7, 4};
+        int max = array[0];
+        for ( int i : array ) {
+            if (i > max) {
+                max = i;
+            }
+        }
+        System.out.println("Max = " + max);
     }
 }

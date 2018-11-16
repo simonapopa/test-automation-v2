@@ -4,7 +4,7 @@ public class LogicalOperation {
     //Also compute and display the average.
 
     public void sumAndAverage() {
-        int sum=0;
+        int sum = 0;
         double average;
 
         for ( int i = 1; i <= 100; i++ ) {
@@ -155,6 +155,9 @@ public class LogicalOperation {
             System.out.println(nr++);
         }
     }
+
+    // Loop exercise: 3. Modify the program to sum from 111 to 8899, and compute the average. Introduce
+    //an int variable called count to count the numbers in the specified range.
 
 
 }

@@ -65,27 +65,24 @@ public class ThirdSessionMain {
     //is equal to or lower than 3, print the text and the number. If the text is not “Evozon” AND
     //the number is equal to or higher than 4, print the number and the text, in this order.
 
-    public static String getInput(String input, int nr) {
+    public static void getInput(String input, int nr) {
         if (input.equals("Evozon") && nr <= 3) {
-            return String.valueOf(nr);
-           // return input+nr; ambele sunt String
-        } else if (!input.equals("Evozon") && nr >= 4) {
-            return String.valueOf(nr);
+            System.out.println(input + nr);
         }
-
-        return String.valueOf(0);
+        if (!input.equals("Evozon") && nr >= 4) {
+            System.out.println(nr + input);
+        }
     }
 
     // Given a number input, if it is higher than 8 OR equal to 6, print “The amount of snow
     //this winter was(cm):” and the given number. Else print “The forecast snow is(cm):”
 
-    public static String checkInput(int nr) {
-        if (nr > 8) {
-            return "The amount of snow this winter was(cm): ";
-        } else if (nr == 6) {
-            return "The amount of snow this winter was(cm): ";
+    public static void checkInput(int nr) {
+        if (nr > 8 || nr == 6) {
+            System.out.println("The amount of snow this winter was(cm): ");
         } else {
-            return "The forecast snow is(cm): ";
+            System.out.println("The amount of snow this winter was(cm): ");
+
         }
     }
 
@@ -98,48 +95,41 @@ public class ThirdSessionMain {
             return "The number is greater than 3 and not equal to 4";
         } else if (nr == 4) {
             return "The number is equal to 4";
-        } else {
+        } else if (nr < 3) {
             return "The number is lower than 3";
         }
 
+        return null;
     }
 
     // If the user pressed number keys( from 0 to 9), the program will tell the number that is
     //pressed, otherwise, program will show "Not allowed”. (use a switch case for this)
-    public static String getPressedNr(int nr) {
+    public static void getPressedNr(int nr) {
         switch (nr) {
             case 0:
-                return String.valueOf(nr);
             case 1:
-                return String.valueOf(nr);
             case 2:
-                return String.valueOf(nr);
             case 3:
-                return String.valueOf(nr);
             case 4:
-                return String.valueOf(nr);
             case 5:
-                return String.valueOf(nr);
             case 6:
-                return String.valueOf(nr);
             case 7:
-                return String.valueOf(nr);
             case 8:
-                return String.valueOf(nr);
             case 9:
-                return String.valueOf(nr);
+                System.out.println(nr);
+                break;
             default:
-                return "Not allowed!";
+                System.out.println("Not allowed!");
 
         }
     }
 
     //Write a Java program to determine whether an input number is an even number
-    public static String checkIfEvenNr(double nr) {
+    public static void checkIfEvenNr(int nr) {
         if (nr % 2 == 0) {
-            return "Even number!";
+            System.out.println("Even number!");
         } else
-            return "Not even number!";
+            System.out.println("Not even number!");
     }
 
     // Write Java program to allow the user to input his/her age. Then the program will show if the

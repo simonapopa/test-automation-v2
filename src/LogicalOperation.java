@@ -1,10 +1,22 @@
 public class LogicalOperation {
 
+
+    // For loop example: Print max from an array
+    public static void printMaxFromArrayForEach() {
+        int[] array = {2, 1, 6, 8, 3, 0, 7, 4};
+        int max = array[0];
+        for ( int i : array ) {
+            if (i > max) {
+                max = i;
+            }
+        }
+        System.out.println("Max = " + max);
+    }
     //For loop exercise: 4. Write a program called SumAndAverage to produce the sum of 1, 2, 3, ..., to 100.
     //Also compute and display the average.
 
     public void sumAndAverage() {
-        int sum=0;
+        int sum = 0;
         double average;
 
         for ( int i = 1; i <= 100; i++ ) {
@@ -119,23 +131,6 @@ public class LogicalOperation {
         }
     }
 
-    // Loop exercise: 2. Modify the program to use a "do-while" loop.
-
-    public void getTwoNumbersWithDoWhile(int first, int second) {
-        int i = first;
-
-        do {
-            System.out.println(i--);
-
-        } while (i > second);
-
-        do {
-            System.out.println(second--);
-
-        } while (second > first);
-
-    }
-
     // Loop exercise: 1. Modify previous ex 4. to use “while-do” loop instead of “for” loop
     public void getTwoNumbersWithWhile(int first, int second) {
 
@@ -156,6 +151,46 @@ public class LogicalOperation {
         }
     }
 
+    // Loop exercise: 2. Modify the program to use a "do-while" loop.
+
+    public void getTwoNumbersWithDoWhile(int first, int second) {
+        int i = first;
+
+        while (i > second) {
+            System.out.println(i--);
+        }
+
+        do {
+            System.out.println(second--);
+
+        } while (second > first);
+
+    }
+
+    // Loop exercise: 3. Modify the program to sum from 111 to 8899, and compute the average. Introduce
+    //an int variable called count to count the numbers in the specified range.
+    public void sumTwoNumbersAndComputeAverage() {
+        int count = 0;
+        int sum = 0;
+        int first = 111;
+        int second = 8899;
+        float average;
+
+        do {
+            sum = sum + first;
+            first++;
+            count++;
+        } while (first <= second);
+
+        average = sum / count;
+        System.out.println("Sum is " + sum + " and count=" + count + " and average=" + average);
+
+    }
+
+    // Loop exercse: 4.Write a program to sum only the odd numbers from 1 to 100, and compute the average.
+    public void getSumOfOddNumbersAndComputeAverage(){
+
+    }
 
 }
 

@@ -20,11 +20,16 @@ public class ForthSessionMain {
         //op.givenNumberHundred(first);
         //op.outputLikeTreeMultipleForLoops();
         //op.outputLikeTreeSimplified();
-        op.sumAndAverage();
+        //op.sumAndAverage();
 
         //While loop exercises
         //op.getNumberWithWhile(first);
         //op.getTwoNumbersWithWhile(first, second);
         //op.getTwoNumbersWithDoWhile(first, second);
+        //op.sumTwoNumbersAndComputeAverage();
+
+
     }
+
 }
+

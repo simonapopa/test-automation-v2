@@ -5,7 +5,7 @@ public class ForthSessionMain {
     public static void main(String args[]) {
 
         Scanner scanner = new Scanner(System.in);
-        Calculator calc = new Calculator();
+        //Calculator calc = new Calculator();
         LogicalOperation op = new LogicalOperation();
 
         System.out.print("Give first: ");
@@ -27,6 +27,7 @@ public class ForthSessionMain {
         //op.getTwoNumbersWithWhile(first, second);
         //op.getTwoNumbersWithDoWhile(first, second);
         //op.sumTwoNumbersAndComputeAverage();
+        op.getSumOfOddNumbersAndComputeAverage();
 
 
     }

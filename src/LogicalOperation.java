@@ -2,10 +2,10 @@ public class LogicalOperation {
 
 
     // For loop example: Print max from an array
-    public static void printMaxFromArrayForEach() {
+    public void printMaxFromArrayForEach() {
         int[] array = {2, 1, 6, 8, 3, 0, 7, 4};
         int max = array[0];
-        for ( int i : array ) {
+        for (int i : array) {
             if (i > max) {
                 max = i;
             }
@@ -19,7 +19,7 @@ public class LogicalOperation {
         int sum = 0;
         double average;
 
-        for ( int i = 1; i <= 100; i++ ) {
+        for (int i = 1; i <= 100; i++) {
             sum += i;
         }
         average = sum / 100;
@@ -39,9 +39,9 @@ public class LogicalOperation {
     public void outputLikeTreeSimplified() {
         int i, j;
         char ch = '*';
-        for ( i = 0; i <= 7; i++ ) {
+        for (i = 0; i <= 7; i++) {
 
-            for ( j = i; j <= 7; j++ ) {
+            for (j = i; j <= 7; j++) {
                 System.out.print(ch);
                 if (i == 7) break;
             }
@@ -53,43 +53,43 @@ public class LogicalOperation {
         int i;
         char ch = '*';
 
-        for ( i = 0; i <= 7; i++ ) {
+        for (i = 0; i <= 7; i++) {
 
             System.out.print(ch);
 
         }
         System.out.println();
-        for ( i = 0; i <= 6; i++ ) {
+        for (i = 0; i <= 6; i++) {
 
             System.out.print(ch);
 
         }
         System.out.println();
-        for ( i = 0; i <= 5; i++ ) {
+        for (i = 0; i <= 5; i++) {
 
             System.out.print(ch);
 
         }
         System.out.println();
-        for ( i = 0; i <= 4; i++ ) {
+        for (i = 0; i <= 4; i++) {
 
             System.out.print(ch);
 
         }
         System.out.println();
-        for ( i = 0; i <= 3; i++ ) {
+        for (i = 0; i <= 3; i++) {
 
             System.out.print(ch);
 
         }
         System.out.println();
-        for ( i = 0; i <= 2; i++ ) {
+        for (i = 0; i <= 2; i++) {
 
             System.out.print(ch);
 
         }
         System.out.println();
-        for ( i = 0; i <= 1; i++ ) {
+        for (i = 0; i <= 1; i++) {
 
             System.out.print(ch);
 
@@ -105,27 +105,27 @@ public class LogicalOperation {
         int sum;
         if (first > second) {
             sum = first - second;
-            for ( int i = first; i >= sum; i-- )
+            for (int i = first; i >= sum; i--)
                 System.out.println(i);
         } else {
             sum = second - first;
-            for ( int i = second; i >= sum; i-- )
+            for (int i = second; i >= sum; i--)
                 System.out.println(i);
         }
     }
 
     public void getTwoNrVersion(int first, int second) {
 
-        for ( int i = first; i >= second; i-- )
+        for (int i = first; i >= second; i--)
             System.out.println(i);
 
-        for ( int i = second; i >= first; i-- )
+        for (int i = second; i >= first; i--)
             System.out.println(i);
     }
 
     //For loop exercise: 1. Given a number, while the number is equal to or lower than 100, print the number;
     public void givenNumberHundred(int nr) {
-        for ( int i = nr; i <= 100; i++ ) {
+        for (int i = nr; i <= 100; i++) {
             System.out.println(i);
             break;
         }
@@ -188,9 +188,25 @@ public class LogicalOperation {
     }
 
     // Loop exercse: 4.Write a program to sum only the odd numbers from 1 to 100, and compute the average.
-    public void getSumOfOddNumbersAndComputeAverage(){
+    public void getSumOfOddNumbersAndComputeAverage() {
+        int count = 0;
+        int sum = 0;
+        int first = 1;
+        int second = 100;
+        float average;
 
+        do {
+            if (first % 2 != 0) {
+                sum = sum + first;
+                count++;
+            }
+            first++;
+        } while (first <= second);
+        average = sum / count;
+        System.out.println("Sum is " + sum + " and count=" + count + " and average=" + average);
     }
+
+
 
 }
 

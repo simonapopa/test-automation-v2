@@ -61,22 +61,22 @@ public class Calculator {
     }
 
     // 3. Write a Java program to divide two numbers and print on the screen.
-    public void thirdExercise(long first, long second) {
+    public void getNumbers(long first, long second) {
         System.out.println("Sum is = " + (first + second));
     }
 
     // 5. Write a Java program that takes two numbers as input and display the product of two numbers.
-    public long fifthExercise(long first, long second) {
+    public float getNumbersProduct(float first, float second) {
         return first * second;
     }
 
     // 8. Write a Java program that takes three numbers as input to calculate and print the average of the numbers.
-    public float seventhExercise(long first, long second, long third) {
+    public float getNumbers(long first, long second, long third) {
         return (float) (first + second + third) / (3);
     }
 
     // 1. Write a Java program to print 'Hello' on screen and then print your name on a separate line
-    public String firstExercise(String name) {
+    public String getYourName(String name) {
         return name;
     }
 
@@ -120,7 +120,7 @@ public class Calculator {
     }
 
     // 6. Write a Java program to display the following pattern
-    public void sixthExercise() {
+    public void getYourName() {
         System.out.println("   J    a   v     v  a ");
         System.out.println("   J   a a   v   v  a a");
         System.out.println("J  J  aaaaa   V V  aaaaa");
@@ -128,7 +128,7 @@ public class Calculator {
     }
 
     // 9. Write a Java program to display the following pattern
-    public void eightExercise() {
+    public void printFacePattern() {
         System.out.println(" +\"\"\"\"\"+ ");
         System.out.println("[| o o |]");
         System.out.println(" |  ^  | ");

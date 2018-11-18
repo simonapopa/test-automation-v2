@@ -1,4 +1,6 @@
-public class LogicalOperation {
+package LoopExercises;
+
+public class LoopMethods {
 
 
     // For loop example: Print max from an array

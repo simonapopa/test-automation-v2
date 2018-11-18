@@ -1,3 +1,5 @@
+package LoopExercises;
+
 import java.util.Scanner;
 
 public class ForthSessionMain {
@@ -6,7 +8,7 @@ public class ForthSessionMain {
 
         Scanner scanner = new Scanner(System.in);
         //Calculator calc = new Calculator();
-        LogicalOperation op = new LogicalOperation();
+        LoopMethods op = new LoopMethods();
 
        /* System.out.print("Give first: ");
         int first = scanner.nextInt();

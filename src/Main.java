@@ -8,15 +8,14 @@ public class Main {
         Scanner scanner = new Scanner(in);
         Calculator calc = new Calculator();
 
-        /*
+
         System.out.println("Enter your name:");
         String nume = scanner.next();
-        System.out.println("Hello world!" + "\n" + firstExercise(nume));
-        */
-        //forthExercise();
-        //sixthExercise();
-        //eightExercise();
-        //eleventhExercise();
+        System.out.println("Hello world!" + "\n" + calc.getYourName(nume));
+
+        calc.forthExercise();
+        calc.getYourName();
+        calc.printFacePattern();
 
         System.out.print("Give first number:");
         long number1 = scanner.nextLong();
@@ -36,13 +35,13 @@ public class Main {
         System.out.print("Give your second:");
         int s = scanner.nextInt();
 
-        System.out.println("Rezultat adunare:" + calc.adunare(number1, number2));
-        calc.thirdExercise(number1, number2);
-        System.out.println("Rezultat scadere:" + calc.scadere(number1, number2));
-        System.out.println("Rezultat inmultire:" + calc.inmultire(number1, number2));
-        calc.fifthExercise(number1, number2);
-        System.out.println("Rezultat impartire:" + calc.impartire(number1, number2));
-        System.out.println("Average of the numbers is " + calc.seventhExercise(number1, number2, number3));
+        System.out.println("Rezultat adunare: " + calc.adunare(number1, number2));
+        calc.getNumbers(number1, number2);
+        System.out.println("Rezultat scadere: " + calc.scadere(number1, number2));
+        System.out.println("Rezultat inmultire: " + calc.inmultire(number1, number2));
+        calc.getNumbersProduct(number1, number2);
+        System.out.println("Rezultat impartire: " + calc.impartire(number1, number2));
+        System.out.println("Average of the numbers is " + calc.getNumbers(number1, number2, number3));
         System.out.println("C = 5/9 * (F-32) is " + calc.nineExercise(f));
         System.out.println(number1 + " in inches is " + calc.tenthExercise(number1) + "meters");
         System.out.println(number2 + " in inches is " + calc.tenthExercise(number2) + "meters");

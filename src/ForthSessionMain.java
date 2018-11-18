@@ -8,11 +8,11 @@ public class ForthSessionMain {
         //Calculator calc = new Calculator();
         LogicalOperation op = new LogicalOperation();
 
-        System.out.print("Give first: ");
+       /* System.out.print("Give first: ");
         int first = scanner.nextInt();
 
         System.out.print("Give second: ");
-        int second = scanner.nextInt();
+        int second = scanner.nextInt();*/
 
         //For loop exercises
         //op.getTwoNumbers(first,second);
@@ -27,9 +27,10 @@ public class ForthSessionMain {
         //op.getTwoNumbersWithWhile(first, second);
         //op.getTwoNumbersWithDoWhile(first, second);
         //op.sumTwoNumbersAndComputeAverage();
-        op.getSumOfOddNumbersAndComputeAverage();
-
-
+        //op.getSumOfOddNumbersAndComputeAverage();
+        //op.getSumOfNumbersDivisibleBySevenAndComputeAverage();
+        //op.getTwentyFibonaciNumbers();
+        op.CozaLozaWoza();
     }
 
 }

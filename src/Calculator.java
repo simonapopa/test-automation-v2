@@ -4,29 +4,26 @@ import static java.lang.System.in;
 
 public class Calculator {
 
-    // move all operational methods here
-
-
     // adunare
-    public static long adunare(long firstNumber, long secondNumber) {
+    public long adunare(long firstNumber, long secondNumber) {
         long result = firstNumber + secondNumber;
         return result;
     }
 
     //scadere
-    public static long scadere(long firstNumber, long secondNumber) {
+    public long scadere(long firstNumber, long secondNumber) {
         long result = firstNumber - secondNumber;
         return result;
     }
 
     //inmultire
-    public static long inmultire(long firstNumber, long secondNumber) {
+    public long inmultire(long firstNumber, long secondNumber) {
         long result = firstNumber * secondNumber;
         return result;
     }
 
     //impartire
-    public static float impartire(float firstNumber, float secondNumber) {
+    public float impartire(float firstNumber, float secondNumber) {
         float result = firstNumber / secondNumber;
         return result;
     }
@@ -64,22 +61,22 @@ public class Calculator {
     }
 
     // 3. Write a Java program to divide two numbers and print on the screen.
-    public static void thirdExercise(long first, long second) {
+    public void getNumbers(long first, long second) {
         System.out.println("Sum is = " + (first + second));
     }
 
     // 5. Write a Java program that takes two numbers as input and display the product of two numbers.
-    public static long fifthExercise(long first, long second) {
+    public float getNumbersProduct(float first, float second) {
         return first * second;
     }
 
     // 8. Write a Java program that takes three numbers as input to calculate and print the average of the numbers.
-    public static float seventhExercise(long first, long second, long third) {
+    public float getNumbers(long first, long second, long third) {
         return (float) (first + second + third) / (3);
     }
 
     // 1. Write a Java program to print 'Hello' on screen and then print your name on a separate line
-    public static String firstExercise(String name) {
+    public String getYourName(String name) {
         return name;
     }
 
@@ -89,7 +86,7 @@ public class Calculator {
         c. 20 + -3*5 / 8
         d. 5 + 15 / 3 * 2 - 8 % 3
         */
-    public static void forthExercise() {
+    public void forthExercise() {
         int a, b, c, sumInt;
         float sumFloat;
         a = -5;
@@ -123,7 +120,7 @@ public class Calculator {
     }
 
     // 6. Write a Java program to display the following pattern
-    public static void sixthExercise() {
+    public void getYourName() {
         System.out.println("   J    a   v     v  a ");
         System.out.println("   J   a a   v   v  a a");
         System.out.println("J  J  aaaaa   V V  aaaaa");
@@ -131,7 +128,7 @@ public class Calculator {
     }
 
     // 9. Write a Java program to display the following pattern
-    public static void eightExercise() {
+    public void printFacePattern() {
         System.out.println(" +\"\"\"\"\"+ ");
         System.out.println("[| o o |]");
         System.out.println(" |  ^  | ");
@@ -140,18 +137,18 @@ public class Calculator {
     }
 
     // 10.Write a Java program to convert temperature from Fahrenheit to Celsius degree, using this formula: C = 5/9 * (F-32)
-    public static float nineExercise(float temp) {
+    public float nineExercise(float temp) {
         return (5f / 9 * (temp - 32));
     }
 
     // 11.Write a Java program that reads a number in inches, converts it to meters. ( one inch is 0.0254 meters)
-    public static double tenthExercise(double number) {
+    public double tenthExercise(double number) {
         return number * 0.0254;
     }
 
     // 12.Write a Java program to takes the user for a distance (in meters) and the time was taken (as three numbers: hours, minutes,
     //seconds), and display the speed, in meters per second, kilometers per hour and miles per hour (hint: 1 mile = 1609 meters)
-    public static float eleventhExercise(int hour, int minute, int second) {
+    public float eleventhExercise(int hour, int minute, int second) {
         return (hour * 3600) + (minute * 60) + second;
     }
 }

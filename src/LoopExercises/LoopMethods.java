@@ -7,7 +7,7 @@ public class LoopMethods {
     public void printMaxFromArrayForEach() {
         int[] array = {2, 1, 6, 8, 3, 0, 7, 4};
         int max = array[0];
-        for (int i : array) {
+        for ( int i : array ) {
             if (i > max) {
                 max = i;
             }
@@ -21,7 +21,7 @@ public class LoopMethods {
         int sum = 0;
         double average;
 
-        for (int i = 1; i <= 100; i++) {
+        for ( int i = 1; i <= 100; i++ ) {
             sum += i;
         }
         average = sum / 100;
@@ -41,9 +41,9 @@ public class LoopMethods {
     public void outputLikeTreeSimplified() {
         int i, j;
         char ch = '*';
-        for (i = 0; i <= 7; i++) {
+        for ( i = 0; i <= 7; i++ ) {
 
-            for (j = i; j <= 7; j++) {
+            for ( j = i; j <= 7; j++ ) {
                 System.out.print(ch);
                 if (i == 7) break;
             }
@@ -55,43 +55,43 @@ public class LoopMethods {
         int i;
         char ch = '*';
 
-        for (i = 0; i <= 7; i++) {
+        for ( i = 0; i <= 7; i++ ) {
 
             System.out.print(ch);
 
         }
         System.out.println();
-        for (i = 0; i <= 6; i++) {
+        for ( i = 0; i <= 6; i++ ) {
 
             System.out.print(ch);
 
         }
         System.out.println();
-        for (i = 0; i <= 5; i++) {
+        for ( i = 0; i <= 5; i++ ) {
 
             System.out.print(ch);
 
         }
         System.out.println();
-        for (i = 0; i <= 4; i++) {
+        for ( i = 0; i <= 4; i++ ) {
 
             System.out.print(ch);
 
         }
         System.out.println();
-        for (i = 0; i <= 3; i++) {
+        for ( i = 0; i <= 3; i++ ) {
 
             System.out.print(ch);
 
         }
         System.out.println();
-        for (i = 0; i <= 2; i++) {
+        for ( i = 0; i <= 2; i++ ) {
 
             System.out.print(ch);
 
         }
         System.out.println();
-        for (i = 0; i <= 1; i++) {
+        for ( i = 0; i <= 1; i++ ) {
 
             System.out.print(ch);
 
@@ -107,27 +107,27 @@ public class LoopMethods {
         int sum;
         if (first > second) {
             sum = first - second;
-            for (int i = first; i >= sum; i--)
+            for ( int i = first; i >= sum; i-- )
                 System.out.println(i);
         } else {
             sum = second - first;
-            for (int i = second; i >= sum; i--)
+            for ( int i = second; i >= sum; i-- )
                 System.out.println(i);
         }
     }
 
     public void getTwoNrVersion(int first, int second) {
 
-        for (int i = first; i >= second; i--)
+        for ( int i = first; i >= second; i-- )
             System.out.println(i);
 
-        for (int i = second; i >= first; i--)
+        for ( int i = second; i >= first; i-- )
             System.out.println(i);
     }
 
     //For loop exercise: 1. Given a number, while the number is equal to or lower than 100, print the number;
     public void givenNumberHundred(int nr) {
-        for (int i = nr; i <= 100; i++) {
+        for ( int i = nr; i <= 100; i++ ) {
             System.out.println(i);
             break;
         }
@@ -248,22 +248,19 @@ public class LoopMethods {
     //23 Coza Loza 26 Coza Woza 29 CozaLoza 31 32 Coza
     public void CozaLozaWoza() {
         int i, j;
-        for (i = 1; i <= 10; i++) {
+        for ( j = 1; j <= 110; j++ ) {
 
-            for (j = 1; j <= 110; j++) {
-
-                if (j % 3 == 0 && j % 5 == 0) {
-                    System.out.println("CozaLoza" + " ");
-                } else if (j % 3 == 0) {
-                    System.out.print("Coza" + " ");
-                } else if (j % 5 == 0) {
-                    System.out.print("Loza" + " ");
-                } else if (j % 7 == 0) {
-                    System.out.print("Woza" + " ");
-                } else System.out.print(j + " ");
-
-            }
-            System.out.println();
+            if (j % 3 == 0 && j % 5 == 0) {
+                System.out.println("CozaLoza" + " ");
+            } else if (j % 3 == 0) {
+                System.out.print("Coza" + " ");
+            } else if (j % 5 == 0) {
+                System.out.print("Loza" + " ");
+            } else if (j % 7 == 0) {
+                System.out.print("Woza" + " ");
+            } else if (j % 11 == 0)
+                System.out.println();
+            else System.out.print(j + " ");
         }
     }
 }

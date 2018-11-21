@@ -3,7 +3,7 @@ package LoopExercises;
 import java.util.Scanner;
 
 public class ForthSessionMain {
-
+    // For, while and do while loops
     public static void main(String args[]) {
 
         Scanner scanner = new Scanner(System.in);

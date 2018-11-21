@@ -250,7 +250,7 @@ public class LoopMethods {
         int i, j;
         for ( j = 1; j <= 110; j++ ) {
 
-            if (j % 3 == 0 && j % 5 == 0) {
+            if ((j % 3 == 0 && j % 5 == 0)) {
                 System.out.println("CozaLoza" + " ");
             } else if (j % 3 == 0) {
                 System.out.print("Coza" + " ");
@@ -258,9 +258,11 @@ public class LoopMethods {
                 System.out.print("Loza" + " ");
             } else if (j % 7 == 0) {
                 System.out.print("Woza" + " ");
-            } else if (j % 11 == 0)
+            } else System.out.print(j + " ");
+
+            if (j % 11 == 0) {
                 System.out.println();
-            else System.out.print(j + " ");
+            }
         }
     }
 }

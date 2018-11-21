@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deb20747-63b8-45b0-b91f-4290736c50fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForthSessionMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForthSessionMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LogicalOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysListsExercises/FifthSessionMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysListsExercises/FifthSessionMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/" />
@@ -30,22 +29,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
+          <entry key="java" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8105" />
+          <entry key="dummy" value="11" />
+          <entry key="java" value="10521" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8105" />
+          <entry key="JAVA" value="10521" />
+          <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -53,23 +54,23 @@
     <session id="-2067807166">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3268" />
+          <entry key="java" value="6942" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3268" />
+          <entry key="JAVA" value="6942" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="6" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="10" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -87,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            <state relative-caret-position="-138">
+              <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,61 +100,54 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
-              <caret line="154" column="28" selection-start-line="154" selection-end-line="155" />
+            <state relative-caret-position="449">
+              <caret line="151" column="28" selection-start-line="151" selection-end-line="152" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#scadere#0;class#Calculator#0" />
-                <element signature="method#inmultire#0;class#Calculator#0" />
-                <element signature="method#impartire#0;class#Calculator#0" />
-                <element signature="method#secondExercise#0;class#Calculator#0" />
-                <element signature="e#2145#2146#0" expanded="true" />
-                <element signature="e#2211#2212#0" expanded="true" />
-                <element signature="e#2379#2380#0" expanded="true" />
-                <element signature="e#2416#2417#0" expanded="true" />
-                <element signature="e#2830#2831#0" expanded="true" />
-                <element signature="e#2857#2858#0" expanded="true" />
-                <element signature="e#4619#4620#0" expanded="true" />
-                <element signature="e#4664#4665#0" expanded="true" />
-                <element signature="e#4835#4836#0" expanded="true" />
-                <element signature="e#4873#4874#0" expanded="true" />
+                <element signature="e#2064#2065#0" expanded="true" />
+                <element signature="e#2130#2131#0" expanded="true" />
+                <element signature="e#2298#2299#0" expanded="true" />
+                <element signature="e#2335#2336#0" expanded="true" />
+                <element signature="e#2519#2520#0" expanded="true" />
+                <element signature="e#2580#2581#0" expanded="true" />
+                <element signature="e#2728#2729#0" expanded="true" />
+                <element signature="e#2755#2756#0" expanded="true" />
+                <element signature="e#4490#4491#0" expanded="true" />
+                <element signature="e#4535#4536#0" expanded="true" />
+                <element signature="e#4699#4700#0" expanded="true" />
+                <element signature="e#4737#4738#0" expanded="true" />
+                <element signature="e#5071#5072#0" expanded="true" />
+                <element signature="e#5132#5133#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ThirdSessionMain.java">
+        <entry file="file://$PROJECT_DIR$/src/LoopExercises/ForthSessionMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="153" selection-start-line="153" selection-end-line="153" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ForthSessionMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+            <state relative-caret-position="17">
+              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LogicalOperation.java">
+        <entry file="file://$PROJECT_DIR$/src/ArraysListsExercises/FifthSessionMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="191" column="4" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="4" />
+            <state relative-caret-position="833">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="84" column="50" selection-start-line="84" selection-start-column="50" selection-end-line="84" selection-end-column="50" />
               <folding>
-                <element signature="method#printMaxFromArrayForEach#0;class#LogicalOperation#0" />
-                <element signature="method#outputLikeTreeSimplified#0;class#LogicalOperation#0" />
-                <element signature="method#outputLikeTreeMultipleForLoops#0;class#LogicalOperation#0" />
-                <element signature="method#getTwoNumbers#0;class#LogicalOperation#0" />
-                <element signature="method#getTwoNrVersion#0;class#LogicalOperation#0" />
-                <element signature="method#givenNumberHundred#0;class#LogicalOperation#0" />
-                <element signature="method#getTwoNumbersWithWhile#0;class#LogicalOperation#0" />
-                <element signature="method#getNumberWithWhile#0;class#LogicalOperation#0" />
+                <element signature="method#getSpecificValue#0;class#CollectionsMethods#0" />
               </folding>
             </state>
           </provider>
@@ -167,6 +161,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>System\.out\.print\(\&quot;Give first\: \&quot;\)\;\n        int first \= scanner\.nextInt\(\)\;\n\n        System\.out\.print\(\&quot;Give second\: \&quot;\)\;\n        int second \= scanner\.nextInt\(\)\;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -185,11 +187,19 @@
         <option value="$PROJECT_DIR$/src/Game2ndSession/Human.java" />
         <option value="$PROJECT_DIR$/src/Game2ndSession/Animal.java" />
         <option value="$PROJECT_DIR$/src/Game2ndSession/GameMain.java" />
-        <option value="$PROJECT_DIR$/src/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/ThirdSessionMain.java" />
         <option value="$PROJECT_DIR$/src/ForthSessionMain.java" />
         <option value="$PROJECT_DIR$/src/LogicalOperation.java" />
+        <option value="$PROJECT_DIR$/src/IfSwitchExercises/IfSwitchMethods.java" />
+        <option value="$PROJECT_DIR$/src/IfSwitchExercises/ThirdSessionMain.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/LoopExercises/ForthSessionMain.java" />
+        <option value="$PROJECT_DIR$/src/LoopExercises/LoopMethods.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsMethods.java" />
+        <option value="$PROJECT_DIR$/src/FifthSessionMain.java" />
+        <option value="$PROJECT_DIR$/src/ArraysListsExercises/FifthSessionMain.java" />
+        <option value="$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMethods.java" />
       </list>
     </option>
   </component>
@@ -231,7 +241,7 @@
               <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Game2ndSession" type="462c0819:PsiDirectoryNode" />
+              <item name="ArraysListsExercises" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,7 +251,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/evozon/IdeaProjects/FirstProject/src/LogicalOperation.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542205956152" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542814097873" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -260,9 +270,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ForthSessionMain">
+  <component name="RunManager" selected="Application.FifthSessionMain">
+    <configuration name="FifthSessionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysListsExercises.FifthSessionMain" />
+      <module name="FirstProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ForthSessionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ForthSessionMain" />
+      <option name="MAIN_CLASS_NAME" value="LoopExercises.ForthSessionMain" />
       <module name="FirstProject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -281,15 +298,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="EvoJavaTraining" />
+      <module name="FirstProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ThirdSessionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThirdSessionMain" />
+      <option name="MAIN_CLASS_NAME" value="IfSwitchExercises.ThirdSessionMain" />
       <module name="FirstProject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -300,13 +317,14 @@
       <item itemvalue="Application.GameMain" />
       <item itemvalue="Application.ThirdSessionMain" />
       <item itemvalue="Application.ForthSessionMain" />
+      <item itemvalue="Application.FifthSessionMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FifthSessionMain" />
         <item itemvalue="Application.ForthSessionMain" />
         <item itemvalue="Application.ThirdSessionMain" />
         <item itemvalue="Application.GameMain" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +362,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.20574887" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.17776097" />
       <window_info id="Structure" order="1" sideWeight="0.5015674" side_tool="true" weight="0.20469798" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -352,17 +370,17 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32879046" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49848714" weight="0.27597955" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49848714" weight="0.35434413" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5015129" side_tool="true" weight="0.33730835" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.37989777" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.32197616" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.39863715" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.32879046" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32765958" />
       <window_info anchor="bottom" id="Maven Projects" order="10" weight="0.32765958" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32879046" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3270869" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -408,13 +426,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/src/Game2ndSession/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Game2ndSession/Doctor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -422,82 +433,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game2ndSession/GameMain.java">
+    <entry file="file://$PROJECT_DIR$/src/IfSwitchExercises/IfSwitchMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+        <state relative-caret-position="-1152">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game2ndSession/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding>
+            <element signature="e#83#84#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Game2ndSession/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
+        <state relative-caret-position="248">
           <caret line="49" column="16" selection-start-line="49" selection-end-line="52" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game2ndSession/GameMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IfSwitchExercises/ThirdSessionMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        <state relative-caret-position="-138">
+          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThirdSessionMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="153" selection-start-line="153" selection-end-line="153" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="154" column="28" selection-start-line="154" selection-end-line="155" />
+        <state relative-caret-position="449">
+          <caret line="151" column="28" selection-start-line="151" selection-end-line="152" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#scadere#0;class#Calculator#0" />
-            <element signature="method#inmultire#0;class#Calculator#0" />
-            <element signature="method#impartire#0;class#Calculator#0" />
-            <element signature="method#secondExercise#0;class#Calculator#0" />
-            <element signature="e#2145#2146#0" expanded="true" />
-            <element signature="e#2211#2212#0" expanded="true" />
-            <element signature="e#2379#2380#0" expanded="true" />
-            <element signature="e#2416#2417#0" expanded="true" />
-            <element signature="e#2830#2831#0" expanded="true" />
-            <element signature="e#2857#2858#0" expanded="true" />
-            <element signature="e#4619#4620#0" expanded="true" />
-            <element signature="e#4664#4665#0" expanded="true" />
-            <element signature="e#4835#4836#0" expanded="true" />
-            <element signature="e#4873#4874#0" expanded="true" />
+            <element signature="e#2064#2065#0" expanded="true" />
+            <element signature="e#2130#2131#0" expanded="true" />
+            <element signature="e#2298#2299#0" expanded="true" />
+            <element signature="e#2335#2336#0" expanded="true" />
+            <element signature="e#2519#2520#0" expanded="true" />
+            <element signature="e#2580#2581#0" expanded="true" />
+            <element signature="e#2728#2729#0" expanded="true" />
+            <element signature="e#2755#2756#0" expanded="true" />
+            <element signature="e#4490#4491#0" expanded="true" />
+            <element signature="e#4535#4536#0" expanded="true" />
+            <element signature="e#4699#4700#0" expanded="true" />
+            <element signature="e#4737#4738#0" expanded="true" />
+            <element signature="e#5071#5072#0" expanded="true" />
+            <element signature="e#5132#5133#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ForthSessionMain.java">
+    <entry file="file://$PROJECT_DIR$/src/LoopExercises/LoopMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LogicalOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="191" column="4" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="4" />
+        <state relative-caret-position="214">
+          <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
           <folding>
-            <element signature="method#printMaxFromArrayForEach#0;class#LogicalOperation#0" />
-            <element signature="method#outputLikeTreeSimplified#0;class#LogicalOperation#0" />
-            <element signature="method#outputLikeTreeMultipleForLoops#0;class#LogicalOperation#0" />
-            <element signature="method#getTwoNumbers#0;class#LogicalOperation#0" />
-            <element signature="method#getTwoNrVersion#0;class#LogicalOperation#0" />
-            <element signature="method#givenNumberHundred#0;class#LogicalOperation#0" />
-            <element signature="method#getTwoNumbersWithWhile#0;class#LogicalOperation#0" />
-            <element signature="method#getNumberWithWhile#0;class#LogicalOperation#0" />
+            <element signature="method#outputLikeTreeMultipleForLoops#0;class#LoopMethods#0" />
+            <element signature="method#getTwoNumbers#0;class#LoopMethods#0" />
+            <element signature="method#getTwentyFibonaciNumbers#0;class#LoopMethods#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoopExercises/ForthSessionMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="84" column="50" selection-start-line="84" selection-start-column="50" selection-end-line="84" selection-end-column="50" />
+          <folding>
+            <element signature="method#getSpecificValue#0;class#CollectionsMethods#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysListsExercises/FifthSessionMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>

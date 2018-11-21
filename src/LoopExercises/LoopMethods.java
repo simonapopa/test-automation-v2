@@ -1,8 +1,10 @@
-public class LogicalOperation {
+package LoopExercises;
+
+public class LoopMethods {
 
 
     // For loop example: Print max from an array
-    public static void printMaxFromArrayForEach() {
+    public void printMaxFromArrayForEach() {
         int[] array = {2, 1, 6, 8, 3, 0, 7, 4};
         int max = array[0];
         for ( int i : array ) {
@@ -172,15 +174,14 @@ public class LogicalOperation {
     public void sumTwoNumbersAndComputeAverage() {
         int count = 0;
         int sum = 0;
-        int first = 111;
-        int second = 8899;
+        int nr = 111;
         float average;
 
         do {
-            sum = sum + first;
-            first++;
+            sum = sum + nr;
+            nr++;
             count++;
-        } while (first <= second);
+        } while (nr <= 8899);
 
         average = sum / count;
         System.out.println("Sum is " + sum + " and count=" + count + " and average=" + average);
@@ -188,10 +189,82 @@ public class LogicalOperation {
     }
 
     // Loop exercse: 4.Write a program to sum only the odd numbers from 1 to 100, and compute the average.
-    public void getSumOfOddNumbersAndComputeAverage(){
+    public void getSumOfOddNumbersAndComputeAverage() {
+        int count = 0;
+        int sum = 0;
+        int nr = 1;
+        float average;
 
+        do {
+            if (nr % 2 != 0) {
+                sum = sum + nr;
+                count++;
+            }
+            nr++;
+        } while (nr <= 100);
+        average = sum / count;
+        System.out.println("Sum is " + sum + " and count=" + count + " and average=" + average);
     }
 
+    // 5. Write a program to sum those numbers from 1 to 100 that is divisible by 7, and compute the average.
+
+    public void getSumOfNumbersDivisibleBySevenAndComputeAverage() {
+        int count = 0;
+        int sum = 0;
+        int nr = 1;
+        float average;
+
+        do {
+            if (nr % 7 == 0) {
+                sum = sum + nr;
+                count++;
+            }
+            nr++;
+        } while (nr <= 100);
+        average = sum / count;
+        System.out.println("Sum is " + sum + " and count=" + count + " and average=" + average);
+    }
+
+    // 6. Write the program do display the first 20 Fibonacci numbers:
+    //0     1	1	2	3	5	8	13	21	34	55	89	144 	233	    377	    610	    987	    1597	2584	4181
+    public void getTwentyFibonaciNumbers() {
+        int i = 1, n = 20, previous = 0, next = 1, sum = 0;
+        System.out.print("First " + n + " Fibonaci numbers: ");
+
+        while (i <= n) {
+            System.out.println(previous);
+            sum = previous + next;
+            previous = next;
+            next = sum;
+            i++;
+        }
+    }
+
+    // 7. Write a program called CozaLozaWoza which prints the numbers 1 to 110, 11 numbers per line. The program shall print "Coza" in place
+    // of the numbers which are multiples of 3, "Loza" for multiples of 5, "Woza" for multiples of 7, "CozaLoza" for multiples of 3 and 5, and so on.
+    // The output shall look like:
+    //1 2 Coza 4 Loza Coza Woza 8 Coza Loza 11
+    //Coza 13 Woza CozaLoza 16 17 Coza 19 Loza CozaWoza 22
+    //23 Coza Loza 26 Coza Woza 29 CozaLoza 31 32 Coza
+    public void CozaLozaWoza() {
+        int i, j;
+        for ( j = 1; j <= 110; j++ ) {
+
+            if ((j % 3 == 0 && j % 5 == 0)) {
+                System.out.println("CozaLoza" + " ");
+            } else if (j % 3 == 0) {
+                System.out.print("Coza" + " ");
+            } else if (j % 5 == 0) {
+                System.out.print("Loza" + " ");
+            } else if (j % 7 == 0) {
+                System.out.print("Woza" + " ");
+            } else System.out.print(j + " ");
+
+            if (j % 11 == 0) {
+                System.out.println();
+            }
+        }
+    }
 }
 
 

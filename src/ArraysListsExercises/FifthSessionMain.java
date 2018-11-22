@@ -11,7 +11,7 @@ public class FifthSessionMain {
         // Array exercise: 1. Define and write the values of an array indices, so that the values of the arrays
         //should start from 1 and count to 100; Print the progress in the console;
         int[] array = coll.getArrayToHundred();
-        for ( int i = 0; i < array.length; i++ ) {
+        for (int i = 0; i < array.length; i++) {
             //System.out.println(array[i]);
         }
 
@@ -45,8 +45,32 @@ public class FifthSessionMain {
         }*/
 
         //Array exercise: 6.Write a Java program to find the second smallest element in an array.
-       // int smallest = coll.getSecondSmallestElementFromArray();
+        // int smallest = coll.getSecondSmallestElementFromArray();
         //int smallest = coll.getSecondSmallestElementFromArrayTwo();
-        coll.getSecondSmallestElementFromArray();
+        //coll.getSecondSmallestElementFromArray();
+
+        // List exercise: 1. Given a list of numbers, check which one is the highest and print it.
+        //coll.getHighestNumberFromList();
+
+        /*List<Integer> lista = new ArrayList<Integer>();
+        System.out.println("Give numbers; enter 0 if you wish to stop");
+        int value = scanner.nextInt();
+        while (value != 'q') {
+            value = scanner.nextInt();
+
+            lista.add(value);
+            if (value == 0)
+                break;
+        }
+        coll.getHighestNumberFromListTwo(lista);*/
+
+        // List exercise: 2. Given a list of numbers, determine all of the even ones
+        //coll.getEvenFromList();
+
+        // List exercise: 3.Write a Java program to iterate through all elements in a loop starting at the specified position
+        //coll.getListIterated();
+
+        // List exercise: 4. Write a Java program to sort an array or a list
+        coll.getSortedList();
     }
 }

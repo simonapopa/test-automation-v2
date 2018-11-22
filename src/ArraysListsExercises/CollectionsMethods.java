@@ -1,5 +1,8 @@
 package ArraysListsExercises;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class CollectionsMethods {
 
     // Array exercise: 1. Define and write the values of an array indices, so that the values of the arrays
@@ -69,38 +72,49 @@ public class CollectionsMethods {
 
     //Array exercise: 6.Write a Java program to find the second smallest element in an array.
     public void getSecondSmallestElementFromArray() {
-        int small = 0, smallest = 0;
-        int[] array = {3, 5, 2, 6, 1, 4, 10};
+        int small, smallest;
+        int[] array = {3, 5, 10, 6, 1, 4, 10, 1, 1, 4};
+        small = array[0];
+        smallest = array[1];
 
         for ( int i = 0; i < array.length; i++ ) {
-            for ( int j = 1; j < array.length; j++ ) {
-                if (array[i] < array[j-1])
-                    small = array[i];
-                else
-                    small = array[j-1];
 
-                if (small < array[j-1])
-                    smallest = small;
-
-                System.out.println("Comparing " + smallest + " " + small);
-            }
-        }
-        System.out.println("Smallest from an array is " + smallest + " " + small);
-
-    }
-
-
-    public int getSecondSmallestElementFromArrayTwo() {
-        int small = 0, smallest;
-        int[] array = new int[10];
-        for ( int i = 0; i < array.length; i++ ) {
-            array[i] = i;
-
-            if (array[i] < array[i + 1])
+            if (small > array[i]) {
+                smallest = small;
                 small = array[i];
+            } else if (smallest > array[i] && small != array[i])
+                smallest = array[i];
         }
-        return small;
+        System.out.println("First small number from array is " + small + " and second smallest is " + smallest);
     }
+
+    // List exercise: 1. Given a list of numbers, check which one is the highest and print it.
+    public void getHighestNumberFromList() {
+        List<Integer> myList = new ArrayList<Integer>();
+        myList.add(4);
+        myList.add(1);
+        myList.add(1);
+        myList.add(3);
+        myList.add(2);
+
+        int max = myList.get(0);
+
+        for ( int i = 0; i < myList.size(); i++ ) {
+            if (max < myList.get(i))
+                max = myList.get(i);
+        }
+        System.out.println("Max of list " + myList + " is " + max);
+    }
+
+    public List<Integer> getHighestNumberFromListTwo(List<Integer> myList) {
+
+        for ( int i = 0; i < myList.size(); i++ ) {
+            myList.add(i);
+        }
+
+        return myList;
+    }
+
 
 }
 

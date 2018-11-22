@@ -1,5 +1,7 @@
 package ArraysListsExercises;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class FifthSessionMain {
@@ -45,8 +47,19 @@ public class FifthSessionMain {
         }*/
 
         //Array exercise: 6.Write a Java program to find the second smallest element in an array.
-       // int smallest = coll.getSecondSmallestElementFromArray();
+        // int smallest = coll.getSecondSmallestElementFromArray();
         //int smallest = coll.getSecondSmallestElementFromArrayTwo();
-        coll.getSecondSmallestElementFromArray();
+        //coll.getSecondSmallestElementFromArray();
+
+        // List exercise: 1. Given a list of numbers, check which one is the highest and print it.
+        //coll.getHighestNumberFromList();
+
+       /* List<Integer> lista = new ArrayList<Integer>();
+        System.out.println("Give numbers; press 'q' if you wish to stop");
+        int value = scanner.nextInt();
+        for(int i = 0; i< lista.size();i++){
+            lista.add(value);
+        }
+        coll.getHighestNumberFromListTwo(lista);*/
     }
 }

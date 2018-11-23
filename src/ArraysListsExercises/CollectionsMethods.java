@@ -89,7 +89,7 @@ public class CollectionsMethods {
     }
 
     // List exercise: 1. Given a list of numbers, check which one is the highest and print it.
-    public void getHighestNumberFromList() {
+    public int getHighestNumberFromList() {
         List<Integer> myList = new ArrayList<Integer>();
         myList.add(4);
         myList.add(1);
@@ -103,7 +103,7 @@ public class CollectionsMethods {
             if (max < myList.get(i))
                 max = myList.get(i);
         }
-        System.out.println("Max of list " + myList + " is " + max);
+        return max;
     }
 
     /*public List<Integer> getHighestNumberFromListTwo(List<Integer> myList) {
@@ -174,6 +174,8 @@ public class CollectionsMethods {
         }
         System.out.println("Sorted list: " + aux);
     }
+
+    //read about hashmap
 
 }
 

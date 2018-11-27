@@ -71,6 +71,7 @@ public class FifthSessionMain {
         //coll.getListIterated();
 
         // List exercise: 4. Write a Java program to sort an array or a list
-        coll.getSortedList();
+        //coll.getSortedList();
+
     }
 }

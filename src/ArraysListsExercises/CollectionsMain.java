@@ -2,7 +2,7 @@ package ArraysListsExercises;
 
 import java.util.Scanner;
 
-public class FifthSessionMain {
+public class CollectionsMain {
     //collections
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);

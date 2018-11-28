@@ -2,14 +2,16 @@ package ArraysListsExercises;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class CollectionsMethods {
+    Scanner scan = new Scanner(System.in);
 
     // Array exercise: 1. Define and write the values of an array indices, so that the values of the arrays
     //should start from 1 and count to 100; Print the progress in the console;
     public int[] getArrayToHundred() {
         int[] myArray = new int[101];
-        for (int i = 0; i < 101; i++) {
+        for ( int i = 0; i < 101; i++ ) {
             myArray[i] = i;
         }
         //System.out.println("I was here.");
@@ -20,7 +22,7 @@ public class CollectionsMethods {
     //Array exercise: 2.Write a Java program to calculate the average value of array elements.
     public double getAverageFromArray(int[] array) {
         double sum = 0;
-        for (int i = 0; i < array.length; i++) {
+        for ( int i = 0; i < array.length; i++ ) {
             sum += array[i];
         }
         return sum / array.length;
@@ -28,7 +30,7 @@ public class CollectionsMethods {
 
     // Array exercise: 3.Write a Java program to test if an array contains a specific value.
     public boolean getSpecificValue(int[] array, int value) {
-        for (int i = 0; i < array.length; i++) {
+        for ( int i = 0; i < array.length; i++ ) {
             array[i] = i;
             if (array[i] == value) {
                 return true;
@@ -40,7 +42,7 @@ public class CollectionsMethods {
     //Array exercise: 4.Write a Java program to find the index of an array element.
     public int getIndexOfArray(int value) {
         int[] array = {1, 3, 5, 10, 12, 2};
-        for (int i = 0; i < array.length; i++) {
+        for ( int i = 0; i < array.length; i++ ) {
 
             if (array[i] == value) {
                 return i;
@@ -50,7 +52,7 @@ public class CollectionsMethods {
     }
 
     public int getIndexOfArrayTwo(int[] array, int value) {
-        for (int i = 1; i < array.length; i++) {
+        for ( int i = 1; i < array.length; i++ ) {
             if (array[i - 1] == value) {
                 return i - 1;
             }
@@ -61,7 +63,7 @@ public class CollectionsMethods {
     //Array exercise: 5.Write a Java program to remove a specific element from an array.
     public int[] removeElementFromArray(int value) {
         int[] array = new int[101];
-        for (int i = 0; i < array.length; i++) {
+        for ( int i = 0; i < array.length; i++ ) {
             array[i] = i;
             if (array[i] == value) {
                 array[i] = 0;
@@ -77,7 +79,7 @@ public class CollectionsMethods {
         small = array[0];
         smallest = array[1];
 
-        for (int i = 0; i < array.length; i++) {
+        for ( int i = 0; i < array.length; i++ ) {
 
             if (small > array[i]) {
                 smallest = small;
@@ -99,7 +101,7 @@ public class CollectionsMethods {
 
         int max = myList.get(0);
 
-        for (int i = 0; i < myList.size(); i++) {
+        for ( int i = 0; i < myList.size(); i++ ) {
             if (max < myList.get(i))
                 max = myList.get(i);
         }
@@ -128,13 +130,35 @@ public class CollectionsMethods {
         list.add(2);
 
         System.out.println("List is " + list);
-        for (int i = 0; i < list.size(); i++) {
+        for ( int i = 0; i < list.size(); i++ ) {
 
             if (list.get(i) % 2 == 0) {
                 even = list.get(i);
                 System.out.println(even + " even");
             }
         }
+    }
+    public List<Integer> getEvenNumbers(List<Integer> myList)  {
+
+        List<Integer> myEvenList = new ArrayList<Integer>();
+        for ( Integer x : myList ) {
+            if (x % 2 == 0) {
+                myEvenList.add(x);
+            }
+        }
+        return myEvenList;
+    }
+
+    // List exercise: Remove odd numbers from list
+    public List<Integer> removeOddNumbers(List<Integer> myList) {
+
+        int count = 0;
+        while (count < myList.size()) {
+            if (myList.get(count) % 2 != 0) {
+                myList.remove(count);
+            } else count++;
+        }
+        return myList;
     }
 
     // List exercise: 3.Write a Java program to iterate through all elements in a loop starting at the specified position
@@ -147,7 +171,7 @@ public class CollectionsMethods {
         list.add(3);
         list.add(2);
 
-        for (int i = 0; i < list.size(); i++) {
+        for ( int i = 0; i < list.size(); i++ ) {
             System.out.println(list.get(i));
         }
     }
@@ -165,7 +189,7 @@ public class CollectionsMethods {
         List<Integer> aux = new ArrayList<Integer>();
         System.out.println("Unsorted list: " + list);
 
-        for (int i = 0; i < list.size(); i++) {
+        for ( int i = 0; i < list.size(); i++ ) {
 
             if (list.get(0) > list.get(i)) {
                 aux.add(i);
@@ -175,7 +199,14 @@ public class CollectionsMethods {
         System.out.println("Sorted list: " + aux);
     }
 
-    //read about hashmap
+    // List exercise: Read list from keyboard
+    public List readListFromKey(int sizeList) {
+        List<Integer> myList = new ArrayList<Integer>();
+        for ( int i = 0; i < sizeList; i++ ) {
+            myList.add(scan.nextInt());
+        }
+        return myList;
+    }
 
 }
 

@@ -1,5 +1,7 @@
 package ArraysListsExercises;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class CollectionsMain {
@@ -11,7 +13,7 @@ public class CollectionsMain {
         // Array exercise: 1. Define and write the values of an array indices, so that the values of the arrays
         //should start from 1 and count to 100; Print the progress in the console;
         int[] array = coll.getArrayToHundred();
-        for (int i = 0; i < array.length; i++) {
+        for ( int i = 0; i < array.length; i++ ) {
             //System.out.println(array[i]);
         }
 
@@ -49,6 +51,13 @@ public class CollectionsMain {
         //int smallest = coll.getSecondSmallestElementFromArrayTwo();
         //coll.getSecondSmallestElementFromArray();
 
+        // List exercise: Read list from keyboard
+        System.out.print("Give the size of the list: ");
+        int value = scanner.nextInt();
+        List<Integer> myList = new ArrayList<Integer>();
+        myList = coll.readListFromKey(value);
+        System.out.println("The entered numbers of the list are: " + myList);
+
         // List exercise: 1. Given a list of numbers, check which one is the highest and print it.
         //coll.getHighestNumberFromList();
 
@@ -66,6 +75,7 @@ public class CollectionsMain {
 
         // List exercise: 2. Given a list of numbers, determine all of the even ones
         //coll.getEvenFromList();
+        System.out.println("Just the even numbers are: " + coll.getEvenNumbers(myList));
 
         // List exercise: 3.Write a Java program to iterate through all elements in a loop starting at the specified position
         //coll.getListIterated();

@@ -34,15 +34,15 @@ public class HashMapMain {
         //System.out.println("Cloned map is " + newHashMap);
 
         // Hash maps exercise: Write a Java program to compare two hash set
-//        System.out.print("Size of second list: ");
-//        value = scanner.nextInt();
-//        HashMap<Integer, String> myNewHashMap = hm.getMaxFromKey(value);
-//        System.out.println(myNewHashMap);
-//        hm.compareTwoHashSet(myhMap, myNewHashMap);
+        System.out.print("Size of second list: ");
+        value = scanner.nextInt();
+        HashMap<Integer, String> myNewHashMap = hm.getMaxFromKey(value);
+        System.out.println(myNewHashMap);
+        hm.compareTwoHashSet(myhMap, myNewHashMap);
 
         //Hash maps exercise: Write a Java program to remove all of the elements from a hash set
-        hm.removeAllElements(myhMap);
-        System.out.println(myhMap);
-        System.out.println("Map is empty? " + myhMap.isEmpty());
+//        hm.removeAllElements(myhMap);
+//        System.out.println(myhMap);
+//        System.out.println("Map is empty? " + myhMap.isEmpty());
     }
 }

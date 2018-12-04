@@ -28,23 +28,23 @@ public class CollectionsMain {
         // System.out.println(valoare);
 
         //Array exercise: 4.Write a Java program to find the index of an array element.
-       /* System.out.print("Please enter a number: ");
-        int value = scanner.nextInt();
-        int index = coll.getIndexOfArray(value);
-        int index = coll.getIndexOfArrayTwo(array, value);
-        System.out.println("Index of " + value + " is " + index);*/
+//        System.out.print("Please enter a number: ");
+//        int value = coll.readIntegerNumberFromKey();
+//        int index = coll.getIndexOfArray(value);
+//        //int index = coll.getIndexOfArrayTwo(array, value);
+//        System.out.println("Index of " + value + " is " + index);
 
         //Array exercise: 5.Write a Java program to remove a specific element from an array.
-        /*System.out.println("Array:");
-        for ( int i = 0; i < array.length; i++ ) {
-            System.out.print(array[i] + " ");
-        }
-        System.out.print("\n Give number to remove: ");
-        int value = scanner.nextInt();
-        int[] arrayElement = coll.removeElementFromArray(value);
-        for ( int i = 0; i < arrayElement.length; i++ ) {
-            System.out.print(arrayElement[i] + " ");
-        }*/
+//        System.out.println("Array:");
+//        for ( int i = 0; i < array.length; i++ ) {
+//            System.out.print(array[i] + " ");
+//        }
+//        System.out.print("\n Give number to remove: ");
+//        int value = coll.readIntegerNumberFromKey();
+//        int[] arrayElement = coll.removeElementFromArray(value);
+//        for ( int i = 0; i < arrayElement.length; i++ ) {
+//            System.out.print(arrayElement[i] + " ");
+//        }
 
         //Array exercise: 6.Write a Java program to find the second smallest element in an array.
         // int smallest = coll.getSecondSmallestElementFromArray();
@@ -52,36 +52,37 @@ public class CollectionsMain {
         //coll.getSecondSmallestElementFromArray();
 
         // List exercise: Read list from keyboard
-        System.out.print("Give the size of the list: ");
-        int value = scanner.nextInt();
-        List<Integer> myList = new ArrayList<Integer>();
-        myList = coll.readListFromKey(value);
-        System.out.println("The entered numbers of the list are: " + myList);
+//        System.out.print("Give the size of the list: ");
+//        int value = coll.readIntegerNumberFromKey();
+//        List<Integer> myList = new ArrayList<Integer>();
+//        myList = coll.readListFromKey(value);
+//        System.out.println("The entered numbers of the list are: " + myList);
 
         // List exercise: 1. Given a list of numbers, check which one is the highest and print it.
         //coll.getHighestNumberFromList();
 
-        /*List<Integer> lista = new ArrayList<Integer>();
-        System.out.println("Give numbers; enter 0 if you wish to stop");
-        int value = scanner.nextInt();
-        while (value != 'q') {
-            value = scanner.nextInt();
-
-            lista.add(value);
-            if (value == 0)
-                break;
-        }
-        coll.getHighestNumberFromListTwo(lista);*/
+//        List<Integer> lista = new ArrayList<Integer>();
+//        System.out.println("Give numbers; enter 0 if you wish to stop");
+//        int value = 0;
+//        while (value != 'q') {
+//            value = coll.readIntegerNumberFromKey();
+//
+//            lista.add(value);
+//            if (value == 0)
+//                break;
+//        }
 
         // List exercise: 2. Given a list of numbers, determine all of the even ones
         //coll.getEvenFromList();
-        System.out.println("Just the even numbers are: " + coll.getEvenNumbers(myList));
+        //System.out.println("Just the even numbers are: " + coll.getEvenNumbers(myList));
 
         // List exercise: 3.Write a Java program to iterate through all elements in a loop starting at the specified position
         //coll.getListIterated();
 
         // List exercise: 4. Write a Java program to sort an array or a list
         //coll.getSortedList();
+//        System.out.print("Enter value: ");
+//        System.out.println(coll.readFloatNumberFromKey());
 
     }
 }

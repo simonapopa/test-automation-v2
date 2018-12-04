@@ -1,20 +1,22 @@
 package HashMapsExercises;
 
+import ArraysListsExercises.CollectionsMethods;
+
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Scanner;
 
 public class HashMapMethods {
     Scanner scanner = new Scanner(System.in);
+    CollectionsMethods coll = new CollectionsMethods();
 
     public HashMap<Integer, String> getMaxFromKey(int sizeMap) {
         HashMap<Integer, String> hMap = new HashMap<Integer, String>();
 
-        for (int i = 0; i < sizeMap; i++) {
+        for ( int i = 0; i < sizeMap; i++ ) {
             System.out.print("Enter the key: ");
-            int x = scanner.nextInt();
+            int x = coll.readIntegerNumberFromKey();
             System.out.print("Enter the value: ");
             String y = scanner.next();
             hMap.put(x, y);
@@ -59,8 +61,8 @@ public class HashMapMethods {
 
     // Hash maps exercise: Write a Java program to compare two hash set
     public void compareTwoHashSet(HashMap<Integer, String> firstHashMap, HashMap<Integer, String> secondHashMap) {
-        for (Entry x : firstHashMap.entrySet()) {
-            for (Entry y : secondHashMap.entrySet()) {
+        for ( Entry x : firstHashMap.entrySet() ) {
+            for ( Entry y : secondHashMap.entrySet() ) {
                 if (x.equals(y))
                     System.out.println("Identical");
                 else

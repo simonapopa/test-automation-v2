@@ -1,5 +1,8 @@
 package HashMapsExercises;
 
+import ArraysListsExercises.CollectionsMethods;
+
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -8,9 +11,10 @@ public class HashMapMain {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
         HashMapMethods hm = new HashMapMethods();
+        CollectionsMethods coll = new CollectionsMethods();
 
         System.out.print("Size list: ");
-        int value = scanner.nextInt();
+        int value = coll.readIntegerNumberFromKey();
 
         HashMap<Integer, String> myhMap = hm.getMaxFromKey(value);
         System.out.println(myhMap);
@@ -34,15 +38,15 @@ public class HashMapMain {
         //System.out.println("Cloned map is " + newHashMap);
 
         // Hash maps exercise: Write a Java program to compare two hash set
-        System.out.print("Size of second list: ");
-        value = scanner.nextInt();
-        HashMap<Integer, String> myNewHashMap = hm.getMaxFromKey(value);
-        System.out.println(myNewHashMap);
-        hm.compareTwoHashSet(myhMap, myNewHashMap);
+//        System.out.print("Size of second list: ");
+//        value = coll.readIntegerNumberFromKey();
+//        HashMap<Integer, String> myNewHashMap = hm.getMaxFromKey(value);
+//        System.out.println(myNewHashMap);
+//        hm.compareTwoHashSet(myhMap, myNewHashMap);
 
         //Hash maps exercise: Write a Java program to remove all of the elements from a hash set
-//        hm.removeAllElements(myhMap);
-//        System.out.println(myhMap);
-//        System.out.println("Map is empty? " + myhMap.isEmpty());
+        hm.removeAllElements(myhMap);
+        System.out.println(myhMap);
+        System.out.println("Map is empty? " + myhMap.isEmpty());
     }
 }

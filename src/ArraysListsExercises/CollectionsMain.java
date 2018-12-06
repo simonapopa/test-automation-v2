@@ -14,7 +14,7 @@ public class CollectionsMain {
         //should start from 1 and count to 100; Print the progress in the console;
         int[] array = coll.getArrayToHundred();
         for ( int i = 0; i < array.length; i++ ) {
-            //System.out.println(array[i]);
+            System.out.println(array[i]);
         }
 
         //Array exercise: 2.Write a Java program to calculate the average value of array elements.
@@ -23,15 +23,14 @@ public class CollectionsMain {
 
         // Array exercise: 3.Write a Java program to test if an array contains a specific value.
         //System.out.print("Please enter a number: ");
-        //int value = scanner.nextInt();
+        //int value = coll.readIntegerNumberFromKey();
         // boolean valoare = coll.getSpecificValue(array, value);
         // System.out.println(valoare);
 
         //Array exercise: 4.Write a Java program to find the index of an array element.
 //        System.out.print("Please enter a number: ");
 //        int value = coll.readIntegerNumberFromKey();
-//        int index = coll.getIndexOfArray(value);
-//        //int index = coll.getIndexOfArrayTwo(array, value);
+//        int index = coll.getIndexOfArray(array, value);
 //        System.out.println("Index of " + value + " is " + index);
 
         //Array exercise: 5.Write a Java program to remove a specific element from an array.
@@ -41,15 +40,13 @@ public class CollectionsMain {
 //        }
 //        System.out.print("\n Give number to remove: ");
 //        int value = coll.readIntegerNumberFromKey();
-//        int[] arrayElement = coll.removeElementFromArray(value);
+//        int[] arrayElement = coll.removeElementFromArray(array,value);
 //        for ( int i = 0; i < arrayElement.length; i++ ) {
 //            System.out.print(arrayElement[i] + " ");
 //        }
 
         //Array exercise: 6.Write a Java program to find the second smallest element in an array.
-        // int smallest = coll.getSecondSmallestElementFromArray();
-        //int smallest = coll.getSecondSmallestElementFromArrayTwo();
-        //coll.getSecondSmallestElementFromArray();
+//        System.out.println(coll.getSecondSmallestElementFromArray(array));
 
         // List exercise: Read list from keyboard
 //        System.out.print("Give the size of the list: ");

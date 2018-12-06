@@ -39,18 +39,7 @@ public class CollectionsMethods {
     }
 
     //Array exercise: 4.Write a Java program to find the index of an array element.
-    public int getIndexOfArray(int value) {
-        int[] array = {1, 3, 5, 10, 12, 2};
-        for ( int i = 0; i < array.length; i++ ) {
-
-            if (array[i] == value) {
-                return i;
-            }
-        }
-        return 0;
-    }
-
-    public int getIndexOfArrayTwo(int[] array, int value) {
+    public int getIndexOfArray(int[] array, int value) {
         for ( int i = 1; i < array.length; i++ ) {
             if (array[i - 1] == value) {
                 return i - 1;
@@ -60,8 +49,7 @@ public class CollectionsMethods {
     }
 
     //Array exercise: 5.Write a Java program to remove a specific element from an array.
-    public int[] removeElementFromArray(int value) {
-        int[] array = new int[101];
+    public int[] removeElementFromArray(int[] array, int value) {
         for ( int i = 0; i < array.length; i++ ) {
             array[i] = i;
             if (array[i] == value) {
@@ -72,9 +60,8 @@ public class CollectionsMethods {
     }
 
     //Array exercise: 6.Write a Java program to find the second smallest element in an array.
-    public void getSecondSmallestElementFromArray() {
+    public int getSecondSmallestElementFromArray(int[] array) {
         int small, smallest;
-        int[] array = {3, 5, 10, 6, 1, 4, 10, 1, 1, 4};
         small = array[0];
         smallest = array[1];
 
@@ -86,7 +73,8 @@ public class CollectionsMethods {
             } else if (smallest > array[i] && small != array[i])
                 smallest = array[i];
         }
-        System.out.println("First small number from array is " + small + " and second smallest is " + smallest);
+        System.out.println("First small number from array is " + small + " and second smallest is ");
+        return smallest;
     }
 
     // List exercise: 1. Given a list of numbers, check which one is the highest and print it.

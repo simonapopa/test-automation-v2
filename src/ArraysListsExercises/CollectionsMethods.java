@@ -78,14 +78,7 @@ public class CollectionsMethods {
     }
 
     // List exercise: 1. Given a list of numbers, check which one is the highest and print it.
-    public int getHighestNumberFromList() {
-        List<Integer> myList = new ArrayList<Integer>();
-        myList.add(4);
-        myList.add(1);
-        myList.add(1);
-        myList.add(3);
-        myList.add(2);
-
+    public int getHighestNumberFromList(List<Integer> myList) {
         int max = myList.get(0);
 
         for ( int i = 0; i < myList.size(); i++ ) {

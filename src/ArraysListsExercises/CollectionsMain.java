@@ -51,12 +51,11 @@ public class CollectionsMain {
         // List exercise: Read list from keyboard
 //        System.out.print("Give the size of the list: ");
 //        int value = coll.readIntegerNumberFromKey();
-//        List<Integer> myList = new ArrayList<Integer>();
-//        myList = coll.readListFromKey(value);
+//        List<Integer> myList = coll.readListFromKey(value);
 //        System.out.println("The entered numbers of the list are: " + myList);
 
         // List exercise: 1. Given a list of numbers, check which one is the highest and print it.
-        //coll.getHighestNumberFromList();
+//        coll.getHighestNumberFromList(myList);
 
 //        List<Integer> lista = new ArrayList<Integer>();
 //        System.out.println("Give numbers; enter 0 if you wish to stop");

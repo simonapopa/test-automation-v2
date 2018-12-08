@@ -10,6 +10,7 @@ public class CollectionsMain {
         Scanner scanner = new Scanner(System.in);
         CollectionsMethods coll = new CollectionsMethods();
 
+
         // Array exercise: 1. Define and write the values of an array indices, so that the values of the arrays
         //should start from 1 and count to 100; Print the progress in the console;
         int[] array = coll.getArrayToHundred();

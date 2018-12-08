@@ -2,7 +2,7 @@ package LoopExercises;
 
 import java.util.Scanner;
 
-public class ForthSessionMain {
+public class LoopMain {
     // For, while and do while loops
     public static void main(String args[]) {
 

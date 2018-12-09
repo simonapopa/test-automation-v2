@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deb20747-63b8-45b0-b91f-4290736c50fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProject/ArraysListsExercises/CollectionsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstProject/ArraysListsExercises/CollectionsMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProject/ArraysListsExercises/CollectionsMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstProject/ArraysListsExercises/CollectionsMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProject/IfSwitchExercises/IfSwitchMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstProject/IfSwitchExercises/IfSwitchMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProject/IfSwitchExercises/ThirdSessionMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraysListsExercises/ReadNumbersFromKeyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysListsExercises/ReadNumbersFromKeyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IfSwitchExercises/IfSwitchMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IfSwitchExercises/IfSwitchMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IfSwitchExercises/ThirdSessionMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IfSwitchExercises/IfSwitchMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopExercises/LoopMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopExercises/LoopMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopExercises/LoopMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopExercises/LoopMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMapsExercises/HashMapMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMapsExercises/HashMapMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMapsExercises/HashMapMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMapsExercises/HashMapMethods.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/" />
@@ -38,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="102">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getSecondSmallestElementFromArray#0;class#CollectionsMethods#0" />
@@ -74,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysListsExercises/ReadNumbersFromKeyboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="1530">
               <caret line="90" column="36" lean-forward="true" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,39 +72,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Calculator.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HashMapsExercises/HashMapMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+            <state relative-caret-position="289">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2064#2065#0" expanded="true" />
-                <element signature="e#2130#2131#0" expanded="true" />
-                <element signature="e#2298#2299#0" expanded="true" />
-                <element signature="e#2335#2336#0" expanded="true" />
-                <element signature="e#2519#2520#0" expanded="true" />
-                <element signature="e#2580#2581#0" expanded="true" />
-                <element signature="e#2728#2729#0" expanded="true" />
-                <element signature="e#2755#2756#0" expanded="true" />
-                <element signature="method#forthExercise#0;class#Calculator#0" />
-                <element signature="method#getYourName#1;class#Calculator#0" />
-                <element signature="e#4490#4491#0" expanded="true" />
-                <element signature="e#4535#4536#0" expanded="true" />
-                <element signature="e#4699#4700#0" expanded="true" />
-                <element signature="e#4737#4738#0" expanded="true" />
-                <element signature="e#5071#5072#0" expanded="true" />
-                <element signature="e#5132#5133#0" expanded="true" />
+                <element signature="e#553#570#0" expanded="true" />
+                <element signature="e#920#937#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HashMapsExercises/HashMapMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="751">
-              <caret line="50" column="103" selection-start-line="50" selection-start-column="103" selection-end-line="50" selection-end-column="103" />
+            <state relative-caret-position="578">
+              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="35" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,7 +161,6 @@
         <option value="$PROJECT_DIR$/src/ForthSessionMain.java" />
         <option value="$PROJECT_DIR$/src/LogicalOperation.java" />
         <option value="$PROJECT_DIR$/src/IfSwitchExercises/ThirdSessionMain.java" />
-        <option value="$PROJECT_DIR$/src/Calculator.java" />
         <option value="$PROJECT_DIR$/src/LoopExercises/ForthSessionMain.java" />
         <option value="$PROJECT_DIR$/src/CollectionsMethods.java" />
         <option value="$PROJECT_DIR$/src/FifthSessionMain.java" />
@@ -199,17 +174,18 @@
         <option value="$PROJECT_DIR$/src/Meniu.java" />
         <option value="$PROJECT_DIR$/src/Menu.java" />
         <option value="$PROJECT_DIR$/src/ReadNumberFromKey.java" />
-        <option value="$PROJECT_DIR$/src/HashMapsExercises/HashMapMethods.java" />
-        <option value="$PROJECT_DIR$/src/HashMapsExercises/HashMapMain.java" />
         <option value="$PROJECT_DIR$/src/MenuControl.java" />
         <option value="$PROJECT_DIR$/src/IfSwitchExercises/IfSwitchMain.java" />
         <option value="$PROJECT_DIR$/src/IfSwitchExercises/IfSwitchMethods.java" />
         <option value="$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMain.java" />
         <option value="$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMethods.java" />
-        <option value="$PROJECT_DIR$/src/ArraysListsExercises/ReadNumbersFromKeyboard.java" />
         <option value="$PROJECT_DIR$/src/LoopExercises/LoopMethods.java" />
         <option value="$PROJECT_DIR$/src/LoopExercises/LoopMain.java" />
+        <option value="$PROJECT_DIR$/src/Calculator.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/ArraysListsExercises/ReadNumbersFromKeyboard.java" />
+        <option value="$PROJECT_DIR$/src/HashMapsExercises/HashMapMethods.java" />
+        <option value="$PROJECT_DIR$/src/HashMapsExercises/HashMapMain.java" />
       </list>
     </option>
   </component>
@@ -277,7 +253,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/evozon/IdeaProjects/FirstProject/src/LogicalOperation.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544388166176" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544393322893" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -296,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LoopMain">
+  <component name="RunManager" selected="Application.HashMapMain">
     <configuration name="CollectionsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -358,10 +334,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapMain" />
         <item itemvalue="Application.LoopMain" />
         <item itemvalue="Application.IfSwitchMain" />
         <item itemvalue="Application.CollectionsMain" />
-        <item itemvalue="Application.HashMapMain" />
         <item itemvalue="Application.GameMain" />
       </list>
     </recent_temporary>
@@ -398,9 +374,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.15771812" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.15771812" />
       <window_info id="Structure" order="1" sideWeight="0.5015674" side_tool="true" weight="0.20469798" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -408,7 +383,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49848714" visible="true" weight="0.35410765" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49848714" visible="true" weight="0.35410765" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50075644" side_tool="true" weight="0.32197616" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3286119" />
@@ -543,52 +518,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashMapsExercises/HashMapMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="40" column="18" selection-start-line="40" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashMapsExercises/HashMapMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MenuControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="27" column="63" lean-forward="true" selection-start-line="27" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getSecondSmallestElementFromArray#0;class#CollectionsMethods#0" />
-            <element signature="e#4088#4097#0" expanded="true" />
-            <element signature="e#4712#4721#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -621,20 +556,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysListsExercises/ReadNumbersFromKeyboard.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="90" column="36" lean-forward="true" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+        <state relative-caret-position="153">
+          <caret line="145" column="31" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2064#2065#0" expanded="true" />
@@ -643,10 +575,9 @@
             <element signature="e#2335#2336#0" expanded="true" />
             <element signature="e#2519#2520#0" expanded="true" />
             <element signature="e#2580#2581#0" expanded="true" />
-            <element signature="e#2728#2729#0" expanded="true" />
-            <element signature="e#2755#2756#0" expanded="true" />
             <element signature="method#forthExercise#0;class#Calculator#0" />
             <element signature="method#getYourName#1;class#Calculator#0" />
+            <element signature="method#printFacePattern#0;class#Calculator#0" />
             <element signature="e#4490#4491#0" expanded="true" />
             <element signature="e#4535#4536#0" expanded="true" />
             <element signature="e#4699#4700#0" expanded="true" />
@@ -657,12 +588,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/ArraysListsExercises/ReadNumbersFromKeyboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="50" column="103" selection-start-line="50" selection-start-column="103" selection-end-line="50" selection-end-column="103" />
+        <state relative-caret-position="1530">
+          <caret line="90" column="36" lean-forward="true" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getSecondSmallestElementFromArray#0;class#CollectionsMethods#0" />
+            <element signature="e#4088#4097#0" expanded="true" />
+            <element signature="e#4712#4721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashMapsExercises/HashMapMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashMapsExercises/HashMapMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#553#570#0" expanded="true" />
+            <element signature="e#920#937#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
           </folding>
         </state>
       </provider>

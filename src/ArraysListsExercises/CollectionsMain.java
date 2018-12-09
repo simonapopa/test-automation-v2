@@ -1,5 +1,4 @@
 package ArraysListsExercises;
-
 public class CollectionsMain {
     //collections
     public static void main(String args[]) {
@@ -46,10 +45,6 @@ public class CollectionsMain {
 //        coll.getListIterated(coll.readListFromKey(read.readIntegerNumberFromKey()));
 
         // List exercise: 4. Write a Java program to sort an array or a list
-//        coll.getSortedList();
-//        System.out.print("Enter value: ");
-//        System.out.println(read.readFloatNumberFromKey());
         System.out.println(coll.getSortedList(coll.readListFromKey(read.readIntegerNumberFromKey())));
-
     }
 }

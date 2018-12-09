@@ -1,9 +1,8 @@
 package ArraysListsExercises;
-
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
-
 public class CollectionsMethods {
     // Array exercise: 1. Define and write the values of an array indices, so that the values of the arrays
     //should start from 1 and count to 100; Print the progress in the console;
@@ -182,13 +181,9 @@ public class CollectionsMethods {
 
     // List exercise: 4. Write a Java program to sort an array or a list
     public List<Integer> getSortedList(List<Integer> list) {
-        List<Integer> aux = new ArrayList<>();
+        List<Integer> aux = new ArrayList<>(list);
         System.out.println("Unsorted list: " + list);
-        for (int i = 0; i < list.size(); i++) {
-            if (list.get(0) >= list.get(i)) {
-                aux.add(i);
-            }
-        }
+        aux.sort(Comparator.naturalOrder());
         System.out.println("Sorted list: ");
         return aux;
     }

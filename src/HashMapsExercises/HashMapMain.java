@@ -1,8 +1,8 @@
 package HashMapsExercises;
 
 import ArraysListsExercises.CollectionsMethods;
+import ArraysListsExercises.ReadNumbersFromKeyboard;
 
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -12,11 +12,10 @@ public class HashMapMain {
         Scanner scanner = new Scanner(System.in);
         HashMapMethods hm = new HashMapMethods();
         CollectionsMethods coll = new CollectionsMethods();
+        ReadNumbersFromKeyboard read = new ReadNumbersFromKeyboard();
 
         System.out.print("Size list: ");
-        int value = coll.readIntegerNumberFromKey();
-
-        HashMap<Integer, String> myhMap = hm.getMaxFromKey(value);
+        HashMap<Integer, String> myhMap = hm.getMaxFromKey(read.readIntegerNumberFromKey());
         System.out.println(myhMap);
 
         // Hash maps exercise: Write a Java program to iterate through all elements in a hash list

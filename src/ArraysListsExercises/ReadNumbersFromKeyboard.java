@@ -1,3 +1,5 @@
+package ArraysListsExercises;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -10,6 +12,7 @@ public class ReadNumbersFromKeyboard {
         do {
             try {
                 Scanner scanner = new Scanner(System.in);
+                System.out.print("Give integer: ");
                 value = scanner.nextInt();
                 repeat = false;
             } catch (InputMismatchException e) {
@@ -26,6 +29,7 @@ public class ReadNumbersFromKeyboard {
         do {
             try {
                 Scanner scanner = new Scanner(System.in);
+                System.out.print("Give float: ");
                 value = scanner.nextFloat();
                 repeat = false;
             } catch (InputMismatchException e) {
@@ -42,6 +46,7 @@ public class ReadNumbersFromKeyboard {
         do {
             try {
                 Scanner scanner = new Scanner(System.in);
+                System.out.print("Give double: ");
                 value = scanner.nextDouble();
                 repeat = false;
             } catch (InputMismatchException e) {
@@ -58,6 +63,7 @@ public class ReadNumbersFromKeyboard {
         do {
             try {
                 Scanner scanner = new Scanner(System.in);
+                System.out.print("Give long: ");
                 value = scanner.nextLong();
                 repeat = false;
             } catch (InputMismatchException e) {

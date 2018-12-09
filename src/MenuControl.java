@@ -1,4 +1,5 @@
 import ArraysListsExercises.CollectionsMethods;
+import ArraysListsExercises.ReadNumbersFromKeyboard;
 
 public class MenuControl {
 
@@ -6,13 +7,14 @@ public class MenuControl {
     public CollectionsMethods collection = new CollectionsMethods();
     public String text = "Introduceti o valoare mai mica decat 100: ";
     public String listText = "Introduceti dimensiunea listei: ";
+    ReadNumbersFromKeyboard read = new ReadNumbersFromKeyboard();
 
     protected void displayMenu() {
         int value;
         do {
 
             displayMenuOption();
-            value = collection.readIntegerNumberFromKey();
+            value = read.readIntegerNumberFromKey();
             runOption(value);
 
         }
@@ -23,17 +25,17 @@ public class MenuControl {
     private void runOption(int value) {
         switch (value) {
             case 1:
-                collection.getArrayToHundred(collection.readNumberFromKey(text));
+//                collection.getArrayToHundred(read.readNumberFromKey(text));
                 break;
             case 2:
-                collection.printToHundredWhile(collection.readIntegerNumberFromKey(text));
+//                collection.printToHundredWhile(collection.readIntegerNumberFromKey(text));
                 break;
 
             case 3:
-                System.out.println(
-                        collection.getArrayToHundred(
-                                collection.readListFromKey(
-                                        collection.readIntegerNumberFromKey(listText))));
+//                System.out.println(
+//                        collection.getArrayToHundred(
+//                                collection.readListFromKey(
+//                                        collection.readIntegerNumberFromKey(listText))));
                 break;
 
         }

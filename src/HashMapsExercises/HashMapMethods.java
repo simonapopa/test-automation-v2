@@ -1,6 +1,7 @@
 package HashMapsExercises;
 
 import ArraysListsExercises.CollectionsMethods;
+import ArraysListsExercises.ReadNumbersFromKeyboard;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -10,13 +11,14 @@ import java.util.Scanner;
 public class HashMapMethods {
     Scanner scanner = new Scanner(System.in);
     CollectionsMethods coll = new CollectionsMethods();
+    ReadNumbersFromKeyboard read = new ReadNumbersFromKeyboard();
 
     public HashMap<Integer, String> getMaxFromKey(int sizeMap) {
         HashMap<Integer, String> hMap = new HashMap<Integer, String>();
 
         for ( int i = 0; i < sizeMap; i++ ) {
             System.out.print("Enter the key: ");
-            int x = coll.readIntegerNumberFromKey();
+            int x = read.readIntegerNumberFromKey();
             System.out.print("Enter the value: ");
             String y = scanner.next();
             hMap.put(x, y);

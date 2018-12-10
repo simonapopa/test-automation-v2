@@ -1,9 +1,7 @@
 package IfSwitchExercises;
-
 public class IfSwitchMethods {
     // Given two numbers, see which one is the greatest and print it
     public int getMax(int a, int b) {
-
         if (a > b) {
             return a;
         } else {
@@ -18,11 +16,10 @@ public class IfSwitchMethods {
         } else {
             return "Got to try some more";
         }
-
     }
 
     // Given a number, if it’s equal to or higher than 2 and equal to or lower than 8, print the number
-    public int equalOrHigherThanTwo(int nr) {
+    public double equalOrHigherThanTwo(double nr) {
         if (nr >= 2 && nr <= 8) {
             return nr;
         } else
@@ -32,7 +29,6 @@ public class IfSwitchMethods {
     //Given a text input and a number input, if the text is equal to “Evozon” AND the number
     //is equal to or lower than 3, print the text and the number. If the text is not “Evozon” AND
     //the number is equal to or higher than 4, print the number and the text, in this order.
-
     public void getInput(String input, int nr) {
         if (input.equals("Evozon") && nr <= 3) {
             System.out.println(input + nr);
@@ -45,19 +41,19 @@ public class IfSwitchMethods {
     // Given a number input, if it is higher than 8 OR equal to 6, print “The amount of snow
     //this winter was(cm):” and the given number. Else print “The forecast snow is(cm):”
 
-    public void checkInput(int nr) {
+    public int checkInput(int nr) {
         if (nr > 8 || nr == 6) {
             System.out.println("The amount of snow this winter was(cm): ");
+            return nr;
         } else {
             System.out.println("The amount of snow this winter was(cm): ");
-
+            return nr;
         }
     }
 
     // Given a number input, if the number is greater than 3 but not equal to 4, print “The
     //number is greater than 3 and not equal to 4”. Else if the number is equal to 4 print ”The
     //number is equal to 4”. Else if the number is lower than 3 print “The number is lower than 3”
-
     public String getIntComp(int nr) {
         if (nr > 3 && nr != 4) {
             return "The number is greater than 3 and not equal to 4";
@@ -66,7 +62,6 @@ public class IfSwitchMethods {
         } else if (nr < 3) {
             return "The number is lower than 3";
         }
-
         return null;
     }
 
@@ -88,7 +83,6 @@ public class IfSwitchMethods {
                 break;
             default:
                 System.out.println("Not allowed!");
-
         }
     }
 
@@ -119,6 +113,5 @@ public class IfSwitchMethods {
         } else {
             return c;
         }
-
     }
 }

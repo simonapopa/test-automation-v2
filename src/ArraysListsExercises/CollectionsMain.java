@@ -1,84 +1,50 @@
 package ArraysListsExercises;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
 public class CollectionsMain {
     //collections
     public static void main(String args[]) {
-        Scanner scanner = new Scanner(System.in);
         CollectionsMethods coll = new CollectionsMethods();
+        ReadNumbersFromKeyboard read = new ReadNumbersFromKeyboard();
+
+        // Read an array and show it from keyboard
+//        coll.displayArrayReadFromKey(coll.readArrayFromKey(read.readIntegerNumberFromKey()));
+//        coll.displayArrayReadFromKey(coll.readArrayFromKey(read.readDoubleNumberFromKey()));
 
         // Array exercise: 1. Define and write the values of an array indices, so that the values of the arrays
         //should start from 1 and count to 100; Print the progress in the console;
-        int[] array = coll.getArrayToHundred();
-        for ( int i = 0; i < array.length; i++ ) {
-            System.out.println(array[i]);
-        }
+//        coll.displayArrayReadFromKey(coll.getArrayToHundred());
 
         //Array exercise: 2.Write a Java program to calculate the average value of array elements.
-        //double average = coll.getAverageFromArray(array);
-        //System.out.println(average);
+//        System.out.println(coll.getAverageFromArray(coll.readArrayFromKey(read.readDoubleNumberFromKey())));
 
         // Array exercise: 3.Write a Java program to test if an array contains a specific value.
-        //System.out.print("Please enter a number: ");
-        //int value = coll.readIntegerNumberFromKey();
-        // boolean valoare = coll.getSpecificValue(array, value);
-        // System.out.println(valoare);
+//        System.out.println(coll.getSpecificValue(coll.readArrayFromKey(read.readIntegerNumberFromKey()),read.readIntegerNumberFromKey()));
 
         //Array exercise: 4.Write a Java program to find the index of an array element.
-//        System.out.print("Please enter a number: ");
-//        int value = coll.readIntegerNumberFromKey();
-//        int index = coll.getIndexOfArray(array, value);
-//        System.out.println("Index of " + value + " is " + index);
+//        System.out.println("Index is " + coll.getIndexOfArray(coll.readArrayFromKey(read.readIntegerNumberFromKey())));
 
         //Array exercise: 5.Write a Java program to remove a specific element from an array.
 //        System.out.println("Array:");
-//        for ( int i = 0; i < array.length; i++ ) {
-//            System.out.print(array[i] + " ");
-//        }
-//        System.out.print("\n Give number to remove: ");
-//        int value = coll.readIntegerNumberFromKey();
-//        int[] arrayElement = coll.removeElementFromArray(array,value);
-//        for ( int i = 0; i < arrayElement.length; i++ ) {
-//            System.out.print(arrayElement[i] + " ");
-//        }
+//        coll.displayArrayReadFromKey(coll.removeElementFromArray(coll.readArrayFromKey(read.readIntegerNumberFromKey())));
 
         //Array exercise: 6.Write a Java program to find the second smallest element in an array.
-//        System.out.println(coll.getSecondSmallestElementFromArray(array));
+//        System.out.println(coll.getSecondSmallestElementFromArray(coll.readArrayFromKey(read.readIntegerNumberFromKey())));
 
         // List exercise: Read list from keyboard
-//        System.out.print("Give the size of the list: ");
-//        int value = coll.readIntegerNumberFromKey();
-//        List<Integer> myList = coll.readListFromKey(value);
-//        System.out.println("The entered numbers of the list are: " + myList);
+//        System.out.println(coll.readListFromKey(read.readIntegerNumberFromKey()));
 
         // List exercise: 1. Given a list of numbers, check which one is the highest and print it.
-//        coll.getHighestNumberFromList(myList);
-
-//        List<Integer> lista = new ArrayList<Integer>();
-//        System.out.println("Give numbers; enter 0 if you wish to stop");
-//        int value = 0;
-//        while (value != 'q') {
-//            value = coll.readIntegerNumberFromKey();
-//
-//            lista.add(value);
-//            if (value == 0)
-//                break;
-//        }
+//        System.out.println(coll.getHighestNumberFromList(coll.readListFromKey(read.readIntegerNumberFromKey())));
 
         // List exercise: 2. Given a list of numbers, determine all of the even ones
-        //coll.getEvenFromList();
-        //System.out.println("Just the even numbers are: " + coll.getEvenNumbers(myList));
+//        System.out.println(coll.getEvenNumbers(coll.readListFromKey(read.readIntegerNumberFromKey())));
+
+        //List exercise: Remove odd numbers
+//        System.out.println(coll.removeOddNumbers(coll.readListFromKey(read.readIntegerNumberFromKey())));
 
         // List exercise: 3.Write a Java program to iterate through all elements in a loop starting at the specified position
-        //coll.getListIterated();
+//        coll.getListIterated(coll.readListFromKey(read.readIntegerNumberFromKey()));
 
         // List exercise: 4. Write a Java program to sort an array or a list
-        //coll.getSortedList();
-//        System.out.print("Enter value: ");
-//        System.out.println(coll.readFloatNumberFromKey());
-
+        System.out.println(coll.getSortedList(coll.readListFromKey(read.readIntegerNumberFromKey())));
     }
 }

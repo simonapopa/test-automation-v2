@@ -71,9 +71,9 @@ public class HashMapMethods {
 
     // Hash maps exercise: Write a Java program to test a hash set is empty or not
     // used isEmpty()
-    public HashMap<Integer, String> isEmptyHashMap(HashMap<Integer, String> hashMap) {
-        hashMap.isEmpty();
-        return hashMap;
+    public boolean isEmptyHashMap(HashMap<Integer, String> hashMap) {
+        System.out.println("is empty? ");
+        return hashMap.isEmpty();
     }
 
     // Hash maps exercise: Write a Java program to clone a hash set to another hash set
@@ -97,12 +97,13 @@ public class HashMapMethods {
     }
 
     //Hash maps exercise: Write a Java program to remove all of the elements from a hash set
-    public void removeAllElements(HashMap<Integer, String> hashMap) {
+    public HashMap removeAllElements(HashMap<Integer, String> hashMap) {
         Iterator it = hashMap.entrySet().iterator();
         System.out.println("Will remove all elements from hashmap!");
         while (it.hasNext()) {
             Entry mentry = (Entry) it.next();
             it.remove();
         }
+        return hashMap;
     }
 }

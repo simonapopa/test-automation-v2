@@ -3,9 +3,7 @@
 public class ConsoleMain {
 
     public static void main(String args[]) {
-
         MenuControl menu = new MenuControl();
         menu.displayMenu();
-
     }
 }

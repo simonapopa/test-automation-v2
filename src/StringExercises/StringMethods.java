@@ -20,7 +20,7 @@ public class StringMethods {
     public StringBuilder appendStringBuilder(StringBuilder stringBuilder) {
         System.out.println("Give what to append (eg. 'blessings')");
         String string = read.readStringFromKey();
-        stringBuilder.append(string);
+        stringBuilder.append(' ').append(string).append(' ');
         return stringBuilder;
     }
 
@@ -34,10 +34,10 @@ public class StringMethods {
     }
 
     //String exercise: 5. Append “ be with you”
-    public StringBuilder appendMultipleStrings(StringBuilder stringBuilder){
+    public StringBuilder appendMultipleStrings(StringBuilder stringBuilder) {
         System.out.println("Give what to append (eg. ' be with you'");
         String string = read.readStringFromKey();
-
+        // tbd
         return stringBuilder;
     }
 }

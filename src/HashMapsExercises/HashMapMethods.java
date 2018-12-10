@@ -37,10 +37,10 @@ public class HashMapMethods {
     public void displayHashMap(HashMap<Integer, String> hashMap) {
         System.out.println(hashMap);
     }
-    public void displayHashMap() {
-        HashMap<Integer, String> hashMap = readHashMap(read.readIntegerNumberFromKey());
-        System.out.println(hashMap);
-    }
+//    public void displayHashMap() {
+//        HashMap<Integer, String> hashMap = readHashMap(read.readIntegerNumberFromKey());
+//        System.out.println(hashMap);
+//    }
 
     // Hash maps exercise: Write a Java program to iterate through all elements in a hash list
     public void getIteratedList(HashMap<Integer, String> hMap) {
@@ -84,6 +84,7 @@ public class HashMapMethods {
 
     // Hash maps exercise: Write a Java program to compare two hash set
     public void compareTwoHashSet(HashMap<Integer, String> firstHashMap, HashMap<Integer, String> secondHashMap) {
+        System.out.println("Comparing...");
         for (Entry x : firstHashMap.entrySet()) {
             for (Entry y : secondHashMap.entrySet()) {
                 if (x.equals(y))
@@ -97,6 +98,7 @@ public class HashMapMethods {
     //Hash maps exercise: Write a Java program to remove all of the elements from a hash set
     public void removeAllElements(HashMap<Integer, String> hashMap) {
         Iterator it = hashMap.entrySet().iterator();
+        System.out.println("Will remove all elements from hashmap!");
         while (it.hasNext()) {
             Entry mentry = (Entry) it.next();
             it.remove();

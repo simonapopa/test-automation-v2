@@ -35,6 +35,7 @@ public class HashMapMethods {
     }
 
     public void displayHashMap(HashMap<Integer, String> hashMap) {
+        System.out.println("Displaying hash map: ");
         System.out.println(hashMap);
     }
 //    public void displayHashMap() {

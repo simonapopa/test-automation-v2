@@ -32,8 +32,7 @@ public class HashMapMain {
 //        hm.compareTwoHashSet(hm.readHashMap(read.readIntegerNumberFromKey()), hm.getMaxFromKey(read.readIntegerNumberFromKey()));
 
         //Hash maps exercise: Write a Java program to remove all of the elements from a hash set
-        hm.displayHashMap(hm.readHashMap(read.readIntegerNumberFromKey()));
-        hm.removeAllElements(hm.readHashMap(read.readIntegerNumberFromKey()));
-//        System.out.println("Map is empty? " + hm.isEmptyHashMap());
+        //hm.displayHashMap(hm.removeAllElements(hm.readHashMap(read.readIntegerNumberFromKey())));
+//        System.out.println(hm.isEmptyHashMap(hm.removeAllElements(hm.readHashMap(read.readIntegerNumberFromKey()))));
     }
 }

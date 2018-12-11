@@ -37,7 +37,10 @@ public class StringMethods {
     public StringBuilder appendMultipleStrings(StringBuilder stringBuilder) {
         System.out.println("Give what to append (eg. ' be with you'");
         String string = read.readStringFromKey();
-        // tbd
+        for (int i = 0; i < stringBuilder.length(); i++) {
+            stringBuilder.append(string).append(' ').append(string).append(' ').append(string);
+        }
         return stringBuilder;
+        //tbd
     }
 }

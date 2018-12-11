@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="deb20747-63b8-45b0-b91f-4290736c50fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FirstProject/ConsoleMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstProject/ConsoleMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FirstProject/HashMapsExercises/HashMapMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstProject/HashMapsExercises/HashMapMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FirstProject/StringExercises/StringMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstProject/StringExercises/StringMethods.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ConsoleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsoleMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HashMapsExercises/HashMapMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMapsExercises/HashMapMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMapsExercises/HashMapMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMapsExercises/HashMapMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringExercises/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringExercises/StringMethods.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,12 +42,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1192" />
+          <entry key="java" value="1284" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1192" />
+          <entry key="JAVA" value="1284" />
         </counts>
       </usages-collector>
     </session>
@@ -71,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashMapsExercises/HashMapMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="72" column="50" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="50" />
+            <state relative-caret-position="457">
+              <caret line="86" column="40" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#553#570#0" expanded="true" />
@@ -87,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HashMapsExercises/HashMapMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-end-line="37" />
+            <state relative-caret-position="338">
+              <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,11 +202,11 @@
         <option value="$PROJECT_DIR$/src/Calculator.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/ArraysListsExercises/ReadNumbersFromKeyboard.java" />
-        <option value="$PROJECT_DIR$/src/HashMapsExercises/HashMapMethods.java" />
         <option value="$PROJECT_DIR$/src/StringExercises/StringMain.java" />
         <option value="$PROJECT_DIR$/src/StringExercises/StringMethods.java" />
         <option value="$PROJECT_DIR$/src/ConsoleMain.java" />
         <option value="$PROJECT_DIR$/src/HashMapsExercises/HashMapMain.java" />
+        <option value="$PROJECT_DIR$/src/HashMapsExercises/HashMapMethods.java" />
       </list>
     </option>
   </component>
@@ -266,7 +270,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/evozon/IdeaProjects/FirstProject/src/LogicalOperation.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544456260910" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544456407035" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -386,7 +390,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.18003026" />
       <window_info id="Structure" order="1" sideWeight="0.5015674" side_tool="true" weight="0.20469798" />
@@ -396,11 +399,11 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49848714" weight="0.31175467" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49848714" visible="true" weight="0.31175467" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50075644" side_tool="true" weight="0.32197616" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49924356" visible="true" weight="0.28449744" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49924356" weight="0.28449744" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -615,8 +618,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashMapsExercises/HashMapMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="72" column="50" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="50" />
+        <state relative-caret-position="457">
+          <caret line="86" column="40" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#553#570#0" expanded="true" />
@@ -629,8 +632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashMapsExercises/HashMapMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-end-line="37" />
+        <state relative-caret-position="338">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

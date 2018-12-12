@@ -1,5 +1,5 @@
 import ArraysListsExercises.CollectionsMethods;
-import ArraysListsExercises.ReadNumbersFromKeyboard;
+import OtherMethods.ReadNumbersFromKeyboard;
 
 public class MenuControl {
 

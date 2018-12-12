@@ -1,5 +1,5 @@
 package LoopExercises;
-import ArraysListsExercises.ReadNumbersFromKeyboard;
+import OtherMethods.ReadNumbersFromKeyboard;
 public class LoopMain {
     // For, while and do while loops
     public static void main(String args[]) {

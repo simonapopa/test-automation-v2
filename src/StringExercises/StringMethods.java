@@ -1,13 +1,13 @@
 package StringExercises;
 
-import ArraysListsExercises.ReadNumbersFromKeyboard;
+import OtherMethods.ReadNumbersFromKeyboard;
 
 public class StringMethods {
     ReadNumbersFromKeyboard read = new ReadNumbersFromKeyboard();
 
     //String exercise: 1. Create an empty StringBuffer
     public StringBuilder generateEmptyStringBuilder() {
-        StringBuilder stringBuilder = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder(200);
         return stringBuilder;
     }
 
@@ -33,14 +33,25 @@ public class StringMethods {
         return stringBuilder;
     }
 
+    //String exercise: 4. Delete the first o
+    public StringBuilder deleteGivenString(StringBuilder stringBuilder) {
+        System.out.println("Give what to delete (eg. 'o')");
+        String string = read.readStringFromKey();
+        System.out.println("index of '" + string + "' is " + stringBuilder.indexOf(string));
+        stringBuilder.deleteCharAt(stringBuilder.indexOf(string));
+        return stringBuilder;
+    }
+
     //String exercise: 5. Append “ be with you”
     public StringBuilder appendMultipleStrings(StringBuilder stringBuilder) {
         System.out.println("Give what to append (eg. ' be with you'");
         String string = read.readStringFromKey();
-        for (int i = 0; i < stringBuilder.length(); i++) {
+        for(int i = 0; i < stringBuilder.charAt(stringBuilder.indexOf(string)); i++) {
+//            String string = read.readStringFromKey();
+//            stringBuilder.append(string).append(' ');
+            System.out.println("stringB length "+stringBuilder.length());
             stringBuilder.append(string).append(' ').append(string).append(' ').append(string);
         }
         return stringBuilder;
-        //tbd
     }
 }

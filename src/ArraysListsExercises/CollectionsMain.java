@@ -1,4 +1,7 @@
 package ArraysListsExercises;
+
+import OtherMethods.ReadNumbersFromKeyboard;
+
 public class CollectionsMain {
     //collections
     public static void main(String args[]) {

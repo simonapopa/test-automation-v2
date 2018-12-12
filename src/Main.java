@@ -1,4 +1,6 @@
-import ArraysListsExercises.ReadNumbersFromKeyboard;
+import OtherMethods.ReadNumbersFromKeyboard;
+import OtherMethods.Calculator;
+
 public class Main {
 
     public static void main(String args[]) {

@@ -43,15 +43,39 @@ public class StringMethods {
     }
 
     //String exercise: 5. Append “ be with you”
+    //tdb because does in endless loop
     public StringBuilder appendMultipleStrings(StringBuilder stringBuilder) {
-        System.out.println("Give what to append (eg. ' be with you'");
-        String string = read.readStringFromKey();
-        for(int i = 0; i < stringBuilder.charAt(stringBuilder.indexOf(string)); i++) {
+        System.out.println("Give strings to append. Press a key number if done.");
+//        String string = read.readStringFromKey();
+//        int sizeS = read.readIntegerNumberFromKey();
+//        StringBuilder s[] = new StringBuilder[sizeS];
+
+        // works with defined length
+//        for ( int i = 0; i < s.length; i++ ) {
 //            String string = read.readStringFromKey();
 //            stringBuilder.append(string).append(' ');
-            System.out.println("stringB length "+stringBuilder.length());
-            stringBuilder.append(string).append(' ').append(string).append(' ').append(string);
-        }
+//            System.out.println("stringB length " + stringBuilder.length());
+//        }
+        boolean flag = true;
+        do {
+            try {
+                String string = read.readStringFromKey();
+                stringBuilder.append(string).append(' ');
+                System.out.println("stringB length " + stringBuilder.length());
+            } catch (StringIndexOutOfBoundsException e) {
+                flag = false;
+            }
+        } while (flag);
+
         return stringBuilder;
+    }
+
+    //test
+    public static String concatenate(String... s) {
+        StringBuilder sb = new StringBuilder();
+        for ( int i = 0; i < s.length; i++ )
+            sb = sb.append(s[i]);
+
+        return sb.toString();
     }
 }

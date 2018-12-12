@@ -24,6 +24,9 @@ public class StringMain {
         //sm.readStringBuilder(sm.appendStringBuilder(sm.generateEmptyStringBuilder()));
         sm.readStringBuilder(sm.appendMultipleStrings(sm.insertNewString(sm.appendStringBuilder(sm.generateEmptyStringBuilder()))));
 
+//        System.out.println(sm.concatenate(read.readStringFromKey()));
+
+
         //sm.readStringBuilder((sm.appendMultipleStrings(sm.generateEmptyStringBuilder())));
 
         //sm.readStringBuilder(sm.appendStringBuilder(sm.generateEmptyStringBuilder()));

@@ -5,18 +5,18 @@ import OtherMethods.ReadNumbersFromKeyboard;
 public class StringMethods {
     ReadNumbersFromKeyboard read = new ReadNumbersFromKeyboard();
 
-    //String exercise: 1. Create an empty StringBuffer
+    //StringBuilder exercise: 1. Create an empty StringBuffer
     public StringBuilder generateEmptyStringBuilder() {
         StringBuilder stringBuilder = new StringBuilder(200);
         return stringBuilder;
     }
 
-    //String exercise: print string builder
-    public void readStringBuilder(StringBuilder stringBuilder) {
+    //StringBuilder exercise: print string builder
+    public void displayStringBuilder(StringBuilder stringBuilder) {
         System.out.println("String builder is: " + stringBuilder);
     }
 
-    //String exercise: 2. Append “blessings”
+    //StringBuilder exercise: 2. Append “blessings”
     public StringBuilder appendStringBuilder(StringBuilder stringBuilder) {
         System.out.println("Give what to append (eg. 'blessings')");
         String string = read.readStringFromKey();
@@ -24,7 +24,7 @@ public class StringMethods {
         return stringBuilder;
     }
 
-    //String exercise: 3. Insert “Good ” in the begging
+    //StringBuilder exercise: 3. Insert “Good ” in the beginning
     public StringBuilder insertNewString(StringBuilder stringBuilder) {
         System.out.println("Give what to insert (eg. 'Good ')");
         String string = read.readStringFromKey();
@@ -33,40 +33,28 @@ public class StringMethods {
         return stringBuilder;
     }
 
-    //String exercise: 4. Delete the first o
+    //StringBuilder exercise: 4. Delete the first o
     public StringBuilder deleteGivenString(StringBuilder stringBuilder) {
         System.out.println("Give what to delete (eg. 'o')");
         String string = read.readStringFromKey();
-        System.out.println("index of '" + string + "' is " + stringBuilder.indexOf(string));
+        System.out.println("Index of '" + string + "' is " + stringBuilder.indexOf(string));
         stringBuilder.deleteCharAt(stringBuilder.indexOf(string));
         return stringBuilder;
     }
 
-    //String exercise: 5. Append “ be with you”
-    //tdb because does in endless loop
+    //StringBuilder exercise: 5. Append “ be with you”
     public StringBuilder appendMultipleStrings(StringBuilder stringBuilder) {
-        System.out.println("Give strings to append. Press a key number if done.");
-//        String string = read.readStringFromKey();
-//        int sizeS = read.readIntegerNumberFromKey();
-//        StringBuilder s[] = new StringBuilder[sizeS];
-
-        // works with defined length
-//        for ( int i = 0; i < s.length; i++ ) {
-//            String string = read.readStringFromKey();
-//            stringBuilder.append(string).append(' ');
-//            System.out.println("stringB length " + stringBuilder.length());
-//        }
+        System.out.println("Give strings to append. Enter 'quit' if done.");
         boolean flag = true;
         do {
-            try {
-                String string = read.readStringFromKey();
+            String string = read.readStringFromKey();
+            if (string.equals("quit")) {
+                flag = false;
+            } else {
                 stringBuilder.append(string).append(' ');
                 System.out.println("stringB length " + stringBuilder.length());
-            } catch (StringIndexOutOfBoundsException e) {
-                flag = false;
             }
         } while (flag);
-
         return stringBuilder;
     }
 
@@ -77,5 +65,36 @@ public class StringMethods {
             sb = sb.append(s[i]);
 
         return sb.toString();
+    }
+
+    //StringBuilder exercise: 6. Set length to 3
+    public StringBuilder setLength(StringBuilder stringBuilder) {
+        System.out.println("Initial length of the string is " + stringBuilder.length());
+        try {
+            System.out.print("Give new length for string.");
+            stringBuilder.setLength(read.readIntegerNumberFromKey());
+            System.out.println("New length is " + stringBuilder.length());
+        } catch (IndexOutOfBoundsException e) {
+            System.err.println("Negative value, try again.");
+        }
+        return stringBuilder;
+    }
+
+    //StringBuilder exercise: 7. Create a printDetails method, that takes a StringBuilder parameter, and prints
+    //the content, length and capacity of the StringBuilder, all on a new line
+    public void printDetails(StringBuilder stringBuilder) {
+        displayStringBuilder(stringBuilder);
+        System.out.println("Length is " + stringBuilder.length() + " \nCapacity is " + stringBuilder.capacity());
+    }
+
+    //String exercise: 8. Write a Java program to get the character at the given index within the String
+    //TEST IT
+    public String getCharacterAtGivenIndex() {
+        System.out.println("Give string: ");
+        String str = read.readStringFromKey();
+        System.out.println("Give index");
+        int index = read.readIntegerNumberFromKey();
+        toString().indexOf(str);
+        return str;
     }
 }

@@ -32,13 +32,22 @@ public class StringMain {
         //sm.printDetails(sm.insertNewString(sm.appendStringBuilder(sm.generateEmptyStringBuilder())));
 
         //String exercise: 8.Write a Java program to get the character at the given index within the String
+//        System.out.println(sm.getCharacterAtGivenIndex());
 
+        //String exercise: 9. Write a java program to compare two strings lexicographically.
+        //two valid solutions:
+        //System.out.println(sm.getStringsAndCompare(read.readStringFromKey(),read.readStringFromKey()));
+        //sm.getStringsAndCompareAndJustify(read.readStringFromKey(),read.readStringFromKey());
 
+        //String exercise: 10. Write a java program to compare two strings lexicographically, ignoring case differences
+        //sm.getStringsAndCompareIgnoringCases(read.readStringFromKey(),read.readStringFromKey());
 
-        //sm.displayStringBuilder((sm.appendMultipleStrings(sm.generateEmptyStringBuilder())));
+        //String exercise: 11. Write a Java program to concatenate a given string to the end of another string
+        //System.out.println(sm.getStringAndConcatenate(read.readStringFromKey(),read.readStringFromKey()));
 
-        //sm.displayStringBuilder(sm.appendStringBuilder(sm.generateEmptyStringBuilder()));
+        //String exercise: 12. Write a Java program to test if a given string contains the specified sequence of char values
+        //sm.getStringAndFindCharacters(read.readStringFromKey());
 
-
+        //StringBuffer exercise: 13. Write a Java program to compare a given string to the specified string buffer
     }
 }

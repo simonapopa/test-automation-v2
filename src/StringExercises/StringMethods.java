@@ -88,13 +88,74 @@ public class StringMethods {
     }
 
     //String exercise: 8. Write a Java program to get the character at the given index within the String
-    //TEST IT
-    public String getCharacterAtGivenIndex() {
-        System.out.println("Give string: ");
+    public char getCharacterAtGivenIndex() {
         String str = read.readStringFromKey();
-        System.out.println("Give index");
-        int index = read.readIntegerNumberFromKey();
-        toString().indexOf(str);
-        return str;
+        char ch = ' ';
+        boolean flag;
+
+        do {
+            try {
+                System.out.print("Index. ");
+                int index = read.readIntegerNumberFromKey();
+                ch = str.charAt(index);
+                System.out.println("Index is ");
+                flag = true;
+            } catch (StringIndexOutOfBoundsException e) {
+                System.err.println("Out of range");
+                flag = false;
+            }
+        } while (!flag);
+        return ch;
     }
+
+    //String exercise: 9. Write a java program to compare two strings lexicographically.
+    //false or true
+    public boolean getStringsAndCompare(String stringFirst, String stringSecond) {
+        stringFirst.compareTo(stringSecond);
+        if (stringFirst.compareTo(stringSecond) == stringSecond.compareTo(stringFirst)) {
+            return true;
+        }
+        return false;
+    }
+
+    //explains if identifical or not; with cases treated
+    public void getStringsAndCompareAndJustify(String stringFirst, String stringSecond) {
+        if ((stringFirst.compareTo(stringSecond) == 0)) {
+            System.out.println(stringFirst + " and " + stringSecond + ": equal");
+        } else if (stringFirst.compareTo(stringSecond) < 0) {
+            System.out.println(stringFirst + " and " + stringSecond + ": the first String comes before the argument");
+        } else {
+            System.out.println(stringFirst + " and " + stringSecond + ": first String comes after the argument String");
+        }
+    }
+
+    //String exercise: 10. Write a java program to compare two strings lexicographically, ignoring case differences
+    public void getStringsAndCompareIgnoringCases(String stringFirst, String stringSecond) {
+        if ((stringFirst.compareToIgnoreCase(stringSecond) == 0)) {
+            System.out.println(stringFirst + " and " + stringSecond + ": equal");
+        } else if (stringFirst.compareToIgnoreCase(stringSecond) < 0) {
+            System.out.println(stringFirst + " and " + stringSecond + ": the first String comes before the argument");
+        } else {
+            System.out.println(stringFirst + " and " + stringSecond + ": first String comes after the argument String");
+        }
+    }
+
+    //String exercise: 11. Write a Java program to concatenate a given string to the end of another string
+    public String getStringAndConcatenate(String firstString, String secondString) {
+        return firstString + secondString;
+    }
+
+    //String exercise: 12. Write a Java program to test if a given string contains the specified sequence of char values
+    public void getStringAndFindCharacters(String string) {
+        System.out.print("Give string to look for. ");
+        String find = read.readStringFromKey();
+        if (string.contains(find)) {
+            System.out.println(string + " contains " + find);
+        } else {
+            System.out.println(string + " does not contain " + find);
+        }
+    }
+
+    //StringBuffer exercise: 13. Write a Java program to compare a given string to the specified string buffer
+
 }

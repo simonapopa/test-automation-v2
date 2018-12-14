@@ -1,3 +1,5 @@
+package MenuApp;
+
 import ArraysListsExercises.CollectionsMethods;
 import OtherMethods.ReadNumbersFromKeyboard;
 

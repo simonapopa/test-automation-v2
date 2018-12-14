@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="deb20747-63b8-45b0-b91f-4290736c50fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuApp/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenuControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuApp/MenuControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenuMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuApp/MenuMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringExercises/StringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringExercises/StringMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringExercises/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringExercises/StringMethods.java" afterDir="false" />
     </list>
@@ -31,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StringExercises/StringMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="155" column="9" selection-start-line="155" selection-start-column="9" selection-end-line="155" selection-end-column="9" />
+            <state relative-caret-position="187">
+              <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
               <folding>
                 <element signature="method#concatenate#0;class#StringMethods#0" />
               </folding>
@@ -43,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StringExercises/StringMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+            <state relative-caret-position="221">
+              <caret line="51" column="69" lean-forward="true" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -188,7 +185,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/evozon/IdeaProjects/FirstProject/src/LogicalOperation.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544790666149" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544799234599" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -308,7 +305,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.1913767" />
       <window_info id="Structure" order="1" sideWeight="0.5015674" side_tool="true" weight="0.20469798" />
@@ -602,15 +598,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StringExercises/StringMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        <state relative-caret-position="221">
+          <caret line="51" column="69" lean-forward="true" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StringExercises/StringMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="155" column="9" selection-start-line="155" selection-start-column="9" selection-end-line="155" selection-end-column="9" />
+        <state relative-caret-position="187">
+          <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
           <folding>
             <element signature="method#concatenate#0;class#StringMethods#0" />
           </folding>

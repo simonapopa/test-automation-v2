@@ -49,5 +49,6 @@ public class StringMain {
         //sm.getStringAndFindCharacters(read.readStringFromKey());
 
         //StringBuffer exercise: 13. Write a Java program to compare a given string to the specified string buffer
+        sm.getStringCompareWithStringBuffer(read.readStringFromKey());
     }
 }

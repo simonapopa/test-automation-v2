@@ -157,5 +157,16 @@ public class StringMethods {
     }
 
     //StringBuffer exercise: 13. Write a Java program to compare a given string to the specified string buffer
+    public void getStringCompareWithStringBuffer(String string) {
+        StringBuffer buffer = new StringBuffer();
+        System.out.print("Append to stringBuffer. ");
+        String stringBuffer = read.readStringFromKey();
+        buffer.append(stringBuffer).append(' ');
+        System.out.println("String buffer is " + stringBuffer + " and entered string is " + string);
 
+        if (stringBuffer.contains(string)) {
+            System.out.println("String buffer is " + stringBuffer + " and entered string is " + string);
+        }
+
+    }
 }

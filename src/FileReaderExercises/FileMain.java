@@ -22,6 +22,21 @@ public class FileMain {
         }
 
 
+        //        Properties prop  = new Properties();
+//        FileOutputStream out = new FileOutputStream("resources/configFile.properties");
+//        PrintStream pr = new PrintStream("resources/configFile.properties");
+//
+//        prop.setProperty("aa","vbb");
+
+//        prop.store(out,"Message!");
+
+//        prop.list(pr);
+
+//        InputStream in = new FileInputStream("resources/configFile.properties");
+//        prop.load(in);
+//
+//        System.out.println(prop.get("user"));
+
         //        File file = new File("resources/newTest.txt");
 //        FileWriter fileWriter = new FileWriter(file, false);
 //        fileWriter.append("asdasdasdasdasdsdas\n");

@@ -125,4 +125,14 @@ public class ReadNumbersFromKeyboard {
         System.out.print(s);
         return getNumberUncaught();
     }
+
+    public String getStringFromKey() {
+        Scanner scanner = new Scanner(System.in);
+        return scanner.next();
+    }
+
+    public String getStringFromKey(String s) {
+        System.out.println(s);
+        return getStringFromKey();
+    }
 }

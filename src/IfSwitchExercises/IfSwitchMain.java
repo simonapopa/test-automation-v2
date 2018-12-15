@@ -1,5 +1,5 @@
 package IfSwitchExercises;
-import ArraysListsExercises.ReadNumbersFromKeyboard;
+import OtherMethods.ReadNumbersFromKeyboard;
 public class IfSwitchMain {
 
     public static void main(String args[]) {

@@ -1,9 +1,9 @@
+package MenuApp;
+
 import ArraysListsExercises.CollectionsMethods;
-import ArraysListsExercises.ReadNumbersFromKeyboard;
+import OtherMethods.ReadNumbersFromKeyboard;
 
 public class MenuControl {
-
-
     public CollectionsMethods collection = new CollectionsMethods();
     public String text = "Introduceti o valoare mai mica decat 100: ";
     public String listText = "Introduceti dimensiunea listei: ";
@@ -20,7 +20,6 @@ public class MenuControl {
         }
         while (value != 0);
     }
-
 
     private void runOption(int value) {
         switch (value) {

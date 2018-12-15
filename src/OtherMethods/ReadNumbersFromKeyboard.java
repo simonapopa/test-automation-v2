@@ -1,6 +1,8 @@
-package ArraysListsExercises;
+package OtherMethods;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
+
 public class ReadNumbersFromKeyboard {
 
     //Read INTEGER number from keyboard
@@ -72,7 +74,7 @@ public class ReadNumbersFromKeyboard {
     }
 
     //Read STRING number from keyboard
-    public String readStringFromKey(){
+    public String readStringFromKey() {
         String value = "";
         boolean repeat = true;
         do {
@@ -81,7 +83,7 @@ public class ReadNumbersFromKeyboard {
                 System.out.print("Give string: ");
                 value = scanner.next();
                 repeat = false;
-            } catch (InputMismatchException e) {
+            } catch (StringIndexOutOfBoundsException e) {
                 System.err.print("Not a string. Incorrect value. Try again: ");
             }
         } while (repeat);
@@ -89,7 +91,7 @@ public class ReadNumbersFromKeyboard {
     }
 
     //Read CHAR number from keyboard
-    public char readCharFromKey(){
+    public char readCharFromKey() {
         char value = ' ';
         boolean repeat = true;
         do {
@@ -108,5 +110,29 @@ public class ReadNumbersFromKeyboard {
     public int readNumberFromKey(String s) {
         System.out.println(s);
         return readIntegerNumberFromKey();
+    }
+
+    public double getNumberUncaught() throws InputMismatchException {
+        Scanner scanner = new Scanner(System.in);
+        try {
+            return scanner.nextDouble();
+        } catch (InputMismatchException e) {
+            throw e;
+        }
+    }
+
+    public double getNumberUncaught(String s) throws InputMismatchException {
+        System.out.print(s);
+        return getNumberUncaught();
+    }
+
+    public String getStringFromKey() {
+        Scanner scanner = new Scanner(System.in);
+        return scanner.next();
+    }
+
+    public String getStringFromKey(String s) {
+        System.out.println(s);
+        return getStringFromKey();
     }
 }

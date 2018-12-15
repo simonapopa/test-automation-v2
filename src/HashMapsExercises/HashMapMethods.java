@@ -1,7 +1,7 @@
 package HashMapsExercises;
 
 import ArraysListsExercises.CollectionsMethods;
-import ArraysListsExercises.ReadNumbersFromKeyboard;
+import OtherMethods.ReadNumbersFromKeyboard;
 
 import java.util.HashMap;
 import java.util.Iterator;

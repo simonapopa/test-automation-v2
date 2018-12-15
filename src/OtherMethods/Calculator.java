@@ -1,13 +1,34 @@
+package OtherMethods;
+
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import static java.lang.System.in;
 
 public class Calculator {
 
+    ReadNumbersFromKeyboard read = new ReadNumbersFromKeyboard();
+
     // adunare
     public long adunare(long firstNumber, long secondNumber) {
         long result = firstNumber + secondNumber;
         return result;
+    }
+
+    //adunare finisat
+    public double adunare() {
+        double sum = 0;
+        boolean flag = true;
+        do {
+            try {
+                sum = sum + read.getNumberUncaught("Introduceti un numar pentru adunare sau caracter pentru iesire = ");
+                System.out.println("Sum = " + sum);
+            } catch (InputMismatchException e) {
+                flag = false;
+            }
+        } while (flag);
+
+        return sum;
     }
 
     //scadere
@@ -38,20 +59,18 @@ public class Calculator {
         short myShort = scanner.nextShort();
 
         System.out.print("define an int value:");
-        int myInt = scanner.nextInt();
+        int myInt = read.readIntegerNumberFromKey();
 
         System.out.print("define a long value:");
-        long myLong = scanner.nextLong();
+        long myLong = read.readLongNumberFromKey();
 
         System.out.print("define a float value:");
-        float myFloat = scanner.nextFloat();
+        float myFloat = read.readFloatNumberFromKey();
 
         System.out.print("define a double value:");
-        double myDouble = scanner.nextDouble();
+        double myDouble = read.readDoubleNumberFromKey();
         boolean myBoolean = true;
         String myString = "test";
-
-
         //long result = myInt + myLong;
 
         System.out.println(myString + (myByte + myShort + myInt + myLong + myFloat + myDouble) + myBoolean);
@@ -88,14 +107,13 @@ public class Calculator {
         d. 5 + 15 / 3 * 2 - 8 % 3
         */
     public void forthExercise() {
-        int a, b, c, sumInt;
+        int a, b, c, sumInt = 0;
         float sumFloat;
         a = -5;
         b = 8;
         c = 6;
 
-        sumInt = a + b * c;
-        System.out.println("Result for 'a. -5 + 8 * 6' is " + sumInt);
+        System.out.println("Result f        sumInt = a + b * c;\nor 'a. -5 + 8 * 6' is " + sumInt);
 
         a = 55;
         b = 9;
@@ -152,4 +170,6 @@ public class Calculator {
     public float eleventhExercise(int hour, int minute, int second) {
         return (hour * 3600) + (minute * 60) + second;
     }
+
+
 }

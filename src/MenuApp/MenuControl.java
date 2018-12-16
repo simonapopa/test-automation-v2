@@ -10,7 +10,7 @@ public class MenuControl {
     private CollectionsMethods coll = new CollectionsMethods();
     private Calculator calc = new Calculator();
     private IfSwitchMethods ism = new IfSwitchMethods();
-    LoopMethods op = new LoopMethods();
+    private LoopMethods op = new LoopMethods();
     private ReadNumbersFromKeyboard read = new ReadNumbersFromKeyboard();
 
     private String text = "Introduceti o valoare mai mica decat 100: ";
@@ -22,7 +22,6 @@ public class MenuControl {
             displayMenuOption();
             value = read.readIntegerNumberFromKey();
             runOption(value);
-
         }
         while (value != 0);
     }

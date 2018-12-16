@@ -30,7 +30,6 @@ public class Login {
                 System.err.println("Eroare de sistem, mai incercati");
             }
 
-
             if (prop.getProperty(userName) == null) {
                 System.out.println("Usernameul introdus nu este in fisier.");
 
@@ -45,9 +44,9 @@ public class Login {
         }
         return false;
     }
-
-    public static void main(String[] args) {
-        Login login = new Login();
-        login.login();
-    }
+//
+//    public static void main(String[] args) {
+//        Login login = new Login();
+//        login.login();
+//    }
 }

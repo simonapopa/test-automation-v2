@@ -49,6 +49,27 @@ public class StringMain {
         //sm.getStringAndFindCharacters(read.readStringFromKey());
 
         //StringBuffer exercise: 13. Write a Java program to compare a given string to the specified string buffer
-        sm.getStringCompareWithStringBuffer(read.readStringFromKey());
+        //sm.getStringCompareWithStringBuffer();
+
+        //String exercise: 14. Write a Java program to check whether a given string ends with the contents of another string
+        //sm.compareEndOfStringWithGivenString(read.readStringFromKey());
+
+        //String exercise: 15. Write a Java program to convert all the characters in a string to lowercase
+//        System.out.println(sm.getStringConvertToLowercase(read.getStringFromKey("Give string in uppercase to convert: ")));
+
+        //String exercise: 16. Write a Java program to convert all the characters in a string to uppercase
+//        System.out.println(sm.getStringConvertToUppercase(read.getStringFromKey("Give string in lowercase to convert: ")));
+
+        //String exercise: 17. Write a Java program to trim any leading or trailing whitespace from a given string.
+//        System.out.println(sm.getStringAndTrim(read.getStringFromKey("Give string with spaces to trim: ")));
+
+        //String exercises: 18. Write a Java program to divide a string in n equal parts
+//        sm.getStringAndDivide(read.getStringFromKey("Give string to divide: "));
+
+        //String exercise: 19. Write a Java program to remove "b" and "ac" from a given string
+        //System.out.println(sm.getStringAndRemoveCharacters(read.getStringFromKey("Enter the string: ")));
+
+        //String exercise: 20. Write a Java program that takes a phone number (eg: 0740123456) and then it returns it formatted: (0740)-123-456
+        System.out.println(sm.getPhoneAndFormat(read.getStringFromKey("Enter number:")));
     }
 }

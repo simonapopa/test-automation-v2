@@ -11,10 +11,8 @@ import java.util.Properties;
 public class Login {
 
     public boolean login() {
-
-
         ReadNumbersFromKeyboard read = new ReadNumbersFromKeyboard();
-        for ( int i = 3; i > 0; i-- ) {
+        for (int i = 3; i > 0; i--) {
 
             System.out.println("Introduceti user si parola");
             String userName = read.getStringFromKey("Introduceti userul");

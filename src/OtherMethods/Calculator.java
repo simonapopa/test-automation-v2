@@ -170,6 +170,4 @@ public class Calculator {
     public float eleventhExercise(int hour, int minute, int second) {
         return (hour * 3600) + (minute * 60) + second;
     }
-
-
 }

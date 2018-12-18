@@ -61,7 +61,7 @@ public class StringMethods {
     //test
     public static String concatenate(String... s) {
         StringBuilder sb = new StringBuilder();
-        for ( int i = 0; i < s.length; i++ )
+        for (int i = 0; i < s.length; i++)
             sb = sb.append(s[i]);
 
         return sb.toString();
@@ -157,16 +157,78 @@ public class StringMethods {
     }
 
     //StringBuffer exercise: 13. Write a Java program to compare a given string to the specified string buffer
-    public void getStringCompareWithStringBuffer(String string) {
+    public void getStringCompareWithStringBuffer() {
+        System.out.print("Give string to compare with stringBuffer. ");
+        String string = read.readStringFromKey();
         StringBuffer buffer = new StringBuffer();
         System.out.print("Append to stringBuffer. ");
         String stringBuffer = read.readStringFromKey();
         buffer.append(stringBuffer).append(' ');
-        System.out.println("String buffer is " + stringBuffer + " and entered string is " + string);
 
         if (stringBuffer.contains(string)) {
-            System.out.println("String buffer is " + stringBuffer + " and entered string is " + string);
+            System.out.println("String buffer: " + stringBuffer + " contains entered string: " + string);
+        } else {
+            System.out.println("Not identical");
         }
+    }
 
+    //StringBuffer exercise: 14. Write a Java program to check whether a given string ends with the contents of another string
+    public void compareEndOfStringWithGivenString(String endsString) {
+        System.out.print("Give full string. ");
+        String checkString = read.readStringFromKey();
+        checkString.endsWith(endsString);
+        if (checkString.endsWith(endsString) && !checkString.contentEquals(endsString)) {
+            System.out.println("String: " + checkString + " ends with " + endsString);
+        } else if (checkString.endsWith(endsString) && checkString.contentEquals(endsString)) {
+            System.out.println("String " + checkString + " identical with " + endsString);
+        } else {
+            System.out.println("String " + checkString + " does not end with " + endsString);
+        }
+    }
+
+    //String exercise: 15. Write a Java program to convert all the characters in a string to lowercase
+    public String getStringConvertToLowercase(String string) {
+        return string.toLowerCase();
+    }
+
+    //String exercise: 16. Write a Java program to convert all the characters in a string to uppercase
+    public String getStringConvertToUppercase(String string) {
+        return string.toUpperCase();
+    }
+
+    //String exercise: 17. Write a Java program to trim any leading or trailing whitespace from a given string.
+    public String getStringAndTrim(String string) {
+        return string.trim();
+    }
+
+    //String exercises: 18. Write a Java program to divide a string in n equal parts
+    public void getStringAndDivide(String string) {
+        System.out.print("Dividing nr. ");
+        int nr = read.readIntegerNumberFromKey();
+        if (string.length() % nr != 0) {
+            System.out.print("Size of string not divizible by " + nr);
+        } else {
+            int divide = string.length() / nr;
+            for (int i = 0; i < string.length(); i++) {
+                if (i % divide == 0) {
+                    System.out.println();
+                }
+                System.out.print(string.charAt(i));
+            }
+        }
+    }
+
+    //String exercise: 19. Write a Java program to remove "b" and "ac" from a given string
+    public String getStringAndRemoveCharacters(String string) {
+        string = string.replace("b", "");
+        string = string.replace("ac", "");
+        return string;
+    }
+
+    //String exercise: 20. Write a Java program that takes a phone number (eg: 0740123456) and then it returns it formatted: (0740)-123-456
+    //not correct
+    public String getPhoneAndFormat(String string) {
+        String formattedNumber = String.format("(%s)-%s-%s", string.substring(0, 7), string.substring(1, 3), string.substring(4, 6));
+        return formattedNumber;
     }
 }

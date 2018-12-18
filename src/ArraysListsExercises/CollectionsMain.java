@@ -20,7 +20,7 @@ public class CollectionsMain {
 //        System.out.println(coll.getAverageFromArray(coll.readArrayFromKey(read.readDoubleNumberFromKey())));
 
         // Array exercise: 3.Write a Java program to test if an array contains a specific value.
-//        System.out.println(coll.getSpecificValue(coll.readArrayFromKey(read.readIntegerNumberFromKey()),read.readIntegerNumberFromKey()));
+//        System.out.println(coll.getSpecificValue(coll.readArrayFromKey(read.readIntegerNumberFromKey())));
 
         //Array exercise: 4.Write a Java program to find the index of an array element.
 //        System.out.println("Index is " + coll.getIndexOfArray(coll.readArrayFromKey(read.readIntegerNumberFromKey())));

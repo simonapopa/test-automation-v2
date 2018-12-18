@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="deb20747-63b8-45b0-b91f-4290736c50fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringExercises/StringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringExercises/StringMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringExercises/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringExercises/StringMethods.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/" />
@@ -29,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/StringExercises/StringMethods.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
+              <caret line="167" column="70" selection-start-line="167" selection-start-column="70" selection-end-line="167" selection-end-column="70" />
               <folding>
                 <element signature="method#concatenate#0;class#StringMethods#0" />
               </folding>
@@ -185,7 +183,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/evozon/IdeaProjects/FirstProject/src/LogicalOperation.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544799234599" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544799710058" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -314,11 +312,11 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.3270869" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49848714" weight="0.3112245" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49848714" visible="true" weight="0.3112245" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50075644" side_tool="true" weight="0.32197616" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49924356" visible="true" weight="0.28231293" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49924356" weight="0.28231293" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.39795917" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -606,7 +604,7 @@
     <entry file="file://$PROJECT_DIR$/src/StringExercises/StringMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
+          <caret line="167" column="70" selection-start-line="167" selection-start-column="70" selection-end-line="167" selection-end-column="70" />
           <folding>
             <element signature="method#concatenate#0;class#StringMethods#0" />
           </folding>

@@ -70,7 +70,7 @@ public class Calculator {
         System.out.print("define a double value:");
         double myDouble = read.readDoubleNumberFromKey();
         boolean myBoolean = true;
-        String myString = "test";
+        String myString = "UnitTests";
         //long result = myInt + myLong;
 
         System.out.println(myString + (myByte + myShort + myInt + myLong + myFloat + myDouble) + myBoolean);

@@ -41,7 +41,7 @@ public class FileCourseMain {
 //        FileWriter fileWriter = new FileWriter(file, false);
 //        fileWriter.append("asdasdasdasdasdsdas\n");
 //        fileWriter.append("asdasdasdasdasdsdas");
-//        fileWriter.write(" asta e un test ");
+//        fileWriter.write(" asta e un UnitTests ");
 //
 //
 //        PrintWriter printWriter = new PrintWriter(fileWriter, true);

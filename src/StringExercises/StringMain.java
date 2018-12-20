@@ -45,7 +45,7 @@ public class StringMain {
         //String exercise: 11. Write a Java program to concatenate a given string to the end of another string
         //System.out.println(sm.getStringAndConcatenate(read.readStringFromKey(),read.readStringFromKey()));
 
-        //String exercise: 12. Write a Java program to test if a given string contains the specified sequence of char values
+        //String exercise: 12. Write a Java program to UnitTests if a given string contains the specified sequence of char values
         //sm.getStringAndFindCharacters(read.readStringFromKey());
 
         //StringBuffer exercise: 13. Write a Java program to compare a given string to the specified string buffer

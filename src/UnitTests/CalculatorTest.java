@@ -1,4 +1,4 @@
-package test;
+package UnitTests;
 
 import OtherMethods.Calculator;
 import org.junit.Assert;

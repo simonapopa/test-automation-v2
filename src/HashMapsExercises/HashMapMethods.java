@@ -69,7 +69,7 @@ public class HashMapMethods {
         return hashMap;
     }
 
-    // Hash maps exercise: Write a Java program to test a hash set is empty or not
+    // Hash maps exercise: Write a Java program to UnitTests a hash set is empty or not
     // used isEmpty()
     public boolean isEmptyHashMap(HashMap<Integer, String> hashMap) {
         System.out.println("is empty? ");

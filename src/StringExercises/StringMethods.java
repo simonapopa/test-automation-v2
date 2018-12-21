@@ -58,7 +58,7 @@ public class StringMethods {
         return stringBuilder;
     }
 
-    //test
+    //UnitTests
     public static String concatenate(String... s) {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < s.length; i++)
@@ -145,7 +145,7 @@ public class StringMethods {
         return firstString + secondString;
     }
 
-    //String exercise: 12. Write a Java program to test if a given string contains the specified sequence of char values
+    //String exercise: 12. Write a Java program to UnitTests if a given string contains the specified sequence of char values
     public void getStringAndFindCharacters(String string) {
         System.out.print("Give string to look for. ");
         String find = read.readStringFromKey();

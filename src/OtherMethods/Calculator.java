@@ -70,7 +70,7 @@ public class Calculator {
         System.out.print("define a double value:");
         double myDouble = read.readDoubleNumberFromKey();
         boolean myBoolean = true;
-        String myString = "test";
+        String myString = "UnitTests";
         //long result = myInt + myLong;
 
         System.out.println(myString + (myByte + myShort + myInt + myLong + myFloat + myDouble) + myBoolean);
@@ -81,7 +81,7 @@ public class Calculator {
 
     // 3. Write a Java program to divide two numbers and print on the screen.
     public void getNumbers(long first, long second) {
-        System.out.println("Sum is = " + (first + second));
+        System.out.println("Division is = " + (first / second));
     }
 
     // 5. Write a Java program that takes two numbers as input and display the product of two numbers.
@@ -96,7 +96,7 @@ public class Calculator {
 
     // 1. Write a Java program to print 'Hello' on screen and then print your name on a separate line
     public String getYourName(String name) {
-        System.out.println("Give a name: ");
+        //System.out.println("Give a name: ");
         return name;
     }
 

@@ -63,7 +63,7 @@ public class CollectionsMethods {
         return sum / array.length;
     }
 
-    // Array exercise: 3.Write a Java program to test if an array contains a specific value.
+    // Array exercise: 3.Write a Java program to UnitTests if an array contains a specific value.
     public boolean getSpecificValue(int[] array) {
         System.out.println("Define specific value to search in array.");
         for (int i = 0; i < array.length; i++) {

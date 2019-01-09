@@ -8,6 +8,8 @@ public class FileMain {
         FileMethods fm = new FileMethods();
         //fm.createFile();
         //fm.checkFileExists(fm.createFile());
-        fm.writeInFile(fm.createFile());
+        //fm.writeInFile(fm.createFile());
+        //fm.writeInFile();
+        System.out.println("List is " + fm.addFileContentToList());
     }
 }

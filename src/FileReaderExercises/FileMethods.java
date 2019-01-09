@@ -1,6 +1,9 @@
 package FileReaderExercises;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.List;
 import java.util.Scanner;
 
 public class FileMethods {
@@ -31,12 +34,42 @@ public class FileMethods {
             fileText = scanner.next();
 
             //will not write in file the exit string
-            if (!fileText.equals("q")) {
-                pw.println(fileText);
-            } else {
-                break;
+            switch (fileText) {
+                case "q":
+                    break;
+                default:
+                    pw.println(fileText);
+                    break;
             }
-
         } while (!fileText.equals("q"));
+    }
+
+    //4. Modify the program so that it adds another 3 lines of text. When running the second time, you should not be overriding the existing lines
+    public void writeInFile() throws IOException {
+        File f = new File("resources/MyTextFile.txt");
+        Scanner scanner = new Scanner(System.in);
+        PrintWriter pw = new PrintWriter(new FileOutputStream(f, true), true);
+        String fileText;
+        do {
+            System.out.println("What to write in file? (Enter 'q' if done)");
+            fileText = scanner.next();
+
+            //will not write in file the exit string
+            switch (fileText) {
+                case "q":
+                    break;
+                default:
+                    pw.println(fileText);
+                    break;
+            }
+        } while (!fileText.equals("q"));
+    }
+
+    //5. Write a program to add all the lines from the text file to a List.
+    public List addFileContentToList() throws IOException {
+        File file = new File("resources/MyTextFile.txt");
+        List listFile;
+        listFile = Files.readAllLines(Paths.get(String.valueOf(file)));
+        return listFile;
     }
 }

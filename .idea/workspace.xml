@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="deb20747-63b8-45b0-b91f-4290736c50fc" name="Default Changelist" comment="" />
+    <list default="true" id="deb20747-63b8-45b0-b91f-4290736c50fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_all_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_all_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_13_beta_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FirstProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FirstProject/FileReaderExercises/FileMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstProject/FileReaderExercises/FileMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FirstProject/FileReaderExercises/FileMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstProject/FileReaderExercises/FileMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FirstProject/META-INF/FirstProject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/MyTextFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/MyTextFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileReaderExercises/FileMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileReaderExercises/FileMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileReaderExercises/FileMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileReaderExercises/FileMethods.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/" />
     <ignored path="E:\Tranings\EvoJavaTraining\.idea\shelf/" />
@@ -43,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FileReaderExercises/FileMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+            <state relative-caret-position="203">
+              <caret line="53" column="73" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FileReaderExercises/FileMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="204">
+              <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -72,17 +84,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FileReaderExercises/FileCourseMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="169">
+              <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MenuApp/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="442">
+              <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,6 +140,7 @@
       <find>value</find>
       <find>getArra</find>
       <find>remove</find>
+      <find>getStringFromKey</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -187,8 +200,8 @@
         <option value="$PROJECT_DIR$/src/UnitTests/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/Game2ndSession/GameMain.java" />
         <option value="$PROJECT_DIR$/src/Game2ndSession/Choose.java" />
-        <option value="$PROJECT_DIR$/src/FileReaderExercises/FileMain.java" />
         <option value="$PROJECT_DIR$/resources/MyTextFile.txt" />
+        <option value="$PROJECT_DIR$/src/FileReaderExercises/FileMain.java" />
         <option value="$PROJECT_DIR$/src/FileReaderExercises/FileMethods.java" />
       </list>
     </option>
@@ -214,6 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -222,21 +236,42 @@
               <item name="JavaOOPTraining" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaOOPTraining" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaOOPTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaOOPTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaOOPTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaOOPTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaOOPTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaOOPTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FileReaderExercises" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaOOPTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaOOPTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="OtherMethods" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/evozon/IdeaProjects/FirstProject/src/LogicalOperation.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546953339416" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/hamcrest-all-1.3.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546961223379" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resourcesUnitTests/hamcrest-all-1.3.jar!/" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -352,7 +387,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\simonapopa\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -415,26 +450,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="1" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.20575693" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.20788912" />
       <window_info id="Structure" order="1" sideWeight="0.5015674" side_tool="true" weight="0.20469798" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3270869" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49848714" weight="0.21603929" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3261105" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49848714" weight="0.23076923" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50075644" side_tool="true" weight="0.32197616" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info active="true" anchor="bottom" id="Find" order="4" visible="true" weight="0.32569557" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49924356" visible="true" weight="0.3764321" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49924356" visible="true" weight="0.24593717" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.39795917" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32569557" />
       <window_info anchor="bottom" id="Maven Projects" order="10" weight="0.3270869" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49848714" weight="0.32405892" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49848714" weight="0.32394367" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -698,27 +734,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileReaderExercises/FileMain.java">
+    <entry file="file://$PROJECT_DIR$/src/MenuApp/MenuControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/MyTextFile.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileReaderExercises/FileCourseMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuApp/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="51" />
+        <state relative-caret-position="1632">
+          <caret line="100" column="38" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -732,20 +751,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuApp/MenuControl.java">
+    <entry file="file://$PROJECT_DIR$/src/FileReaderExercises/FileMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="100" column="38" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="38" />
+        <state relative-caret-position="203">
+          <caret line="53" column="73" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileReaderExercises/FileMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/FileReaderExercises/FileMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="204">
+          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/MyTextFile.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileReaderExercises/FileCourseMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MenuApp/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

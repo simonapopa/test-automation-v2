@@ -4,12 +4,12 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Choose {
-    private String answer() {
+    public String answer() {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine().toLowerCase();
     }
 
-    private String question(String s) {
+    public String question(String s) {
         System.out.println(s);
         return answer();
     }
@@ -104,14 +104,20 @@ public class Choose {
     public void chooseEntry() {
         String answer;
         AdministrationLogin adminLogin = new AdministrationLogin();
+        AdministrationPanel adminPanel = new AdministrationPanel();
         Choose choose = new Choose();
+        ShopStatus shopStatus = new ShopStatus();
 
         do {
             System.out.println("Choose an option:");
             answer = question("1. Browse Pet Shop" + "\n2. Enter Administration Panel");
             switch (answer) {
                 case "1":
-                    chooseAnimal();
+                    if (shopStatus.isOpen()) {
+                        chooseAnimal();
+                    } else {
+                        System.out.println("Shop is closed at the moment!");
+                    }
                     break;
                 case "2":
                     //tbd
@@ -122,7 +128,7 @@ public class Choose {
                     // add user roles: show employees, delete animals
                     try {
                         if (adminLogin.login()) {
-                            choose.chooseAnimal();
+                            adminPanel.chooseAdminOption();
                         } else {
                             choose.chooseEntry();
                         }
@@ -130,10 +136,11 @@ public class Choose {
                         e.printStackTrace();
                     }
                     break;
+                case "q":
+                    break;
                 default:
-                    if (!answer.equals("q")) {
-                        System.out.println("No such value.");
-                    }
+                    System.out.println("No such value.");
+                    break;
             }
         } while (!answer.equals("q"));
     }
@@ -154,14 +161,12 @@ public class Choose {
                 case "bird":
                     birdOption();
                     break;
+                case "q":
+                    break;
                 default:
-                    if (!answer.equals("q")) {
-                        System.out.println("No such value. Press 'q' to quit.");
-                    } else {
-                        chooseEntry();
-                    }
+                    System.out.println("No such value. Press 'q' to quit.");
+                    break;
             }
-
         } while (!answer.equals("q"));
     }
 }

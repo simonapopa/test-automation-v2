@@ -5,6 +5,8 @@ import OtherMethods.ReadNumbersFromKeyboard;
 import java.io.*;
 import java.util.Properties;
 
+import static Game2ndSession.Constants.DB_PROPERTIES;
+
 public class AdministrationLogin {
 
     public boolean login() throws IOException{
@@ -16,9 +18,11 @@ public class AdministrationLogin {
             String password = read.getStringFromKey("Enter password:");
 
             Properties prop = new Properties();
+            Properties globalProp;
+
             InputStream input = null;
             try {
-                input = new FileInputStream("src/Game2ndSession/resources/admin_users.properties");
+                input = new FileInputStream(DB_PROPERTIES);
                 prop.load(input);
 
             } catch (FileNotFoundException er) {

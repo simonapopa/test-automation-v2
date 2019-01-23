@@ -1,5 +1,7 @@
 package FileReaderExercises;
 
+import OtherMethods.ReadNumbersFromKeyboard;
+
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -68,8 +70,13 @@ public class FileMethods {
     //5. Write a program to add all the lines from the text file to a List.
     public List addFileContentToList() throws IOException {
         File file = new File("resources/MyTextFile.txt");
-        List listFile;
+        List<String> listFile;
         listFile = Files.readAllLines(Paths.get(String.valueOf(file)));
         return listFile;
+    }
+
+    public boolean searchText(List list) {
+        ReadNumbersFromKeyboard read = new ReadNumbersFromKeyboard();
+        return list.contains(read.readStringFromKey());
     }
 }

@@ -18,7 +18,6 @@ public class AdministrationLogin {
             String password = read.getStringFromKey("Enter password:");
 
             Properties prop = new Properties();
-            Properties globalProp;
 
             InputStream input = null;
             try {

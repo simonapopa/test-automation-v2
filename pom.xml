@@ -13,7 +13,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <serenity.version>1.8.3</serenity.version>
-        <webdriver.driver>firefox</webdriver.driver>
+        <webdriver.driver>chrome</webdriver.driver>
     </properties>
 
     <repositories>
@@ -63,6 +63,33 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <profiles>
+        <profile>
+            <id>win</id>
+            <activation>
+                <os>
+                    <family>windows</family>
+                </os>
+            </activation>
+            <properties>
+                <webdriver.chrome.path>${basedir}${file.separator}src${file.separator}chromedriver${file.separator}chromedriver.exe</webdriver.chrome.path>
+            </properties>
+        </profile>
+        <profile>
+            <id>linux</id>
+            <activation>
+                <os>
+                    <family>!windows</family>
+                </os>
+            </activation>
+            <properties>
+                <webdriver.chrome.path>${basedir}${file.separator}resources${file.separator}chromedriver2</webdriver.chrome.path>
+            </properties>
+        </profile>
+    </profiles>
+
+
     <build>
         <plugins>
             <plugin>

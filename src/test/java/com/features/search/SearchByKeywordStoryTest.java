@@ -25,6 +25,8 @@ public class SearchByKeywordStoryTest {
     @Test
     public void searching_by_keyword_apple_should_display_the_corresponding_article() {
         anna.is_the_home_page();
+
+
         anna.looks_for("apple");
         anna.should_see_definition("A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.");
 

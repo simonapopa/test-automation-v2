@@ -4,10 +4,6 @@ import com.pages.HomePage;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.Matchers.hasItem;
-
 public class HomeSteps {
     HomePage homePage;
 
@@ -23,7 +19,9 @@ public class HomeSteps {
 
     @Step
     public void openHomepage() {
+        homePage.windowMaximize();
         homePage.open();
+
     }
 
     @Step
@@ -33,13 +31,30 @@ public class HomeSteps {
     }
 
     @Step
-    public void checkResults(String keyword) {
-
-        System.out.println("Keyword = " + keyword);
-        System.out.println(homePage.findTitle(keyword));
-
-        Assert.assertTrue("Failed because title is not as expected", homePage.findTitle(keyword));
-
+    public void clickOnDiscussionTab() {
+        homePage.selectDiscussionTab();
     }
 
+    @Step
+    public void clickOnCitationTab() {
+        homePage.selectCitationTab();
+    }
+
+    @Step
+    public void accessTabs() {
+        clickOnDiscussionTab();
+        clickOnCitationTab();
+    }
+
+    @Step
+    public void checkTabTextInTab(String keyword) {
+        homePage.compareTabTextWithKeyword(keyword);
+    }
+
+    @Step
+    public void checkResults(String keyword) {
+//        System.out.println("Keyword = " + keyword);
+//        System.out.println(homePage.findTitle(keyword));
+        Assert.assertTrue("Failed because title is not as expected", homePage.findTitle(keyword));
+    }
 }

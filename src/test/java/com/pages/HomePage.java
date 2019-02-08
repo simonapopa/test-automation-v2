@@ -1,13 +1,12 @@
 package com.pages;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
-import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
+import org.junit.Assert;
 
 @DefaultUrl("http://en.wiktionary.org/wiki/Wiktionary")
-
-public class HomePage extends PageObject {
+public class HomePage extends AbstractPage {
 
     @FindBy(css = "input#searchInput")
     WebElementFacade searchTerm;
@@ -19,7 +18,10 @@ public class HomePage extends PageObject {
     WebElementFacade searchTitle;
 
     @FindBy(css = "#p-namespaces ul li#ca-talk")
-    WebElementFacade searchTab;
+    WebElementFacade searchDiscussionTab;
+
+    @FindBy(css = "#p-namespaces ul li#ca-nstab-citations")
+    WebElementFacade searchCitationTab;
 
     public void enterKeyInSearchField(String keyword) {
         searchTerm.type(keyword);
@@ -33,6 +35,18 @@ public class HomePage extends PageObject {
         return searchTitle.containsText(keyword);
     }
 
-    public void selectPageHeaderTab() {
+    public void selectDiscussionTab() {
+        searchDiscussionTab.click();
+    }
+
+    public void selectCitationTab() {
+        searchCitationTab.click();
+    }
+
+    public void compareTabTextWithKeyword(String keyword) {
+        System.out.println("Discussion title text = " + searchDiscussionTab.getText());
+        System.out.println("Citation title text = " + searchCitationTab.getText());
+
+        Assert.assertTrue("Same titles in both tabs.", !searchDiscussionTab.getText().equals(searchCitationTab.getText()));
     }
 }

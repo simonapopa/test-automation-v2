@@ -31,10 +31,6 @@ public class HomePage extends AbstractPage {
         searchButton.click();
     }
 
-    public boolean findTitle(String keyword) {
-        return searchTitle.containsText(keyword);
-    }
-
     public void selectDiscussionTab() {
         searchDiscussionTab.click();
     }
@@ -43,9 +39,14 @@ public class HomePage extends AbstractPage {
         searchCitationTab.click();
     }
 
+    public void compareTitleInPage(String keyword) {
+        //     System.out.println("Keyword = " + keyword);
+        Assert.assertTrue("Failed because title is not as expected", searchTitle.containsText(keyword));
+    }
+
     public void compareTabTextWithKeyword(String keyword) {
-        System.out.println("Discussion title text = " + searchDiscussionTab.getText());
-        System.out.println("Citation title text = " + searchCitationTab.getText());
+//        System.out.println("Discussion title text = " + searchDiscussionTab.getText());
+//        System.out.println("Citation title text = " + searchCitationTab.getText());
 
         Assert.assertTrue("Same titles in both tabs.", !searchDiscussionTab.getText().equals(searchCitationTab.getText()));
     }

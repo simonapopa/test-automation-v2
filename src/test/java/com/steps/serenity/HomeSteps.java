@@ -53,8 +53,6 @@ public class HomeSteps {
 
     @Step
     public void checkResults(String keyword) {
-//        System.out.println("Keyword = " + keyword);
-//        System.out.println(homePage.findTitle(keyword));
-        Assert.assertTrue("Failed because title is not as expected", homePage.findTitle(keyword));
+        homePage.compareTitleInPage(keyword);
     }
 }

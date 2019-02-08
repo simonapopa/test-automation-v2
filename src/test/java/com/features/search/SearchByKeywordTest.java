@@ -19,25 +19,25 @@ public class SearchByKeywordTest {
 
 //    @Test
 //    //Do search for keyword, click on Discussion and Citation tab, then validate title in each page vs keyword
-//    public void searchForReligionForKeyword() {
+//    public void searchForAppleForKeyword() {
 //        user.openHomepage();
-//        user.beginSearch("religion");
-//        user.checkResults("religion");
+//        user.beginSearch("apple");
+//        user.checkResults("apple");
 //        user.clickOnDiscussionTab();
-//        user.checkResults("religion");
+//        user.checkResults("apple");
 //        user.clickOnCitationTab();
-//        user.checkResults("religion");
+//        user.checkResults("apple");
 //    }
 
     @Test
     public void accessTabAndValidateTitleVsKeyword() {
         user.openHomepage();
-        user.beginSearch("religion");
-        user.checkResults("religion");
+        user.beginSearch("apple");
+        user.checkResults("apple");
         user.clickOnDiscussionTab();
-        user.checkTabTextInTab("religion");
+        user.checkTabTextInTab("apple");
         user.clickOnCitationTab();
-        user.checkTabTextInTab("religion");
+        user.checkTabTextInTab("apple");
     }
 
 //    @Test

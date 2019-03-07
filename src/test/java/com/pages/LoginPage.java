@@ -20,6 +20,18 @@ public class LoginPage extends AbstractPage {
     @FindBy(css = "#pt-login")
     WebElementFacade searchLoginLink;
 
+    @FindBy(css = ".mw-input #wpName1")
+    WebElementFacade searchInputFieldUsername;
+
+    @FindBy(css = ".mw-input #wpPassword1")
+    WebElementFacade searchInputFieldPassword;
+
+    @FindBy(css = "#wpLoginAttempt")
+    WebElementFacade searchLoginButton;
+
+    @FindBy(css = ".error")
+    WebElementFacade searchErrorMessage;
+
     public void findSelectedTab() {
 //        System.out.println("searchtab = " + searchTab.getText() + " searchpagetitle = " + searchPageTitle.getText());
         Assert.assertTrue("This is not the login page!", searchTab.containsText("Special page"));
@@ -33,8 +45,35 @@ public class LoginPage extends AbstractPage {
         Assert.assertEquals("User is logged in", false, searchUserStatus.containsValue("Not logged in"));
     }
 
+    public void findFieldUsername() {
+
+    }
+
+    public boolean findErrorMessage() {
+        String message = null;
+        if (message.equals("Incorrect username or password entered. Please try again."))
+            return true;
+        else
+            return false;
+    }
+
+    public void enterUsername(String username) {
+        searchInputFieldUsername.type(username);
+//        Assert.assertTrue();
+    }
+
+    public void enterPassword(String password) {
+        searchInputFieldPassword.type(password);
+    }
+
+
+    public void pressLoginButton() {
+        searchLoginButton.click();
+    }
+
     public void pressLoginLink() {
         searchLoginLink.click();
     }
+
 
 }

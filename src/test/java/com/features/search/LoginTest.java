@@ -1,6 +1,6 @@
 package com.features.search;
 
-import com.steps.serenity.HomeSteps;
+import com.pages.AbstractPage;
 import com.steps.serenity.LoginSteps;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
@@ -23,5 +23,16 @@ public class LoginTest {
         user.checkUserStatus();
         user.goToLoginPageByLoginLink();
         user.confirmCurrentPageIsLogin();
+    }
+
+    @Test
+    public void submitEmptyForm() {
+        user.submitForm();
+    }
+
+    @Test
+    public void submitIncorrectCredentials() {
+        user.enterInvalidCredentials();
+        user.submitForm();
     }
 }

@@ -2,6 +2,7 @@ package com.steps.serenity;
 
 import com.pages.LoginPage;
 import net.thucydides.core.annotations.Step;
+import net.thucydides.core.annotations.Steps;
 
 public class LoginSteps {
     LoginPage loginPage;
@@ -26,6 +27,17 @@ public class LoginSteps {
     public void confirmCurrentPageIsLogin() {
         loginPage.findPageTitle();
         loginPage.findSelectedTab();
+    }
+
+    @Step
+    public void submitForm() {
+        loginPage.pressLoginButton();
+    }
+
+    @Step
+    public void enterInvalidCredentials() {
+        loginPage.enterUsername("abc");
+        loginPage.enterPassword("abc");
     }
 
 }

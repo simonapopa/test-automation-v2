@@ -40,4 +40,9 @@ public class LoginSteps {
         loginPage.enterPassword("abc");
     }
 
+    @Step
+    public void checkDisplayedErrorMessage(){
+        loginPage.validateCredentials();
+    }
+
 }

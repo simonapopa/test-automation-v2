@@ -45,21 +45,12 @@ public class LoginPage extends AbstractPage {
         Assert.assertEquals("User is logged in", false, searchUserStatus.containsValue("Not logged in"));
     }
 
-    public void findFieldUsername() {
-
-    }
-
-    public boolean findErrorMessage() {
-        String message = null;
-        if (message.equals("Incorrect username or password entered. Please try again."))
-            return true;
-        else
-            return false;
+    public void validateCredentials() {
+        Assert.assertTrue(searchErrorMessage.containsText("Incorrect username or password entered. Please try again."));
     }
 
     public void enterUsername(String username) {
         searchInputFieldUsername.type(username);
-//        Assert.assertTrue();
     }
 
     public void enterPassword(String password) {

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.features.login.LoginTest" skipped="0" tests="1" time="15.32" timestamp="2019-03-15T15:19:17.514+02:00[Europe/Athens]"><testcase classname="com.features.login.LoginTest" name="Submit incorrect credentials"/></testsuite>

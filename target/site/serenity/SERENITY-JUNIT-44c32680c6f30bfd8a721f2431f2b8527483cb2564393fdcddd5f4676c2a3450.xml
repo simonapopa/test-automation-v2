@@ -1,5 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.features.login.LoginTest" skipped="0" tests="1" time="14.73" timestamp="2019-03-15T13:00:47.899+02:00[Europe/Athens]"><testcase classname="com.features.login.LoginTest" name="Submit empty form"><failure message="The following error occurred: Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">The following error occurred: Expected enabled element was not enabled</failure><system-err>The following error occurred: Expected enabled element was not enabled&#13;
-com.pages.LoginPage.pressLoginButton(LoginPage.java:71)&#13;
-com.steps.serenity.LoginSteps.submitForm(LoginSteps.java:34)&#13;
-com.features.login.LoginTest.submitEmptyForm(LoginTest.java:29)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.features.login.LoginTest" skipped="0" tests="1" time="12.53" timestamp="2019-03-15T14:15:04.324+02:00[Europe/Athens]"><testcase classname="com.features.login.LoginTest" name="Submit empty form"/></testsuite>

@@ -35,13 +35,13 @@ public class LoginSteps {
     }
 
     @Step
-    public void enterInvalidCredentials() {
-        loginPage.enterUsername("abc");
-        loginPage.enterPassword("abc");
+    public void enterCredentials(String username, String password) {
+        loginPage.enterUsername(username);
+        loginPage.enterPassword(password);
     }
 
     @Step
-    public void checkDisplayedErrorMessage(){
+    public void checkDisplayedErrorMessage() {
         loginPage.validateCredentials();
     }
 

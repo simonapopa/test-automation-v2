@@ -41,12 +41,6 @@ public class HomeSteps {
     }
 
     @Step
-    public void accessTabs() {
-        clickOnDiscussionTab();
-        clickOnCitationTab();
-    }
-
-    @Step
     public void checkTabTextInTab(String keyword) {
         homePage.compareTabTextWithKeyword(keyword);
     }

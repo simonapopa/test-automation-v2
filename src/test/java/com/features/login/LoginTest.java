@@ -33,7 +33,7 @@ public class LoginTest {
     @Test
     public void submitIncorrectCredentials() {
         accessLoginPageForAnUnauthenticatedUser();
-        user.enterInvalidCredentials();
+        user.enterCredentials("abc","abc");
         user.submitForm();
         user.checkDisplayedErrorMessage();
     }

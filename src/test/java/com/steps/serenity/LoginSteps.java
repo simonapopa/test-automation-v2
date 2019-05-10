@@ -2,7 +2,6 @@ package com.steps.serenity;
 
 import com.pages.LoginPage;
 import net.thucydides.core.annotations.Step;
-import net.thucydides.core.annotations.Steps;
 
 public class LoginSteps {
     LoginPage loginPage;

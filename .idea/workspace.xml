@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="508bd6a1-a7d3-4afd-a550-28a80666a869" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/features/LoginThroughModalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/LoginThroughModalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/LoginThroughModalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/LoginThroughModalPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-be2797484c54513eeb0667a01c373d9337182497923660bd977f979f0f97bce1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-be2797484c54513eeb0667a01c373d9337182497923660bd977f979f0f97bce1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/be2797484c54513eeb0667a01c373d9337182497923660bd977f979f0f97bce1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/be2797484c54513eeb0667a01c373d9337182497923660bd977f979f0f97bce1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/be2797484c54513eeb0667a01c373d9337182497923660bd977f979f0f97bce1.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/be2797484c54513eeb0667a01c373d9337182497923660bd977f979f0f97bce1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/be2797484c54513eeb0667a01c373d9337182497923660bd977f979f0f97bce1_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/be2797484c54513eeb0667a01c373d9337182497923660bd977f979f0f97bce1_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/LoginThroughModalPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/LoginThroughModalPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/steps/LoginThroughModalSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/steps/LoginThroughModalSteps.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -43,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="187">
               <caret line="11" column="31" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/way2automation/features/RegisterThroughModalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            <state relative-caret-position="487">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/way2automation/steps/RegisterThroughModalSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="374">
+              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterThroughModalPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="97" selection-start-line="97" selection-end-line="97" />
+            <state relative-caret-position="555">
+              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1698#1699#0" expanded="true" />
@@ -105,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/way2automation/features/LoginThroughModalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            <state relative-caret-position="393">
+              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/way2automation/steps/LoginThroughModalSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="340">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/way2automation/pages/LoginThroughModalPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+            <state relative-caret-position="-185">
+              <caret line="79" column="35" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1337#1338#0" expanded="true" />
@@ -187,15 +177,15 @@
         <option value="$PROJECT_DIR$/src/test/java/way2automation/pages/LoginThroughModalTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterThroughModalPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/way2automation/Constants.java" />
-        <option value="$PROJECT_DIR$/src/test/java/way2automation/features/LoginThroughModalTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/way2automation/steps/LoginThroughModalSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/way2automation/pages/LoginThroughModalPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/way2automation/features/LoginThroughModalTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-24" />
+    <option name="x" value="1803" />
+    <option name="y" value="6" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -205,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -366,7 +357,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -399,7 +389,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginThroughModalTest.loginWithNoCredentials">
+  <component name="RunManager" selected="JUnit.LoginThroughModalTest.loginWithInvalidCredentials">
     <configuration name="LoginThroughModalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationV3" />
       <extension name="coverage">
@@ -426,6 +416,22 @@
       <option name="PACKAGE_NAME" value="way2automation.features" />
       <option name="MAIN_CLASS_NAME" value="way2automation.features.LoginThroughModalTest" />
       <option name="METHOD_NAME" value="loginWithExistingAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginThroughModalTest.loginWithInvalidCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationV3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="way2automation.features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="way2automation.features" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.LoginThroughModalTest" />
+      <option name="METHOD_NAME" value="loginWithInvalidCredentials" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -463,29 +469,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterThroughModalTest.submitOtherThanDefaultCountryAndUseExistingAccountToRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomationV3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="way2automation.features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="way2automation.features" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.RegisterThroughModalTest" />
-      <option name="METHOD_NAME" value="submitOtherThanDefaultCountryAndUseExistingAccountToRegister" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginThroughModalTest.loginWithInvalidCredentials" />
         <item itemvalue="JUnit.LoginThroughModalTest.loginWithNoCredentials" />
         <item itemvalue="JUnit.LoginThroughModalTest.loginWithExistingAccount" />
         <item itemvalue="JUnit.LoginThroughModalTest" />
         <item itemvalue="JUnit.LoginThroughModalTest.submitEmptyForm" />
-        <item itemvalue="JUnit.RegisterThroughModalTest.submitOtherThanDefaultCountryAndUseExistingAccountToRegister" />
       </list>
     </recent_temporary>
   </component>
@@ -503,21 +493,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginThroughModalTest_loginWithExistingAccount - 2019.05.13 at 15h 29m 43s.xml">
-      <configuration name="LoginThroughModalTest.loginWithExistingAccount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginThroughModalTest_loginWithExistingAccount - 2019.05.13 at 15h 30m 54s.xml">
-      <configuration name="LoginThroughModalTest.loginWithExistingAccount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginThroughModalTest_loginWithNoCredentials - 2019.05.14 at 09h 25m 58s.xml">
-      <configuration name="LoginThroughModalTest.loginWithNoCredentials" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginThroughModalTest_loginWithNoCredentials - 2019.05.14 at 13h 09m 08s.xml">
-      <configuration name="LoginThroughModalTest.loginWithNoCredentials" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginThroughModalTest_loginWithNoCredentials - 2019.05.14 at 13h 23m 35s.xml">
-      <configuration name="LoginThroughModalTest.loginWithNoCredentials" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LoginThroughModalTest_loginWithExistingAccount - 2019.05.14 at 13h 32m 15s.xml">
       <configuration name="LoginThroughModalTest.loginWithExistingAccount" configurationId="JUnit" />
     </history-entry>
@@ -533,6 +508,21 @@
     <history-entry file="LoginThroughModalTest_loginWithNoCredentials - 2019.05.14 at 16h 43m 58s.xml">
       <configuration name="LoginThroughModalTest.loginWithNoCredentials" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LoginThroughModalTest_loginWithExistingAccount - 2019.06.28 at 16h 06m 29s.xml">
+      <configuration name="LoginThroughModalTest.loginWithExistingAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginThroughModalTest_loginWithNoCredentials - 2019.06.28 at 16h 14m 41s.xml">
+      <configuration name="LoginThroughModalTest.loginWithNoCredentials" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginThroughModalTest_loginWithExistingAccount - 2019.06.28 at 16h 23m 37s.xml">
+      <configuration name="LoginThroughModalTest.loginWithExistingAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginThroughModalTest_loginWithNoCredentials - 2019.06.28 at 16h 24m 12s.xml">
+      <configuration name="LoginThroughModalTest.loginWithNoCredentials" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginThroughModalTest_loginWithInvalidCredentials - 2019.06.28 at 16h 45m 49s.xml">
+      <configuration name="LoginThroughModalTest.loginWithInvalidCredentials" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -544,10 +534,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="1" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1705757" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17217484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -556,7 +546,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3564464" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3564464" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -611,13 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.8.3/serenity-core-1.8.3.jar!/net/serenitybdd/core/pages/PageObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="227" column="22" selection-start-line="227" selection-start-column="22" selection-end-line="227" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -744,10 +727,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/pages/LoginPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.8.3/serenity-core-1.8.3.jar!/net/serenitybdd/core/pages/PageObject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="31" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="204">
+          <caret line="227" column="22" selection-start-line="227" selection-start-column="22" selection-end-line="227" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/way2automation/steps/RegisterThroughModalSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -756,18 +746,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/way2automation/features/RegisterThroughModalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="487">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/way2automation/steps/RegisterThroughModalSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="187">
+          <caret line="11" column="31" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -776,8 +766,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterThroughModalPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="555">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1698#1699#0" expanded="true" />
@@ -798,20 +788,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/way2automation/features/LoginThroughModalTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/way2automation/steps/LoginThroughModalSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        <state relative-caret-position="340">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/way2automation/steps/LoginThroughModalSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/way2automation/features/LoginThroughModalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="393">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -820,16 +810,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/way2automation/pages/LoginThroughModalPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+        <state relative-caret-position="-185">
+          <caret line="79" column="35" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
             <element signature="e#1377#1378#0" expanded="true" />
           </folding>
         </state>

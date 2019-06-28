@@ -25,6 +25,12 @@ public class LoginThroughModalTest {
     }
 
     @Test
+    public void loginWithInvalidCredentials(){
+        user.openLogin();
+        user.submitLoginForm("invalid","invalid");
+    }
+
+    @Test
     public void loginWithExistingAccount() {
         user.openLogin();
         user.submitLoginForm("test", "test");

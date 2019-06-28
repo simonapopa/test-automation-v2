@@ -57,7 +57,7 @@ public class LoginThroughModalPage extends AbstractPage {
         System.out.println("home link = " + navigationHomeLink.getText() + "\n" + isModalDisplayed() + "\n" + navigationHomeLink.isVisible());
 
         if (isModalDisplayed()) {
-            Assert.assertFalse("Login modal appears.", isModalDisplayed());
+            Assert.assertTrue("Login modal appears.", isModalDisplayed());
 //            Assert.assertFalse("Home link is visible and clickable", navigationHomeLink.isVisible()); // Home link is always visible, needs to be changed how it's checked
 
         } else {

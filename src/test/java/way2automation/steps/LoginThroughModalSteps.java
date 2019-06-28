@@ -1,7 +1,6 @@
 package way2automation.steps;
 
 import net.thucydides.core.annotations.Step;
-import way2automation.Constants;
 import way2automation.pages.LoginThroughModalPage;
 
 public class LoginThroughModalSteps {

@@ -51,17 +51,18 @@ public class LoginThroughModalPage extends AbstractPage {
 
     // check that the Home from menu appears and that modal window is closed
     public void navigationHomeLinkVisible() {
+        String text = "Home";
         waitABit(5000);
 
         System.out.println("home link = " + navigationHomeLink.getText() + "\n" + isModalDisplayed() + "\n" + navigationHomeLink.isVisible());
 
         if (isModalDisplayed()) {
-//            Assert.assertFalse("Login modal still displayed.", isModalDisplayed());
-            Assert.assertFalse("Home link is visible and clickable", navigationHomeLink.isVisible());
+            Assert.assertFalse("Login modal appears.", isModalDisplayed());
+//            Assert.assertFalse("Home link is visible and clickable", navigationHomeLink.isVisible()); // Home link is always visible, needs to be changed how it's checked
 
         } else {
-//            Assert.assertTrue("Login modal still displayed.", navigationHomeLink.containsText(text));
-            Assert.assertTrue("Home link is not visible nor clickable", navigationHomeLink.isVisible());
+            Assert.assertTrue("Login modal does not appear.", navigationHomeLink.containsText(text));
+//            Assert.assertTrue("Home link is not visible nor clickable", navigationHomeLink.isVisible());
         }
     }
 
@@ -72,45 +73,47 @@ public class LoginThroughModalPage extends AbstractPage {
         if (!isModalDisplayed) {
             isClickable = true;
         }
+
+        return isClickable;
     }
 
-        public void checkWarningMessage () {
-            String displayedWarning = "Invalid username password.";
+    public void checkWarningMessage() {
+        String displayedWarning = "Invalid username password.";
 
-            boolean isModalDisplayed = isModalDisplayed();
+        boolean isModalDisplayed = isModalDisplayed();
 
-            if (isModalDisplayed) {
-                String s = messageText.getText();
-                Assert.assertEquals(s, displayedWarning);
-            } else {
+        if (isModalDisplayed) {
+            String s = messageText.getText();
+            Assert.assertEquals(s, displayedWarning);
+        } else {
 
 //            System.out.println("ce avem aici -> " + isModalDisplayed);
-                Assert.assertFalse(isModalDisplayed);
-            }
-        }
-
-        // tells if modal is displayed or not
-        public boolean isModalDisplayed () {
-            boolean isDisplayed = false;
-            List<WebElement> modal = getDriver().findElements(By.cssSelector(".fancybox-outer"));
-//        System.out.println("modal size -> " + modal.size());
-
-            if (modal.size() == 1) {
-                isDisplayed = true;
-            }
-
-            return isDisplayed;
-        }
-
-        // checks which modal is displayed and then switches to Login
-        public void switchToLoginModal () {
-            String registerText = "registration form";
-            String loginText = "login";
-            boolean isSignInLink = titleText.containsText(registerText.toUpperCase());
-            if (isSignInLink) {
-                clickSignLink();
-            } else {
-                Assert.assertTrue("This is not the registration form!", titleText.containsText(loginText.toUpperCase()));
-            }
+            Assert.assertFalse(isModalDisplayed);
         }
     }
+
+    // tells if modal is displayed or not
+    public boolean isModalDisplayed() {
+        boolean isDisplayed = false;
+        List<WebElement> modal = getDriver().findElements(By.cssSelector(".fancybox-outer"));
+//        System.out.println("modal size -> " + modal.size());
+
+        if (modal.size() == 1) {
+            isDisplayed = true;
+        }
+
+        return isDisplayed;
+    }
+
+    // checks which modal is displayed and then switches to Login
+    public void switchToLoginModal() {
+        String registerText = "registration form";
+        String loginText = "login";
+        boolean isSignInLink = titleText.containsText(registerText.toUpperCase());
+        if (isSignInLink) {
+            clickSignLink();
+        } else {
+            Assert.assertTrue("This is not the registration form!", titleText.containsText(loginText.toUpperCase()));
+        }
+    }
+}

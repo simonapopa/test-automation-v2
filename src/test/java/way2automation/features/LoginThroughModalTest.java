@@ -21,13 +21,13 @@ public class LoginThroughModalTest {
     @Test
     public void loginWithNoCredentials() {
         user.openLogin();
-        user.submitLoginForm("","");
+        user.submitLoginForm("", "");
     }
 
     @Test
-    public void loginWithInvalidCredentials(){
+    public void loginWithInvalidCredentials() {
         user.openLogin();
-        user.submitLoginForm("invalid","invalid");
+        user.submitLoginForm("invalid", "invalid");
     }
 
     @Test

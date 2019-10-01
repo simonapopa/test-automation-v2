@@ -52,7 +52,7 @@ public class LoginThroughModalPage extends AbstractPage {
     // check that the Home from menu appears and that modal window is closed
     public void navigationHomeLinkVisible() {
         String text = "Home";
-        waitABit(5000);
+        waitABit(3000);
 
         System.out.println("home link = " + navigationHomeLink.getText() + "\n" + isModalDisplayed() + "\n" + navigationHomeLink.isVisible());
 
@@ -97,11 +97,9 @@ public class LoginThroughModalPage extends AbstractPage {
         boolean isDisplayed = false;
         List<WebElement> modal = getDriver().findElements(By.cssSelector(".fancybox-outer"));
 //        System.out.println("modal size -> " + modal.size());
-
         if (modal.size() == 1) {
             isDisplayed = true;
         }
-
         return isDisplayed;
     }
 

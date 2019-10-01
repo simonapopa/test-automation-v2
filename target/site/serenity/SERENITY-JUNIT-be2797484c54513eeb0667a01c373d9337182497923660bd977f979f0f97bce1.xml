@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="way2automation.features.LoginThroughModalTest" skipped="0" tests="1" time="21.11" timestamp="2019-06-28T16:23:47.906+03:00[Europe/Athens]"><testcase classname="way2automation.features.LoginThroughModalTest" name="Login with no credentials"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="way2automation.features.LoginThroughModalTest" skipped="0" tests="1" time="7.19" timestamp="2019-10-01T12:00:14.563+03:00[Europe/Athens]"><testcase classname="way2automation.features.LoginThroughModalTest" name="Login with no credentials"><error message="Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error><system-err>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver&#13;
+com.pages.AbstractPage.windowMaximize(AbstractPage.java:8)&#13;
+way2automation.steps.LoginThroughModalSteps.openLogin(LoginThroughModalSteps.java:11)&#13;
+way2automation.features.LoginThroughModalTest.loginWithNoCredentials(LoginThroughModalTest.java:23)&#13;
+</system-err></testcase></testsuite>

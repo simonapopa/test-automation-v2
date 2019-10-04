@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="way2automation.features.DropdownTest" skipped="0" tests="1" time="38.03" timestamp="2019-10-01T17:33:18.638+03:00[Europe/Athens]"><testcase classname="way2automation.features.DropdownTest" name="Select a given country"><failure message="The following error occurred: Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">The following error occurred: Expected enabled element was not enabled</failure><system-err>The following error occurred: Expected enabled element was not enabled&#13;
+way2automation.pages.DropdownPage.selectCountry(DropdownPage.java:47)&#13;
+way2automation.steps.DropdownSteps.chooseCountryFromDropdown(DropdownSteps.java:24)&#13;
+way2automation.features.DropdownTest.selectAGivenCountry(DropdownTest.java:33)&#13;
+</system-err></testcase></testsuite>

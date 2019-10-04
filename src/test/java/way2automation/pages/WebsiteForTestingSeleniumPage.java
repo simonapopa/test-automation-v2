@@ -104,4 +104,10 @@ public class WebsiteForTestingSeleniumPage extends AbstractPage {
                 + returnCountedBoxesForAlert() + returnCountedBoxesForDynamicElements();
         System.out.println("Total number of boxes below header Widget is " + sum);
     }
+
+    public void clickOnBoxDropdown(){
+        getDriver().findElement(By.cssSelector(".row div:nth-child(4) .boxed_style li a[href*=\"dropdown\"]")).click();
+    }
+
+
 }

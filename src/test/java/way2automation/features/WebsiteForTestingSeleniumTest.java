@@ -37,6 +37,7 @@ public class WebsiteForTestingSeleniumTest {
     @Test
 //    Assignment 4: Click on the box with name DROPDOWN
     public void clickOnBoxWithNameDropdown() {
-
+        login.loginWithExistingAccount();
+        user.findBoxDropdownAndClickOnIt();
     }
 }

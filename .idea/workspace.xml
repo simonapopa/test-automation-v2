@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="508bd6a1-a7d3-4afd-a550-28a80666a869" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/WebsiteForTestingSeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/WebsiteForTestingSeleniumPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/way2automation/steps/WebsiteForTestingSeleniumSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/DropdownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/DropdownPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/way2automation/steps/DropdownSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chromedriver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/chromedriver/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/features/LoginThroughModalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/LoginThroughModalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/features/WebsiteForTestingSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/WebsiteForTestingSeleniumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/LoginThroughModalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/LoginThroughModalPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-be2797484c54513eeb0667a01c373d9337182497923660bd977f979f0f97bce1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-be2797484c54513eeb0667a01c373d9337182497923660bd977f979f0f97bce1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/be2797484c54513eeb0667a01c373d9337182497923660bd977f979f0f97bce1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/be2797484c54513eeb0667a01c373d9337182497923660bd977f979f0f97bce1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/be2797484c54513eeb0667a01c373d9337182497923660bd977f979f0f97bce1.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/be2797484c54513eeb0667a01c373d9337182497923660bd977f979f0f97bce1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/WebsiteForTestingSeleniumPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/WebsiteForTestingSeleniumPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/steps/WebsiteForTestingSeleniumSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/steps/WebsiteForTestingSeleniumSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/features/WebsiteForTestingSeleniumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/features/WebsiteForTestingSeleniumTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/LoginThroughModalPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/LoginThroughModalPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/WebsiteForTestingSeleniumPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/WebsiteForTestingSeleniumPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/steps/WebsiteForTestingSeleniumSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/steps/WebsiteForTestingSeleniumSteps.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +67,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WebsiteForTestingSeleniumTest.countTotalNumberOfBoxes">
-    <configuration name="LoginThroughModalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DropdownTest">
+    <configuration name="DropdownTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationV3" />
       <extension name="coverage">
         <pattern>
@@ -81,13 +77,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="way2automation.features" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.LoginThroughModalTest" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.DropdownTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginThroughModalTest.loginWithExistingAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DropdownTest.enterAnExistingCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationV3" />
       <extension name="coverage">
         <pattern>
@@ -96,14 +92,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="way2automation.features" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.LoginThroughModalTest" />
-      <option name="METHOD_NAME" value="loginWithExistingAccount" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.DropdownTest" />
+      <option name="METHOD_NAME" value="enterAnExistingCountry" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginThroughModalTest.loginWithInvalidCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DropdownTest.enterCapitalLettersExistingCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationV3" />
       <extension name="coverage">
         <pattern>
@@ -112,14 +108,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="way2automation.features" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.LoginThroughModalTest" />
-      <option name="METHOD_NAME" value="loginWithInvalidCredentials" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.DropdownTest" />
+      <option name="METHOD_NAME" value="enterCapitalLettersExistingCountry" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginThroughModalTest.loginWithNoCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DropdownTest.enterLowerCaseExistingCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationV3" />
       <extension name="coverage">
         <pattern>
@@ -128,14 +124,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="way2automation.features" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.LoginThroughModalTest" />
-      <option name="METHOD_NAME" value="loginWithNoCredentials" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.DropdownTest" />
+      <option name="METHOD_NAME" value="enterLowerCaseExistingCountry" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebsiteForTestingSeleniumTest.countTotalNumberOfBoxes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DropdownTest.enterNumbersForCountryInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationV3" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +140,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="way2automation.features" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.WebsiteForTestingSeleniumTest" />
-      <option name="METHOD_NAME" value="countTotalNumberOfBoxes" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.DropdownTest" />
+      <option name="METHOD_NAME" value="enterNumbersForCountryInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WebsiteForTestingSeleniumTest.countTotalNumberOfBoxes" />
-        <item itemvalue="JUnit.LoginThroughModalTest.loginWithExistingAccount" />
-        <item itemvalue="JUnit.LoginThroughModalTest.loginWithNoCredentials" />
-        <item itemvalue="JUnit.LoginThroughModalTest.loginWithInvalidCredentials" />
-        <item itemvalue="JUnit.LoginThroughModalTest" />
+        <item itemvalue="JUnit.DropdownTest" />
+        <item itemvalue="JUnit.DropdownTest.enterNumbersForCountryInput" />
+        <item itemvalue="JUnit.DropdownTest.enterLowerCaseExistingCountry" />
+        <item itemvalue="JUnit.DropdownTest.enterCapitalLettersExistingCountry" />
+        <item itemvalue="JUnit.DropdownTest.enterAnExistingCountry" />
       </list>
     </recent_temporary>
   </component>
@@ -173,15 +169,6 @@
       <updated>1549376609792</updated>
     </task>
     <servers />
-  </component>
-  <component name="TodoView" selected-index="1">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

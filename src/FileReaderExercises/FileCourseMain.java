@@ -6,7 +6,6 @@ public class FileCourseMain {
 
     public static void main(String args[]) throws IOException {
 
-
         File file = new File("resources/fileTest.txt");
         FileWriter fl = new FileWriter(file, true);
         PrintWriter pw = new PrintWriter(new FileOutputStream(file, true), true);

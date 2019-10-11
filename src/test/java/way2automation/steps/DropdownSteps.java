@@ -26,7 +26,6 @@ public class DropdownSteps {
     @Step
     public void enterCountryInInputField(String country) {
         dropdownPage.clickEnterCountryTab();
-//        dropdownPage.selectArrow();
         dropdownPage.enterCountryInputAndCompareWithList(country);
     }
 

@@ -3,6 +3,7 @@ package way2automation.features;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
+import org.apache.http.auth.UsernamePasswordCredentials;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
@@ -33,6 +34,6 @@ public class LoginThroughModalTest {
     @Test
     public void loginWithExistingAccount() {
         user.openLogin();
-        user.submitLoginForm("test", "test");
+        user.submitLoginForm(Constants.USERNAME, Constants.PASSWORD);
     }
 }

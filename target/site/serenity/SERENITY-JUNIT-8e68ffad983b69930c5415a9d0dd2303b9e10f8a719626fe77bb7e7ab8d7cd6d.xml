@@ -1,5 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="way2automation.features.DropdownTest" skipped="0" tests="1" time="24.37" timestamp="2019-10-03T16:55:23.552+03:00[Europe/Athens]"><testcase classname="way2automation.features.DropdownTest" name="Enter numbers for country input"><failure message="Is not in the list" type="java.lang.AssertionError">Is not in the list</failure><system-err>Is not in the list&#13;
-way2automation.pages.DropdownPage.enterCountryInputAndCompareWithList(DropdownPage.java:105)&#13;
-way2automation.steps.DropdownSteps.enterCountryInInputField(DropdownSteps.java:30)&#13;
-way2automation.features.DropdownTest.enterNumbersForCountryInput(DropdownTest.java:61)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="way2automation.features.DropdownTest" skipped="0" tests="1" time="25.19" timestamp="2019-10-11T10:16:08.142+03:00[Europe/Athens]"><testcase classname="way2automation.features.DropdownTest" name="Enter numbers for country input"/></testsuite>

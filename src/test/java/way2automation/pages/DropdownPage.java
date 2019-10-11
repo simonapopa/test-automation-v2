@@ -37,14 +37,14 @@ public class DropdownPage extends AbstractPage {
     @FindBy(css = ".custom-combobox .custom-combobox-input")
     WebElementFacade inputFieldCountry;
 
-    @FindBy(css = "#ui-id-1")
-    WebElementFacade countryList;
-
     @FindBy(css = ".custom-combobox .ui-button")
     WebElementFacade arrowElement;
 
     @FindBy(css = "#ui-id-1 li")
     List<WebElementFacade> listCountries;
+
+    @FindBy(css = ".ui-menu-item")
+    WebElementFacade dropdownList;
 
     public void checkTitleInPage() {
         String text = "Dropdown";
@@ -60,20 +60,7 @@ public class DropdownPage extends AbstractPage {
     }
 
     public void clickEnterCountryTab() {
-        System.out.println("clicked");
         findTabEnterCountry.click();
-    }
-
-    public void selectArrow() {
-        System.out.println("1");
-        if (arrowElement.isCurrentlyVisible()) {
-            System.out.println("2");
-            arrowElement.click();
-        } else {
-            System.out.println("3");
-            waitABit(1000);
-            arrowElement.click();
-        }
     }
 
     // select country from
@@ -83,25 +70,44 @@ public class DropdownPage extends AbstractPage {
         Assert.assertThat(countryDropdown.getSelectedValue(), is(country));
     }
 
+    // check if country entered is a number or not
+    public boolean isCountryNumeric(String country) {
+        try {
+            double d = Double.parseDouble(country);
+        } catch (NumberFormatException | NullPointerException e) {
+            return false;
+        }
+        return true;
+    }
+
     // enter country in 2nd tab and compare value with list
     public void enterCountryInputAndCompareWithList(String country) {
         boolean flag = false;
-        String countryToUpperCase = country.substring(0, 1).toUpperCase();
-
-//        System.out.println("enterCountryInputAndCompareWithList");
         getDriver().switchTo().frame(secondTabIframe);
+        arrowElement.click();
+
+        // if country is not numeric
+        if (!isCountryNumeric(country)) {
+            country = country.substring(0, 1).toUpperCase() + country.substring(1);
+        }
+
         inputFieldCountry.type(country);
-        getDriver().findElement(By.cssSelector(".ui-menu-item"));
+
+        if (!dropdownList.isVisible() || !dropdownList.isPresent()) {
+            arrowElement.click();
+        }
 
         for (WebElementFacade e : listCountries) {
-            if (e.getText().contains(countryToUpperCase)) {
-                System.out.println("e text");
+            if (e.getText().contains(country)) {
                 e.click();
                 flag = true;
+                Assert.assertTrue("Is not in the list", flag);
                 break;
             }
-            arrowElement.click();
-            Assert.assertTrue("Is not in the list", flag);
+            if (!e.getText().contains(country)) {
+                Assert.assertFalse("Is in the list", flag);
+                break;
+            }
         }
     }
 }

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="way2automation.features.dynamicElements.SubmitButtonTest" skipped="0" tests="1" time="22.3" timestamp="2019-10-14T15:11:19.946+03:00[Europe/Athens]"><testcase classname="way2automation.features.dynamicElements.SubmitButtonTest" name="Starts with empty value"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+way2automation.steps.dynamicElements.SubmitButtonSteps.currentPageIsSubmitButton(SubmitButtonSteps.java:15)&#13;
+way2automation.features.dynamicElements.SubmitButtonTest.startsWithEmptyValue(SubmitButtonTest.java:27)&#13;
+</system-err></testcase></testsuite>

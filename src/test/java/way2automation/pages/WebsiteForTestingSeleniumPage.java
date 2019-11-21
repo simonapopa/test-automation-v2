@@ -109,5 +109,8 @@ public class WebsiteForTestingSeleniumPage extends AbstractPage {
         getDriver().findElement(By.cssSelector(".row div:nth-child(4) .boxed_style li a[href*=\"dropdown\"]")).click();
     }
 
+    public void clickOnBoxSubmitButton(){
+        getDriver().findElement(By.cssSelector(".row div:nth-child(4) ul li a[href*=\"submit_button_clicked.php\"]")).click();
+    }
 
 }

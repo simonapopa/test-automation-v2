@@ -1,13 +1,11 @@
 package way2automation.steps;
 
 import net.thucydides.core.annotations.Step;
-import way2automation.pages.DropdownPage;
-import way2automation.pages.LoginThroughModalPage;
+import way2automation.pages.dynamicElements.DropdownPage;
 import way2automation.pages.WebsiteForTestingSeleniumPage;
 
 public class WebsiteForTestingSeleniumSteps {
     WebsiteForTestingSeleniumPage page;
-    LoginThroughModalPage loginModal;
     DropdownPage dropdownPage;
 
     @Step
@@ -26,5 +24,4 @@ public class WebsiteForTestingSeleniumSteps {
         page.clickOnBoxDropdown();
         dropdownPage.checkTitleInPage();
     }
-
 }

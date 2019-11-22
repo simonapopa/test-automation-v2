@@ -112,4 +112,8 @@ public class WebsiteForTestingSeleniumPage extends AbstractPage {
     public void clickOnBoxSubmitButton() {
         getDriver().findElement(By.cssSelector(".row div:nth-child(4) ul li a[href*=\"submit_button_clicked.php\"]")).click();
     }
+
+    public void clickOnRegistration(){
+        getDriver().findElement(By.cssSelector(".container.main-nav ul li a[href^=\"registration\"]"));
+    }
 }

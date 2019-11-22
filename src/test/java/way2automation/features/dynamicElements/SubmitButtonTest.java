@@ -67,20 +67,20 @@ public class SubmitButtonTest {
     public void completeIdDynamicEmptyValue() {
 //        login.loginWithExistingAccount();
 //        user.currentPageIsSubmitButton();
-        user.enterAndSubmitEndsWith("");
+        user.enterAndSubmitCompleteIdDynamic("");
     }
 
     @Test
     public void completeIdDynamicLetters() {
 //        login.loginWithExistingAccount();
 //        user.currentPageIsSubmitButton();
-        user.enterAndSubmitEndsWith("test");
+        user.enterAndSubmitCompleteIdDynamic("test");
     }
 
     @Test
     public void completeIdDynamicAlphaNumericValue() {
 //        login.loginWithExistingAccount();
 //        user.currentPageIsSubmitButton();
-        user.enterAndSubmitEndsWith("test1234");
+        user.enterAndSubmitCompleteIdDynamic("test1234");
     }
 }

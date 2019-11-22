@@ -62,7 +62,6 @@ public class SubmitButtonPage extends AbstractPage {
         String text = "Submit Button Clicked";
 
         if (text == findTitle.getText()) {
-            System.out.println("1");
             Assert.assertTrue("Title is 'Submit button clicked'", findTitle.containsText(text));
         } else {
             Assert.assertTrue("Different values.", findTitle.containsText(text));

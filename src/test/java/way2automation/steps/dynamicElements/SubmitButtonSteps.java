@@ -14,4 +14,19 @@ public class SubmitButtonSteps {
         initialPage.clickOnBoxSubmitButton();
         submitButtonPage.checkTitleInPage();
     }
+
+    @Step
+    public void enterAndSubmitStartsWith(String value){
+        submitButtonPage.completeStartsWithTab(value);
+    }
+
+    @Step
+    public void enterAndSubmitEndsWith(String value){
+        submitButtonPage.completeEndsWithTab(value);
+    }
+
+    @Step
+    public void enterAndSubmitCompleteIdDynamic(String value){
+        submitButtonPage.completeIdDynamicTab(value);
+    }
 }

@@ -1,13 +1,10 @@
 package way2automation.pages.dynamicElements;
 
 import com.pages.AbstractPage;
-import io.vavr.API;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 

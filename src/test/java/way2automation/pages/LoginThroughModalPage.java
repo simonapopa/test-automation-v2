@@ -52,8 +52,7 @@ public class LoginThroughModalPage extends AbstractPage {
     // check that the Home from menu appears and that modal window is closed
     public void navigationHomeLinkVisible() {
         String text = "Home";
-
-        System.out.println("home link = " + navigationHomeLink.getText() + "\n" + isModalDisplayed() + "\n" + navigationHomeLink.isVisible());
+        //System.out.println("home link = " + navigationHomeLink.getText() + "\n" + isModalDisplayed() + "\n" + navigationHomeLink.isVisible());
 
         if (isModalDisplayed()) {
             Assert.assertTrue("Login modal appears.", isModalDisplayed());

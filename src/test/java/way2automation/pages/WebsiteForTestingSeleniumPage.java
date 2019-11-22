@@ -105,12 +105,11 @@ public class WebsiteForTestingSeleniumPage extends AbstractPage {
         System.out.println("Total number of boxes below header Widget is " + sum);
     }
 
-    public void clickOnBoxDropdown(){
+    public void clickOnBoxDropdown() {
         getDriver().findElement(By.cssSelector(".row div:nth-child(4) .boxed_style li a[href*=\"dropdown\"]")).click();
     }
 
-    public void clickOnBoxSubmitButton(){
+    public void clickOnBoxSubmitButton() {
         getDriver().findElement(By.cssSelector(".row div:nth-child(4) ul li a[href*=\"submit_button_clicked.php\"]")).click();
     }
-
 }

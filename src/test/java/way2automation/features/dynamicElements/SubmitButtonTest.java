@@ -22,13 +22,65 @@ public class SubmitButtonTest {
     LoginThroughModalTest login;
 
     @Test
-    public void startsWithEmptyValue(){
-        login.loginWithExistingAccount();
-        user.currentPageIsSubmitButton();
+    public void startsWithEmptyValue() {
+//        login.loginWithExistingAccount();
+//        user.currentPageIsSubmitButton();
+        user.enterAndSubmitStartsWith("");
     }
 
     @Test
-    public void startsWithAlphaNumericValue(){
+    public void startsWithLetters() {
+//        login.loginWithExistingAccount();
+//        user.currentPageIsSubmitButton();
+        user.enterAndSubmitStartsWith("test");
+    }
 
+    @Test
+    public void startsWithAlphaNumericValue() {
+//        login.loginWithExistingAccount();
+//        user.currentPageIsSubmitButton();
+        user.enterAndSubmitStartsWith("test1234");
+    }
+
+    @Test
+    public void endsWithEmptyValue() {
+//        login.loginWithExistingAccount();
+//        user.currentPageIsSubmitButton();
+        user.enterAndSubmitEndsWith("");
+    }
+
+    @Test
+    public void endsWithAlphaNumericValue() {
+//        login.loginWithExistingAccount();
+//        user.currentPageIsSubmitButton();
+        user.enterAndSubmitEndsWith("test");
+    }
+
+    @Test
+    public void endsWithLetters() {
+//        login.loginWithExistingAccount();
+//        user.currentPageIsSubmitButton();
+        user.enterAndSubmitEndsWith("test1234");
+    }
+
+    @Test
+    public void completeIdDynamicEmptyValue() {
+//        login.loginWithExistingAccount();
+//        user.currentPageIsSubmitButton();
+        user.enterAndSubmitEndsWith("");
+    }
+
+    @Test
+    public void completeIdDynamicLetters() {
+//        login.loginWithExistingAccount();
+//        user.currentPageIsSubmitButton();
+        user.enterAndSubmitEndsWith("test");
+    }
+
+    @Test
+    public void completeIdDynamicAlphaNumericValue() {
+//        login.loginWithExistingAccount();
+//        user.currentPageIsSubmitButton();
+        user.enterAndSubmitEndsWith("test1234");
     }
 }

@@ -2,34 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="508bd6a1-a7d3-4afd-a550-28a80666a869" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/dynamicElements/SubmitButtonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/SubmitButtonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/way2automation/steps/dynamicElements/SubmitButtonSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/dynamicElements/SubmitButtonGroupTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/features/DropdownStepGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/dynamicElements/DropdownStepGroupTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/features/DropdownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/dynamicElements/DropdownTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/DropdownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/DropdownPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/features/dynamicElements/SubmitButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/dynamicElements/SubmitButtonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/LoginThroughModalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/LoginThroughModalPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/WebsiteForTestingSeleniumPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/WebsiteForTestingSeleniumPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/steps/DropdownSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/steps/dynamicElements/DropdownSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/steps/WebsiteForTestingSeleniumSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/steps/WebsiteForTestingSeleniumSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-90f569b25f544f85ad7223a006d33bddeb3434d673f51a5be6a84d085f6431ae.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-f3f436707c39071d61ff48bb70e1c013d87f9eee9beefb97c9ce9ee3318d2bf0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-f3f436707c39071d61ff48bb70e1c013d87f9eee9beefb97c9ce9ee3318d2bf0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/DropdownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/DropdownPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/SubmitButtonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/SubmitButtonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/steps/dynamicElements/SubmitButtonSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/steps/dynamicElements/SubmitButtonSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/50af9d37ff66747ad0b67c30296a9cf13873a23db475e2cb14c80a1d1ce5e201.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/50af9d37ff66747ad0b67c30296a9cf13873a23db475e2cb14c80a1d1ce5e201.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/50af9d37ff66747ad0b67c30296a9cf13873a23db475e2cb14c80a1d1ce5e201.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/50af9d37ff66747ad0b67c30296a9cf13873a23db475e2cb14c80a1d1ce5e201.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/50af9d37ff66747ad0b67c30296a9cf13873a23db475e2cb14c80a1d1ce5e201_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/50af9d37ff66747ad0b67c30296a9cf13873a23db475e2cb14c80a1d1ce5e201_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-50af9d37ff66747ad0b67c30296a9cf13873a23db475e2cb14c80a1d1ce5e201.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-50af9d37ff66747ad0b67c30296a9cf13873a23db475e2cb14c80a1d1ce5e201.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/d46e69e384d4bcab9c79fd5b43328da21761cf8d02cbeb7fb2d20ebd412360f2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d46e69e384d4bcab9c79fd5b43328da21761cf8d02cbeb7fb2d20ebd412360f2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/d46e69e384d4bcab9c79fd5b43328da21761cf8d02cbeb7fb2d20ebd412360f2.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d46e69e384d4bcab9c79fd5b43328da21761cf8d02cbeb7fb2d20ebd412360f2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/d46e69e384d4bcab9c79fd5b43328da21761cf8d02cbeb7fb2d20ebd412360f2_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d46e69e384d4bcab9c79fd5b43328da21761cf8d02cbeb7fb2d20ebd412360f2_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/f3f436707c39071d61ff48bb70e1c013d87f9eee9beefb97c9ce9ee3318d2bf0.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/f3f436707c39071d61ff48bb70e1c013d87f9eee9beefb97c9ce9ee3318d2bf0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/f3f436707c39071d61ff48bb70e1c013d87f9eee9beefb97c9ce9ee3318d2bf0.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/f3f436707c39071d61ff48bb70e1c013d87f9eee9beefb97c9ce9ee3318d2bf0.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/f3f436707c39071d61ff48bb70e1c013d87f9eee9beefb97c9ce9ee3318d2bf0_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/f3f436707c39071d61ff48bb70e1c013d87f9eee9beefb97c9ce9ee3318d2bf0_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/features/DropdownStepGroupTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/features/DropdownTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/DropdownPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/WebsiteForTestingSeleniumPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/WebsiteForTestingSeleniumPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/steps/DropdownSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/steps/WebsiteForTestingSeleniumSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/steps/WebsiteForTestingSeleniumSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/MainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/features/dynamicElements/SubmitButtonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/features/dynamicElements/SubmitButtonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/LoginThroughModalPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/LoginThroughModalPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/dynamicElements/DropdownPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/dynamicElements/DropdownPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/dynamicElements/SubmitButtonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/dynamicElements/SubmitButtonPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/steps/dynamicElements/SubmitButtonSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/steps/dynamicElements/SubmitButtonSteps.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +74,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SubmitButtonTest.startsWithEmptyValue">
-    <configuration name="DropdownStepGroupTest.dropdownTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SubmitButtonGroupTest.submitTest">
+    <configuration name="SubmitButtonGroupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationV3" />
       <extension name="coverage">
         <pattern>
@@ -93,14 +84,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="way2automation.features.dynamicElements" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.dynamicElements.DropdownStepGroupTest" />
-      <option name="METHOD_NAME" value="dropdownTests" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.dynamicElements.SubmitButtonGroupTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmitButtonGroupTest.submitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationV3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="way2automation.features.dynamicElements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="way2automation.features.dynamicElements" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.dynamicElements.SubmitButtonGroupTest" />
+      <option name="METHOD_NAME" value="submitTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropdownTest.searchForAnExistingCountryInDropdownInFrameOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubmitButtonGroupTest.testSuiteSubmitButtonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationV3" />
       <extension name="coverage">
         <pattern>
@@ -109,14 +115,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="way2automation.features.dynamicElements" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.dynamicElements.DropdownTest" />
-      <option name="METHOD_NAME" value="searchForAnExistingCountryInDropdownInFrameOne" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.dynamicElements.SubmitButtonGroupTest" />
+      <option name="METHOD_NAME" value="testSuiteSubmitButtonTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropdownTest.searchForAnInexistentCountryInDropdownInFrameOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubmitButtonTest.endsWithEmptyValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationV3" />
       <extension name="coverage">
         <pattern>
@@ -125,24 +131,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="way2automation.features.dynamicElements" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.dynamicElements.DropdownTest" />
-      <option name="METHOD_NAME" value="searchForAnInexistentCountryInDropdownInFrameOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DropdownTest.searchForNumberInDropdownInFrameOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomationV3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="way2automation.features.dynamicElements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="way2automation.features.dynamicElements" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.dynamicElements.DropdownTest" />
-      <option name="METHOD_NAME" value="searchForNumberInDropdownInFrameOne" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.dynamicElements.SubmitButtonTest" />
+      <option name="METHOD_NAME" value="endsWithEmptyValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SubmitButtonGroupTest.submitTest" />
+        <item itemvalue="JUnit.SubmitButtonTest.endsWithEmptyValue" />
+        <item itemvalue="JUnit.SubmitButtonGroupTest" />
+        <item itemvalue="JUnit.SubmitButtonGroupTest.testSuiteSubmitButtonTest" />
         <item itemvalue="JUnit.SubmitButtonTest.startsWithEmptyValue" />
-        <item itemvalue="JUnit.DropdownTest.searchForAnInexistentCountryInDropdownInFrameOne" />
-        <item itemvalue="JUnit.DropdownStepGroupTest.dropdownTests" />
-        <item itemvalue="JUnit.DropdownTest.searchForNumberInDropdownInFrameOne" />
-        <item itemvalue="JUnit.DropdownTest.searchForAnExistingCountryInDropdownInFrameOne" />
       </list>
     </recent_temporary>
   </component>

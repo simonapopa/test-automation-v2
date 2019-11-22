@@ -1,45 +1,67 @@
 package way2automation.pages.dynamicElements;
 
+import com.pages.AbstractPage;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.junit.Assert;
 
 @DefaultUrl("http://way2automation.com/way2auto_jquery/index.php")
-public class SubmitButtonPage {
+public class SubmitButtonPage extends AbstractPage {
 
-    @FindBy(css = "#wrapper div > h1")
+    //title
+    @FindBy(css = ".container.margin-top-20 > h1:nth-child(1)")
     WebElementFacade findTitle;
 
-    @FindBy(css = ".responsive-tabs li[class=\"active\"]")
-    WebElementFacade activeTab;
+    //starts with tab elements
+    @FindBy(css = "#example-1-tab-1 .demo-frame")
+    WebElementFacade startsWithFrame;
 
-    @FindBy(css = ".responsive-tabs li a[href*=\"#example-1-tab-1\"]")
-    WebElementFacade startsWithTab;
+    //elements common to all tabs
+    @FindBy(css = "body > form > input[type=text]")
+    WebElementFacade inputField;
 
+    @FindBy(css = "body > form > input[type=button]")
+    WebElementFacade submitButton;
+
+    //ends with tab elements
     @FindBy(css = ".responsive-tabs li a[href*=\"#example-1-tab-2\"]")
     WebElementFacade endsWithTab;
 
+    @FindBy(css = "#example-1-tab-2 .demo-frame")
+    WebElementFacade endsWithFrame;
+
+    //complete id dynamic tab elements
     @FindBy(css = ".responsive-tabs li a[href*=\"#example-1-tab-3\"]")
     WebElementFacade completeIdDynamicTab;
 
-    public void clickOnStartsWithTab() {
-        startsWithTab.click();
+    @FindBy(css = "#example-1-tab-3 .demo-frame")
+    WebElementFacade completeIdDynamicFrame;
+
+    //common actions
+    public void clickSubmit() {
+        submitButton.click();
     }
 
-    public void clickOnEndsWithTab() {
+    public void fillInputField(String s) {
+        inputField.type(s);
+    }
+
+    //ends with tab: actions
+    public void clickEndsWithTab() {
         endsWithTab.click();
     }
 
-    public void clickOnCompleteIdDynamic() {
+    //complete id dynamic tab: actions
+    public void clickCompleteIdDynamicTab() {
         completeIdDynamicTab.click();
     }
 
+    //check current page is Submit button clicked
     public void checkTitleInPage() {
-        String text = "Submit button clicked";
-        System.out.println("find title =" + findTitle.getValue());
+        String text = "Submit Button Clicked";
 
-        if (text == findTitle.getValue()) {
+        if (text == findTitle.getText()) {
             System.out.println("1");
             Assert.assertTrue("Title is 'Submit button clicked'", findTitle.containsText(text));
         } else {
@@ -47,5 +69,26 @@ public class SubmitButtonPage {
         }
     }
 
+    //fill starts with tab
+    public void completeStartsWithTab(String s) {
+        getDriver().switchTo().frame(startsWithFrame);
+        fillInputField(s);
+        clickSubmit();
+    }
 
+    //fill ends with tab
+    public void completeEndsWithTab(String s) {
+        clickEndsWithTab();
+        getDriver().switchTo().frame(endsWithFrame);
+        fillInputField(s);
+        clickSubmit();
+    }
+
+    //fill complete id dynamic
+    public void completeIdDynamicTab(String s) {
+        clickCompleteIdDynamicTab();
+        getDriver().switchTo().frame(completeIdDynamicFrame);
+        fillInputField(s);
+        clickSubmit();
+    }
 }

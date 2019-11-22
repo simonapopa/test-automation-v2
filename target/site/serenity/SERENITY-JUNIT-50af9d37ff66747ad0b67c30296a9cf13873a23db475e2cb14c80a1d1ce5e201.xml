@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="way2automation.features.dynamicElements.SubmitButtonTest" skipped="0" tests="1" time="22.3" timestamp="2019-10-14T15:11:19.946+03:00[Europe/Athens]"><testcase classname="way2automation.features.dynamicElements.SubmitButtonTest" name="Starts with empty value"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="way2automation.features.dynamicElements.SubmitButtonTest" skipped="0" tests="1" time="21.73" timestamp="2019-11-22T13:35:57.812+02:00[Europe/Athens]"><testcase classname="way2automation.features.dynamicElements.SubmitButtonTest" name="Starts with empty value"><failure message="Different values." type="java.lang.AssertionError">Different values.</failure><system-err>Different values.&#13;
+way2automation.pages.dynamicElements.SubmitButtonPage.checkTitleInPage(SubmitButtonPage.java:87)&#13;
 way2automation.steps.dynamicElements.SubmitButtonSteps.currentPageIsSubmitButton(SubmitButtonSteps.java:15)&#13;
 way2automation.features.dynamicElements.SubmitButtonTest.startsWithEmptyValue(SubmitButtonTest.java:27)&#13;
 </system-err></testcase></testsuite>

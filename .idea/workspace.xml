@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="508bd6a1-a7d3-4afd-a550-28a80666a869" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/RegisterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/way2automation/steps/RegisterSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/features/dynamicElements/SubmitButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/dynamicElements/SubmitButtonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/features/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/WebsiteForTestingSeleniumPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/WebsiteForTestingSeleniumPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/SubmitButtonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/SubmitButtonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/5b5645009ab7ed374aa5d91c8886d64fc09c1c46e19d4491593b9abf8553be3a.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5b5645009ab7ed374aa5d91c8886d64fc09c1c46e19d4491593b9abf8553be3a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/5b5645009ab7ed374aa5d91c8886d64fc09c1c46e19d4491593b9abf8553be3a.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5b5645009ab7ed374aa5d91c8886d64fc09c1c46e19d4491593b9abf8553be3a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/5b5645009ab7ed374aa5d91c8886d64fc09c1c46e19d4491593b9abf8553be3a_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5b5645009ab7ed374aa5d91c8886d64fc09c1c46e19d4491593b9abf8553be3a_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-5b5645009ab7ed374aa5d91c8886d64fc09c1c46e19d4491593b9abf8553be3a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-5b5645009ab7ed374aa5d91c8886d64fc09c1c46e19d4491593b9abf8553be3a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/steps/RegisterSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/steps/RegisterSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/steps/dynamicElements/SubmitButtonSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/steps/dynamicElements/SubmitButtonSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/features/dynamicElements/SubmitButtonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/features/dynamicElements/SubmitButtonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/WebsiteForTestingSeleniumPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/WebsiteForTestingSeleniumPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/dynamicElements/SubmitButtonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/dynamicElements/SubmitButtonPage.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +20,9 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TestAutomationV3" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,18 +67,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SubmitButtonGroupTest.submitTest">
-    <configuration name="SubmitButtonGroupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RegisterTest.submitEmptyRegistrationForm">
+    <configuration name="RegisterTest.firstest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationV3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="way2automation.features.dynamicElements.*" />
+          <option name="PATTERN" value="way2automation.features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="way2automation.features.dynamicElements" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.dynamicElements.SubmitButtonGroupTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="way2automation.features" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.RegisterTest" />
+      <option name="METHOD_NAME" value="firstest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTest.submitEmptyRegistrationForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationV3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="way2automation.features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="way2automation.features" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.RegisterTest" />
+      <option name="METHOD_NAME" value="submitEmptyRegistrationForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTest.submitValidDataForAllFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationV3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="way2automation.features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="way2automation.features" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.RegisterTest" />
+      <option name="METHOD_NAME" value="submitValidDataForAllFields" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,22 +127,6 @@
       <option name="PACKAGE_NAME" value="way2automation.features.dynamicElements" />
       <option name="MAIN_CLASS_NAME" value="way2automation.features.dynamicElements.SubmitButtonGroupTest" />
       <option name="METHOD_NAME" value="submitTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubmitButtonGroupTest.testSuiteSubmitButtonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomationV3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="way2automation.features.dynamicElements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="way2automation.features.dynamicElements" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.dynamicElements.SubmitButtonGroupTest" />
-      <option name="METHOD_NAME" value="testSuiteSubmitButtonTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,29 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubmitButtonTest.startsWithEmptyValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomationV3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="way2automation.features.dynamicElements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="way2automation.features.dynamicElements" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.dynamicElements.SubmitButtonTest" />
-      <option name="METHOD_NAME" value="startsWithEmptyValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegisterTest.submitEmptyRegistrationForm" />
+        <item itemvalue="JUnit.RegisterTest.submitValidDataForAllFields" />
+        <item itemvalue="JUnit.RegisterTest.firstest" />
         <item itemvalue="JUnit.SubmitButtonGroupTest.submitTest" />
         <item itemvalue="JUnit.SubmitButtonTest.endsWithEmptyValue" />
-        <item itemvalue="JUnit.SubmitButtonGroupTest" />
-        <item itemvalue="JUnit.SubmitButtonGroupTest.testSuiteSubmitButtonTest" />
-        <item itemvalue="JUnit.SubmitButtonTest.startsWithEmptyValue" />
       </list>
     </recent_temporary>
   </component>

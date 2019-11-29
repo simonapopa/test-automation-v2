@@ -16,17 +16,17 @@ public class SubmitButtonSteps {
     }
 
     @Step
-    public void enterAndSubmitStartsWith(String value){
+    public void enterAndSubmitStartsWith(String value) {
         submitButtonPage.completeStartsWithTab(value);
     }
 
     @Step
-    public void enterAndSubmitEndsWith(String value){
+    public void enterAndSubmitEndsWith(String value) {
         submitButtonPage.completeEndsWithTab(value);
     }
 
     @Step
-    public void enterAndSubmitCompleteIdDynamic(String value){
+    public void enterAndSubmitCompleteIdDynamic(String value) {
         submitButtonPage.completeIdDynamicTab(value);
     }
 }

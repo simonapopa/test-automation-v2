@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="deb20747-63b8-45b0-b91f-4290736c50fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileReaderExercises/FileCourseMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileReaderExercises/FileCourseMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileReaderExercises/FileMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileReaderExercises/FileMain.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path=".idea/" />
-    <ignored path="E:\Tranings\EvoJavaTraining\.idea\shelf/" />
-    <ignored path="C:\Users\evozon\IdeaProjects\FirstProject\.idea\shelf/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,52 +15,6 @@
   <component name="ErrorTreeViewConfiguration">
     <option name="hideWarnings" value="true" />
     <option name="HIDE_WARNINGS" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FileReaderExercises/FileCourseMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="11" selection-start-line="17" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MenuApp/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="32" selection-start-line="20" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FileReaderExercises/FileMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OtherMethods/ReadNumbersFromKeyboard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2312">
-              <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,127 +39,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/Animal.java" />
-        <option value="$PROJECT_DIR$/src/GameMain.java" />
-        <option value="$PROJECT_DIR$/src/Game2ndSession/Medical.java" />
-        <option value="$PROJECT_DIR$/src/Game2ndSession/Cat.java" />
-        <option value="$PROJECT_DIR$/src/Game2ndSession/Dog.java" />
-        <option value="$PROJECT_DIR$/src/Game2ndSession/Bird.java" />
-        <option value="$PROJECT_DIR$/src/Game2ndSession/Doctor.java" />
-        <option value="$PROJECT_DIR$/src/Game2ndSession/Human.java" />
-        <option value="$PROJECT_DIR$/src/Game2ndSession/GameMain.java" />
-        <option value="$PROJECT_DIR$/src/ThirdSessionMain.java" />
-        <option value="$PROJECT_DIR$/src/ForthSessionMain.java" />
-        <option value="$PROJECT_DIR$/src/LogicalOperation.java" />
-        <option value="$PROJECT_DIR$/src/IfSwitchExercises/ThirdSessionMain.java" />
-        <option value="$PROJECT_DIR$/src/LoopExercises/ForthSessionMain.java" />
-        <option value="$PROJECT_DIR$/src/CollectionsMethods.java" />
-        <option value="$PROJECT_DIR$/src/FifthSessionMain.java" />
-        <option value="$PROJECT_DIR$/src/Game2ndSession/Animal.java" />
-        <option value="$PROJECT_DIR$/src/ArraysListsExercises/FifthSessionMain.java" />
-        <option value="$PROJECT_DIR$/src/HashMapMain.java" />
-        <option value="$PROJECT_DIR$/src/HashMapMethods.java" />
-        <option value="$PROJECT_DIR$/src/ArraysListsExercises/ArrayListMain.java" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Temp1_Archive.zip/OperatiiLogice.java" />
-        <option value="$PROJECT_DIR$/src/Meniu.java" />
-        <option value="$PROJECT_DIR$/src/Menu.java" />
-        <option value="$PROJECT_DIR$/src/ReadNumberFromKey.java" />
-        <option value="$PROJECT_DIR$/src/IfSwitchExercises/IfSwitchMain.java" />
-        <option value="$PROJECT_DIR$/src/IfSwitchExercises/IfSwitchMethods.java" />
-        <option value="$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMethods.java" />
-        <option value="$PROJECT_DIR$/src/LoopExercises/LoopMethods.java" />
-        <option value="$PROJECT_DIR$/src/LoopExercises/LoopMain.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/ArraysListsExercises/ReadNumbersFromKeyboard.java" />
-        <option value="$PROJECT_DIR$/src/HashMapsExercises/HashMapMethods.java" />
-        <option value="$PROJECT_DIR$/src/HashMapsExercises/HashMapMain.java" />
-        <option value="$PROJECT_DIR$/src/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/ConsoleMain.java" />
-        <option value="$PROJECT_DIR$/src/MenuMain.java" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Meniu.java" />
-        <option value="$PROJECT_DIR$/src/MenuControl.java" />
-        <option value="$PROJECT_DIR$/src/Login.java" />
-        <option value="$PROJECT_DIR$/src/OtherMethods/ReadNumbersFromKeyboard.java" />
-        <option value="$PROJECT_DIR$/src/StringExercises/StringMain.java" />
-        <option value="$PROJECT_DIR$/src/StringExercises/StringMethods.java" />
-        <option value="$PROJECT_DIR$/src/OtherMethods/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMain.java" />
-        <option value="$PROJECT_DIR$/src/FileReaderExercises/config.properties" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa0.832/Meniu.java" />
-        <option value="$PROJECT_DIR$/src/MenuApp/MenuControl.java" />
-        <option value="$PROJECT_DIR$/src/MenuApp/Login.java" />
-        <option value="$PROJECT_DIR$/src/FileReaderExercises/FileMain.java" />
-        <option value="$PROJECT_DIR$/src/FileReaderExercises/FileCourseMain.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <option name="groupStructurally" value="true" />
-    <option name="alwaysShowArtifactId" value="true" />
-    <option name="showVersions" value="true" />
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="width" value="1350" />
-    <option name="height" value="735" />
-  </component>
   <component name="ProjectId" id="1RnPB4jI5bRLy1WzCNs4BI4o8UB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="EvoJavaTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EvoJavaTraining" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EvoJavaTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EvoJavaTraining" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EvoJavaTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EvoJavaTraining" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FileReaderExercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EvoJavaTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EvoJavaTraining" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MenuApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EvoJavaTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EvoJavaTraining" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="OtherMethods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EvoJavaTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EvoJavaTraining" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="StringExercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -229,18 +61,6 @@
       <recent name="E:\Tranings\EvoJavaTraining\resources" />
       <recent name="E:\Tranings\EvoJavaTraining" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.MenuMain">
     <configuration name="HashMapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -304,10 +124,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.HashMapMain" />
       <item itemvalue="Application.Login" />
       <item itemvalue="Application.LoopMain" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.MenuMain" />
       <item itemvalue="Application.StringMain" />
     </list>
@@ -351,304 +171,34 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.1704698" />
-      <window_info id="Structure" order="1" sideWeight="0.5015674" side_tool="true" weight="0.20469798" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3270869" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49848714" visible="true" weight="0.3101983" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50075644" side_tool="true" weight="0.32197616" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49924356" weight="0.28186968" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.39795917" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.3270869" />
-      <window_info anchor="bottom" id="Maven Projects" order="10" weight="0.3270869" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49848714" weight="0.3243626" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="5" weight="0.24962178" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="7" />
-    </layout>
-  </component>
   <component name="Vcs.Log.History.Properties">
     <option name="SHOW_OTHER_BRANCHES" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1580571464581">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580571464581" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Game2ndSession/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game2ndSession/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/src/Game2ndSession/Doctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game2ndSession/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game2ndSession/Bird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game2ndSession/GameMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game2ndSession/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Archive.zip/Calculator.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Archive.zip/Citire.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Archive.zip/Main.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Archive.zip/OperatiiLogice.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/HashMap.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.727/src/Main.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.727/src/Meniu.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.620/src/operatii/Calculator.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.606/src/citire/Citire.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="527" column="96" selection-start-line="527" selection-start-column="96" selection-end-line="527" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashMapsExercises/HashMapMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="87" column="40" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Calculator.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/OperatiiLogice.java" />
-    <entry file="file://$PROJECT_DIR$/src/HashMapsExercises/HashMapMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Login.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Citire.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Meniu.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Main.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.918/src/operatii/OperatiiLogice.java" />
-    <entry file="file://$PROJECT_DIR$/src/StringExercises/StringMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="228" column="17" selection-start-line="228" selection-start-column="17" selection-end-line="228" selection-end-column="17" />
-          <folding>
-            <element signature="e#8432#8433#0" expanded="true" />
-            <element signature="e#8482#8483#0" expanded="true" />
-            <element signature="e#8641#8642#0" expanded="true" />
-            <element signature="e#8684#8685#0" expanded="true" />
-            <element signature="e#8886#8887#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StringExercises/StringMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="71" column="93" selection-start-line="71" selection-start-column="83" selection-end-line="71" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="60" selection-start-line="26" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherMethods/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="171" column="5" selection-start-line="171" selection-start-column="5" selection-end-line="171" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#adunare#0;class#Calculator#0" />
-            <element signature="method#adunare#1;class#Calculator#0" />
-            <element signature="method#secondExercise#0;class#Calculator#0" />
-            <element signature="e#2691#2692#0" expanded="true" />
-            <element signature="e#2757#2758#0" expanded="true" />
-            <element signature="e#2925#2926#0" expanded="true" />
-            <element signature="e#2962#2963#0" expanded="true" />
-            <element signature="e#3146#3147#0" expanded="true" />
-            <element signature="e#3207#3208#0" expanded="true" />
-            <element signature="method#forthExercise#0;class#Calculator#0" />
-            <element signature="e#5748#5749#0" expanded="true" />
-            <element signature="e#5809#5810#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IfSwitchExercises/IfSwitchMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="150" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IfSwitchExercises/IfSwitchMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1309">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LoopExercises/LoopMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="79" column="34" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LoopExercises/LoopMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getSecondSmallestElementFromArray#0;class#CollectionsMethods#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysListsExercises/CollectionsMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="34" column="34" selection-start-line="34" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.400/citire/Citire.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.430/operatii/OperatiiLogice.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.430/operatii/Calculator.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.094/Main.java" />
-    <entry file="file://$PROJECT_DIR$/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.599/Login.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.832/Meniu.java" />
-    <entry file="file://$PROJECT_DIR$/src/MenuApp/MenuControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuApp/MenuMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileReaderExercises/FileCourseMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="11" selection-start-line="17" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuApp/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="32" selection-start-line="20" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileReaderExercises/FileMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherMethods/ReadNumbersFromKeyboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
-          <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

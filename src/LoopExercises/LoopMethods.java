@@ -2,32 +2,18 @@ package LoopExercises;
 
 public class LoopMethods {
 
-
-    // For loop example: Print max from an array
-    public void printMaxFromArrayForEach() {
-        int[] array = {2, 1, 6, 8, 3, 0, 7, 4};
-        int max = array[0];
-        for ( int i : array ) {
-            if (i > max) {
-                max = i;
-            }
-        }
-        System.out.println("Max = " + max);
-    }
     //For loop exercise: 4. Write a program called SumAndAverage to produce the sum of 1, 2, 3, ..., to 100.
     //Also compute and display the average.
-
     public void sumAndAverage() {
         int sum = 0;
         double average;
 
-        for ( int i = 1; i <= 100; i++ ) {
+        for (int i = 1; i <= 100; i++) {
             sum += i;
         }
         average = sum / 100;
         System.out.println("Sum is " + sum + " and average is " + average);
     }
-
 
     //For loop exercise: 3. Write a Java program by using two for loops to produce the output shown below:
     //*******
@@ -38,67 +24,15 @@ public class LoopMethods {
     //**
     //*
 
-    public void outputLikeTreeSimplified() {
+    public void outputLikeTreeSimplified(char ch) {
         int i, j;
-        char ch = '*';
-        for ( i = 0; i <= 7; i++ ) {
-
-            for ( j = i; j <= 7; j++ ) {
+        for (i = 0; i <= 7; i++) {
+            for (j = i; j <= 7; j++) {
                 System.out.print(ch);
                 if (i == 7) break;
             }
             System.out.println();
         }
-    }
-
-    public void outputLikeTreeMultipleForLoops() {
-        int i;
-        char ch = '*';
-
-        for ( i = 0; i <= 7; i++ ) {
-
-            System.out.print(ch);
-
-        }
-        System.out.println();
-        for ( i = 0; i <= 6; i++ ) {
-
-            System.out.print(ch);
-
-        }
-        System.out.println();
-        for ( i = 0; i <= 5; i++ ) {
-
-            System.out.print(ch);
-
-        }
-        System.out.println();
-        for ( i = 0; i <= 4; i++ ) {
-
-            System.out.print(ch);
-
-        }
-        System.out.println();
-        for ( i = 0; i <= 3; i++ ) {
-
-            System.out.print(ch);
-
-        }
-        System.out.println();
-        for ( i = 0; i <= 2; i++ ) {
-
-            System.out.print(ch);
-
-        }
-        System.out.println();
-        for ( i = 0; i <= 1; i++ ) {
-
-            System.out.print(ch);
-
-        }
-        System.out.println();
-        System.out.print(ch);
-
     }
 
     // For loop exercise: 2. Write a java program to count backwards from a given number to a lower given
@@ -107,27 +41,26 @@ public class LoopMethods {
         int sum;
         if (first > second) {
             sum = first - second;
-            for ( int i = first; i >= sum; i-- )
+            for (int i = first; i >= sum; i--)
                 System.out.println(i);
         } else {
             sum = second - first;
-            for ( int i = second; i >= sum; i-- )
+            for (int i = second; i >= sum; i--)
                 System.out.println(i);
         }
     }
 
     public void getTwoNrVersion(int first, int second) {
-
-        for ( int i = first; i >= second; i-- )
+        for (int i = first; i >= second; i--)
             System.out.println(i);
 
-        for ( int i = second; i >= first; i-- )
+        for (int i = second; i >= first; i--)
             System.out.println(i);
     }
 
     //For loop exercise: 1. Given a number, while the number is equal to or lower than 100, print the number;
     public void givenNumberHundred(int nr) {
-        for ( int i = nr; i <= 100; i++ ) {
+        for (int i = nr; i <= 100; i++) {
             System.out.println(i);
             break;
         }
@@ -135,12 +68,9 @@ public class LoopMethods {
 
     // Loop exercise: 1. Modify previous ex 4. to use “while-do” loop instead of “for” loop
     public void getTwoNumbersWithWhile(int first, int second) {
-
         int i = first;
-        // int j = second;
         while (i >= second) {
             System.out.println(i--);
-
         }
         while (second >= first) {
             System.out.println(second--);
@@ -154,7 +84,6 @@ public class LoopMethods {
     }
 
     // Loop exercise: 2. Modify the program to use a "do-while" loop.
-
     public void getTwoNumbersWithDoWhile(int first, int second) {
         int i = first;
 
@@ -164,7 +93,6 @@ public class LoopMethods {
 
         do {
             System.out.println(second--);
-
         } while (second > first);
 
     }
@@ -185,7 +113,6 @@ public class LoopMethods {
 
         average = sum / count;
         System.out.println("Sum is " + sum + " and count=" + count + " and average=" + average);
-
     }
 
     // Loop exercse: 4.Write a program to sum only the odd numbers from 1 to 100, and compute the average.
@@ -207,7 +134,6 @@ public class LoopMethods {
     }
 
     // 5. Write a program to sum those numbers from 1 to 100 that is divisible by 7, and compute the average.
-
     public void getSumOfNumbersDivisibleBySevenAndComputeAverage() {
         int count = 0;
         int sum = 0;
@@ -247,9 +173,8 @@ public class LoopMethods {
     //Coza 13 Woza CozaLoza 16 17 Coza 19 Loza CozaWoza 22
     //23 Coza Loza 26 Coza Woza 29 CozaLoza 31 32 Coza
     public void CozaLozaWoza() {
-        int i, j;
-        for ( j = 1; j <= 110; j++ ) {
-
+        int j;
+        for (j = 1; j <= 110; j++) {
             if ((j % 3 == 0 && j % 5 == 0)) {
                 System.out.println("CozaLoza" + " ");
             } else if (j % 3 == 0) {
@@ -266,5 +191,3 @@ public class LoopMethods {
         }
     }
 }
-
-

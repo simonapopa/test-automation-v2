@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-01-31T14:16:24</date>
+  <millis>1548936984734</millis>
+  <sequence>0</sequence>
+  <logger>Create log file errors</logger>
+  <level>INFO</level>
+  <class>Game2ndSession.DatabaseTest</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start testing connection</message>
+</record>
+<record>
+  <date>2019-01-31T14:16:26</date>
+  <millis>1548936986245</millis>
+  <sequence>1</sequence>
+  <logger>Create log file errors</logger>
+  <level>INFO</level>
+  <class>Game2ndSession.DatabaseTest</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Finish testing connection</message>
+</record>
+</log>

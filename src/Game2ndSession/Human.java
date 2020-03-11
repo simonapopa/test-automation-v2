@@ -30,7 +30,4 @@ public class Human {
     public void askMedicalHelp(){
         System.out.println("Help!");
     }
-    public void buyFood(){
-        System.out.println("Buying food... finished!");
-    }
 }

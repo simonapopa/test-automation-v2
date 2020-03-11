@@ -1,0 +1,16 @@
+----------------------------------------------------------------
+Thu Jan 31 14:16:25 EET 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0168-a3d6-ba32-00000a69fb58 
+on database directory C:\Users\simonapopa\IdeaProjects\JavaOOPTraining\test.db with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/C:/Users/simonapopa/IdeaProjects/JavaOOPTraining/src/Game2ndSession/resources/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_171-b11
+user.dir=C:\Users\simonapopa\IdeaProjects\JavaOOPTraining
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 31 14:16:26 EET 2019:
+Shutting down instance a816c00e-0168-a3d6-ba32-00000a69fb58 on database directory C:\Users\simonapopa\IdeaProjects\JavaOOPTraining\test.db with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 

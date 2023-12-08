@@ -9,8 +9,5 @@
         <module name="TestAutomationV3" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="TestAutomationV3" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

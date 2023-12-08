@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="508bd6a1-a7d3-4afd-a550-28a80666a869" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/features/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/RegisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/WebsiteForTestingSeleniumPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/WebsiteForTestingSeleniumPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/steps/RegisterSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/steps/RegisterSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/steps/dynamicElements/SubmitButtonSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/steps/dynamicElements/SubmitButtonSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/WebsiteForTestingSeleniumPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/WebsiteForTestingSeleniumPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/dynamicElements/SubmitButtonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/dynamicElements/SubmitButtonPage.class" afterDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="508bd6a1-a7d3-4afd-a550-28a80666a869" name="Default Changelist" comment="maven-failsafe-plugin fix dependencies" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +12,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="TestAutomationV3" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,20 +21,34 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectId" id="1RYUA3HhqhQAh1dwliddN9s8yHn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557496660311" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/chromedriver.exe" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-    <property name="show.unlinked.gradle.project.popup" value="false" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/simonabucur/IdeaProjects/test-automation-v2/pom.xml",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.43103448",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -54,18 +57,6 @@
       <recent name="C:\Users\simonapopa\IdeaProjects\TestAutomationV3\src\test\java\com\pages" />
       <recent name="C:\Users\simonapopa\IdeaProjects\TestAutomationV3\src\test\resources" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="JUnit.RegisterTest.submitEmptyRegistrationForm">
     <configuration name="RegisterTest.firstest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -158,6 +149,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\simonapopa\AppData\Roaming\Subversion</configuration>
   </component>
@@ -169,6 +161,31 @@
       <option name="presentableId" value="Default" />
       <updated>1549376609792</updated>
     </task>
+    <task id="LOCAL-00001" summary="new changes">
+      <option name="closed" value="true" />
+      <created>1702050846241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702050846241</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commiting new dependancy fixes and upgrades">
+      <option name="closed" value="true" />
+      <created>1702062855204</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702062855204</updated>
+    </task>
+    <task id="LOCAL-00003" summary="maven-failsafe-plugin fix dependencies">
+      <option name="closed" value="true" />
+      <created>1702063770529</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702063770529</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,12 +193,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new changes" />
+    <MESSAGE value="commiting new dependancy fixes and upgrades" />
+    <MESSAGE value="maven-failsafe-plugin fix dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven-failsafe-plugin fix dependencies" />
   </component>
 </project>

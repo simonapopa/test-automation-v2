@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="508bd6a1-a7d3-4afd-a550-28a80666a869" name="Default Changelist" comment="commiting new dependancy fixes and upgrades">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="508bd6a1-a7d3-4afd-a550-28a80666a869" name="Default Changelist" comment="maven-failsafe-plugin fix dependencies" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702062855204</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="maven-failsafe-plugin fix dependencies">
+      <option name="closed" value="true" />
+      <created>1702063770529</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702063770529</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +202,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new changes" />
     <MESSAGE value="commiting new dependancy fixes and upgrades" />
-    <option name="LAST_COMMIT_MESSAGE" value="commiting new dependancy fixes and upgrades" />
+    <MESSAGE value="maven-failsafe-plugin fix dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven-failsafe-plugin fix dependencies" />
   </component>
 </project>

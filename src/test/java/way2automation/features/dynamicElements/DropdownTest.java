@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import way2automation.features.LoginThroughModalTest;
 import way2automation.steps.dynamicElements.DropdownSteps;
-import way2automation.steps.WebsiteForTestingSeleniumSteps;
 
 @RunWith(SerenityRunner.class)
 public class DropdownTest {

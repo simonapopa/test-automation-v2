@@ -5,8 +5,8 @@ import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.By;
-
-@DefaultUrl("http://way2automation.com/way2auto_jquery/index.php")
+import way2automation.Constants;
+@DefaultUrl(Constants.URL)
 public class WebsiteForTestingSeleniumPage extends AbstractPage {
 
     // identify all headers in page

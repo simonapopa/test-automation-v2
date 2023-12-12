@@ -8,8 +8,9 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import java.util.List;
+import way2automation.Constants;
 
-@DefaultUrl("http://way2automation.com/way2auto_jquery/index.php")
+@DefaultUrl(Constants.URL +"#login")
 public class LoginThroughModalPage extends AbstractPage {
     @FindBy(css = ".fancybox-inner h3")
     WebElementFacade titleText;

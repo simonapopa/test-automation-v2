@@ -7,12 +7,12 @@ import net.thucydides.core.annotations.DefaultUrl;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
+import way2automation.Constants;
 import java.util.List;
 
 import static org.hamcrest.Matchers.is;
 
-@DefaultUrl("http://way2automation.com/way2auto_jquery/index.php")
+@DefaultUrl(Constants.URL)
 public class RegisterThroughModalPage extends AbstractPage {
 
     @FindBy(css = ".fancybox-inner h3")

@@ -5,8 +5,9 @@ import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.junit.Assert;
+import way2automation.Constants;
 
-@DefaultUrl("http://way2automation.com/way2auto_jquery/index.php")
+@DefaultUrl(Constants.URL)
 public class SubmitButtonPage extends AbstractPage {
 
     //title

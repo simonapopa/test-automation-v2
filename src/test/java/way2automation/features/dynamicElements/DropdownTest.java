@@ -86,7 +86,7 @@ public class DropdownTest {
     }
 
     @Test
-    public void enterLastValueFromCountryInFrameTwo(){
+    public void enterLastValueFromCountryInFrameTwo() {
 //        login.loginWithExistingAccount();
 //        user.currentPageIsDropdown();
         user.chooseCountryFromDropdown("Zimbabwe");
@@ -100,18 +100,16 @@ public class DropdownTest {
     }
 
     @Test
-    public void enterSpaceInCountryInputInFrameTwo(){
+    public void enterSpaceInCountryInputInFrameTwo() {
 //        login.loginWithExistingAccount();
 //        user.currentPageIsDropdown();
         user.enterCountryInInputField(" ");
     }
 
     @Test
-    public void enterSpaceThenAnExistingCountryInFrameTwo(){
+    public void enterSpaceThenAnExistingCountryInFrameTwo() {
 //        login.loginWithExistingAccount();
 //        user.currentPageIsDropdown();
         user.enterCountryInInputField(" Albania");
     }
-
-
 }

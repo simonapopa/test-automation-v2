@@ -5,9 +5,7 @@ import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.junit.Assert;
-
 import java.util.List;
-
 import static org.hamcrest.Matchers.is;
 
 @DefaultUrl("http://way2automation.com/way2auto_jquery/index.php")

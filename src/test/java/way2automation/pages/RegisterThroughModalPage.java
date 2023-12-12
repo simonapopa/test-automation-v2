@@ -88,7 +88,6 @@ public class RegisterThroughModalPage extends AbstractPage {
         boolean isDisplayed = false;
         List<WebElement> modal = getDriver().findElements(By.cssSelector(".fancybox-outer"));
 //        System.out.println("modal size -> " + modal.size());
-
         if (modal.size() == 1) {
             isDisplayed = true;
         }

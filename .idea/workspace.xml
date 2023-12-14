@@ -4,40 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="508bd6a1-a7d3-4afd-a550-28a80666a869" name="Default Changelist" comment="- make DefaultUrl as contant and replace wherever needed&#10;- add Trello board">
+    <list default="true" id="508bd6a1-a7d3-4afd-a550-28a80666a869" name="Default Changelist" comment="maven-failsafe-plugin fix dependencies">
+      <change afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/AbstractPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAutomationV3.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chromedriver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/chromedriver/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/AbstractPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/LoginThroughModalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/LoginThroughModalPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterThroughModalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterThroughModalPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/WebsiteForTestingSeleniumPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/WebsiteForTestingSeleniumPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/DropdownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/DropdownPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/SubmitButtonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/SubmitButtonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/features/search/SearchByKeywordStoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/features/search/SearchByKeywordStoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/AbstractPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/DictionaryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pages/DictionaryPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/steps/serenity/EndUserSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/steps/serenity/EndUserSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/features/LoginThroughModalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/features/LoginThroughModalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/features/RegisterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/features/RegisterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/features/RegisterThroughModalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/features/RegisterThroughModalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/features/dynamicElements/DropdownTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/features/dynamicElements/DropdownTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/features/dynamicElements/SubmitButtonGroupTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/features/dynamicElements/SubmitButtonGroupTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/features/dynamicElements/SubmitButtonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/features/dynamicElements/SubmitButtonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/LoginThroughModalPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/LoginThroughModalPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/RegisterPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/RegisterThroughModalPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/RegisterThroughModalPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/WebsiteForTestingSeleniumPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/WebsiteForTestingSeleniumPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/dynamicElements/DropdownPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/dynamicElements/DropdownPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/dynamicElements/SubmitButtonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/dynamicElements/SubmitButtonPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,15 +36,16 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
   <component name="ProjectId" id="1RYUA3HhqhQAh1dwliddN9s8yHn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -79,46 +54,26 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;JUnit.RegisterTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegisterTest.submitEmptyRegistrationForm.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegisterTest.submitValidDataForAllFields.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/simonabucur/IdeaProjects/test-automation-v2/pom.xml&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.43103448&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.ChangelistConflict&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.archetype.catalogs&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\simonapopa\IdeaProjects\TestAutomationV3\src\test\java\com\pages" />
       <recent name="C:\Users\simonapopa\IdeaProjects\TestAutomationV3\src\test\resources" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.RegisterTest">
-    <configuration name="RegisterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomationV3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="way2automation.features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="way2automation.features" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.RegisterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RegisterTest.submitEmptyRegistrationForm">
     <configuration name="RegisterTest.firstest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationV3" />
       <extension name="coverage">
@@ -183,19 +138,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubmitButtonTest.endsWithEmptyValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationV3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="way2automation.features.dynamicElements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="way2automation.features.dynamicElements" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.dynamicElements.SubmitButtonTest" />
+      <option name="METHOD_NAME" value="endsWithEmptyValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RegisterTest" />
         <item itemvalue="JUnit.RegisterTest.submitEmptyRegistrationForm" />
         <item itemvalue="JUnit.RegisterTest.submitValidDataForAllFields" />
         <item itemvalue="JUnit.RegisterTest.firstest" />
         <item itemvalue="JUnit.SubmitButtonGroupTest.submitTest" />
+        <item itemvalue="JUnit.SubmitButtonTest.endsWithEmptyValue" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
-    <configuration>C:\Users\simonabucur\AppData\Roaming\Subversion</configuration>
+    <configuration>C:\Users\simonapopa\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -229,47 +200,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702063770529</updated>
     </task>
-    <task id="LOCAL-00004" summary="initial updated java files">
-      <option name="closed" value="true" />
-      <created>1702406856151</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1702406856151</updated>
-    </task>
-    <task id="LOCAL-00005" summary="remove spaces, unused libraries">
-      <option name="closed" value="true" />
-      <created>1702407786901</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1702407786901</updated>
-    </task>
-    <task id="LOCAL-00006" summary="remove spaces, unused libraries">
-      <option name="closed" value="true" />
-      <created>1702410308769</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1702410308769</updated>
-    </task>
-    <task id="LOCAL-00007" summary="- make DefaultUrl as contant and replace wherever needed&#10;- add Trello board">
-      <option name="closed" value="true" />
-      <created>1702418463475</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1702418463475</updated>
-    </task>
-    <task id="LOCAL-00008" summary="- make DefaultUrl as contant and replace wherever needed&#10;- add Trello board">
-      <option name="closed" value="true" />
-      <created>1702418531550</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1702418531550</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,19 +208,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="remove-unused-code" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -299,9 +218,6 @@
     <MESSAGE value="new changes" />
     <MESSAGE value="commiting new dependancy fixes and upgrades" />
     <MESSAGE value="maven-failsafe-plugin fix dependencies" />
-    <MESSAGE value="initial updated java files" />
-    <MESSAGE value="remove spaces, unused libraries" />
-    <MESSAGE value="- make DefaultUrl as contant and replace wherever needed&#10;- add Trello board" />
-    <option name="LAST_COMMIT_MESSAGE" value="- make DefaultUrl as contant and replace wherever needed&#10;- add Trello board" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven-failsafe-plugin fix dependencies" />
   </component>
 </project>

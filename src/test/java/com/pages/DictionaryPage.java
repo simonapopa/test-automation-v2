@@ -2,7 +2,6 @@ package com.pages;
 
 import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import net.serenitybdd.core.pages.WebElementFacade;
 import java.util.stream.Collectors;
 

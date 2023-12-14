@@ -1,16 +1,15 @@
 package way2automation.pages.dynamicElements;
 
-import com.pages.AbstractPage;
+import way2automation.pages.AbstractPage;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.junit.Assert;
-
 import java.util.List;
-
 import static org.hamcrest.Matchers.is;
+import way2automation.Constants;
 
-@DefaultUrl("http://way2automation.com/way2auto_jquery/index.php")
+@DefaultUrl(Constants.URL)
 public class DropdownPage extends AbstractPage {
 
     @FindBy(css = "#wrapper > div > h1")

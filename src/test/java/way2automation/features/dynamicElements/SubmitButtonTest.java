@@ -7,7 +7,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import way2automation.features.LoginThroughModalTest;
-import way2automation.steps.WebsiteForTestingSeleniumSteps;
 import way2automation.steps.dynamicElements.SubmitButtonSteps;
 
 @RunWith(SerenityRunner.class)

@@ -1,1 +1,4 @@
 /src/test/java/way2automation/MainClass.java
+/target
+/.idea
+/node_modules

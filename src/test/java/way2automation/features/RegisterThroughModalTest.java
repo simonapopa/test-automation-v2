@@ -11,7 +11,6 @@ import way2automation.steps.RegisterThroughModalSteps;
 @RunWith(SerenityRunner.class)
 
 public class RegisterThroughModalTest {
-
     @Managed(uniqueSession = true)
     public WebDriver webdriver;
 
@@ -34,7 +33,6 @@ public class RegisterThroughModalTest {
     public void submitOtherThanDefaultCountryAndUseExistingAccountToRegister(){
         user.openRegistration();
         user.submitRegistrationForm("test","123456789","test@test.com","Albania","test","test","test");
-
     }
 
     @Test

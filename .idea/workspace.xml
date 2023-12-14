@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="508bd6a1-a7d3-4afd-a550-28a80666a869" name="Default Changelist" comment="maven-failsafe-plugin fix dependencies">
-      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chromedriver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/chromedriver/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/AbstractPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/features/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/RegisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/LoginThroughModalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/LoginThroughModalPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterThroughModalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterThroughModalPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/WebsiteForTestingSeleniumPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/WebsiteForTestingSeleniumPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/DropdownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/DropdownPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/SubmitButtonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/SubmitButtonPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="508bd6a1-a7d3-4afd-a550-28a80666a869" name="Default Changelist" comment="- update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,16 +28,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
-    {
-      "state": "OPEN"
-    }
-  ],
-  "lastFilter": {
-    "state": "OPEN"
-  }
-}]]></component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
@@ -208,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702063770529</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- update">
+      <option name="closed" value="true" />
+      <created>1702551243914</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702551243914</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +218,7 @@
     <MESSAGE value="new changes" />
     <MESSAGE value="commiting new dependancy fixes and upgrades" />
     <MESSAGE value="maven-failsafe-plugin fix dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven-failsafe-plugin fix dependencies" />
+    <MESSAGE value="- update" />
+    <option name="LAST_COMMIT_MESSAGE" value="- update" />
   </component>
 </project>

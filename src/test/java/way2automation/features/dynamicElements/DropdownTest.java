@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import way2automation.features.LoginThroughModalTest;
 import way2automation.steps.dynamicElements.DropdownSteps;
-import way2automation.steps.WebsiteForTestingSeleniumSteps;
 
 @RunWith(SerenityRunner.class)
 public class DropdownTest {
@@ -86,7 +85,7 @@ public class DropdownTest {
     }
 
     @Test
-    public void enterLastValueFromCountryInFrameTwo(){
+    public void enterLastValueFromCountryInFrameTwo() {
 //        login.loginWithExistingAccount();
 //        user.currentPageIsDropdown();
         user.chooseCountryFromDropdown("Zimbabwe");
@@ -100,18 +99,16 @@ public class DropdownTest {
     }
 
     @Test
-    public void enterSpaceInCountryInputInFrameTwo(){
+    public void enterSpaceInCountryInputInFrameTwo() {
 //        login.loginWithExistingAccount();
 //        user.currentPageIsDropdown();
         user.enterCountryInInputField(" ");
     }
 
     @Test
-    public void enterSpaceThenAnExistingCountryInFrameTwo(){
+    public void enterSpaceThenAnExistingCountryInFrameTwo() {
 //        login.loginWithExistingAccount();
 //        user.currentPageIsDropdown();
         user.enterCountryInInputField(" Albania");
     }
-
-
 }

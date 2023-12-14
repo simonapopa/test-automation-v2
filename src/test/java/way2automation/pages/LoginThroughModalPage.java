@@ -6,10 +6,10 @@ import net.thucydides.core.annotations.DefaultUrl;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
 import java.util.List;
+import way2automation.Constants;
 
-@DefaultUrl("http://way2automation.com/way2auto_jquery/index.php")
+@DefaultUrl(Constants.URL +"#login")
 public class LoginThroughModalPage extends AbstractPage {
     @FindBy(css = ".fancybox-inner h3")
     WebElementFacade titleText;
@@ -83,8 +83,6 @@ public class LoginThroughModalPage extends AbstractPage {
             String s = messageText.getText();
             Assert.assertEquals(s, displayedWarning);
         } else {
-
-//            System.out.println("ce avem aici -> " + isModalDisplayed);
             Assert.assertFalse(isModalDisplayed);
         }
     }

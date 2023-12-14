@@ -19,7 +19,7 @@ public class RegisterThroughModalSteps {
     }
 
     @Step
-    public void submitRegistrationForm(String name, String phone, String email, String country,String city, String username, String password) {
+    public void submitRegistrationForm(String name, String phone, String email, String country, String city, String username, String password) {
         registerPage.findFormTitle();
         registerPage.enterName(name);
         registerPage.enterPhone(phone);

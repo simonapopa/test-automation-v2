@@ -1,6 +1,6 @@
 package way2automation.pages.dynamicElements;
 
-import com.pages.AbstractPage;
+import way2automation.pages.AbstractPage;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;

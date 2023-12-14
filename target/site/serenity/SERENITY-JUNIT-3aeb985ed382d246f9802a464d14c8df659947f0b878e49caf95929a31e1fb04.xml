@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="way2automation.features.RegisterTest" skipped="0" tests="1" time="12.43" timestamp="2023-12-14 12:18:56"><testcase classname="way2automation.features.RegisterTest" name="Submit empty registration form"><error message="Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error><system-err>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver&#13;
+way2automation.pages.AbstractPage.windowMaximize(AbstractPage.java:31)&#13;
+way2automation.steps.LoginThroughModalSteps.openLogin(LoginThroughModalSteps.java:15)&#13;
+way2automation.features.LoginThroughModalTest.loginWithExistingAccount(LoginThroughModalTest.java:35)&#13;
+way2automation.features.RegisterTest.submitEmptyRegistrationForm(RegisterTest.java:24)&#13;
+</system-err></testcase></testsuite>

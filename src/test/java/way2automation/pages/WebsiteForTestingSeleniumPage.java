@@ -1,11 +1,9 @@
 package way2automation.pages;
 
-import com.pages.AbstractPage;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
 @DefaultUrl("http://way2automation.com/way2auto_jquery/index.php")
 public class WebsiteForTestingSeleniumPage extends AbstractPage {

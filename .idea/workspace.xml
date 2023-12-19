@@ -6,16 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="508bd6a1-a7d3-4afd-a550-28a80666a869" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterThroughModalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterThroughModalPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/39d578cf98b7424768f42d209fd9adacdf7a3ec73f85d0bc1f87cbee23e5e42d.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/39d578cf98b7424768f42d209fd9adacdf7a3ec73f85d0bc1f87cbee23e5e42d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/39d578cf98b7424768f42d209fd9adacdf7a3ec73f85d0bc1f87cbee23e5e42d.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/39d578cf98b7424768f42d209fd9adacdf7a3ec73f85d0bc1f87cbee23e5e42d.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/3aeb985ed382d246f9802a464d14c8df659947f0b878e49caf95929a31e1fb04.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3aeb985ed382d246f9802a464d14c8df659947f0b878e49caf95929a31e1fb04.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/3aeb985ed382d246f9802a464d14c8df659947f0b878e49caf95929a31e1fb04.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3aeb985ed382d246f9802a464d14c8df659947f0b878e49caf95929a31e1fb04.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-3aeb985ed382d246f9802a464d14c8df659947f0b878e49caf95929a31e1fb04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-3aeb985ed382d246f9802a464d14c8df659947f0b878e49caf95929a31e1fb04.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/features/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/register/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/features/RegisterThroughModalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/features/register/RegisterThroughModalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/register/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/RegisterThroughModalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/register/RegisterThroughModalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/DropdownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/DropdownPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/steps/RegisterSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/steps/register/RegisterSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/steps/RegisterThroughModalSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/steps/register/RegisterThroughModalSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/f45d05d474380e55672426515587d59c211e17525e0dc897a106164ff7bc8143.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/f45d05d474380e55672426515587d59c211e17525e0dc897a106164ff7bc8143.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/f45d05d474380e55672426515587d59c211e17525e0dc897a106164ff7bc8143.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/f45d05d474380e55672426515587d59c211e17525e0dc897a106164ff7bc8143.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/requirements/way2automation.features-package-requirements.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/requirements/way2automation.features-package-requirements.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/features/RegisterThroughModalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/features/RegisterThroughModalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/RegisterThroughModalPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/RegisterThroughModalPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/dynamicElements/DropdownPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/dynamicElements/DropdownPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +69,8 @@
     "JUnit.RegisterTest.executor": "Run",
     "JUnit.RegisterTest.submitEmptyRegistrationForm.executor": "Run",
     "JUnit.RegisterThroughModalTest.executor": "Run",
+    "JUnit.RegisterThroughModalTest.submitDefaultCountryAndNewAccountWithValidRequiredFields.executor": "Run",
+    "JUnit.RegisterThroughModalTest.submitDefaultCountryAndUseExistingAccountToRegister.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -92,29 +96,13 @@
       <module name="TestAutomationV3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="way2automation.features.*" />
+          <option name="PATTERN" value="way2automation.features.register.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="way2automation.features" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.RegisterTest" />
+      <option name="PACKAGE_NAME" value="way2automation.features.register" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.register.RegisterTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegisterTest.firstest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomationV3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="way2automation.features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="way2automation.features" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.RegisterTest" />
-      <option name="METHOD_NAME" value="firstest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,29 +111,13 @@
       <module name="TestAutomationV3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="way2automation.features.*" />
+          <option name="PATTERN" value="way2automation.features.register.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="way2automation.features" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.RegisterTest" />
+      <option name="PACKAGE_NAME" value="way2automation.features.register" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.register.RegisterTest" />
       <option name="METHOD_NAME" value="submitEmptyRegistrationForm" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegisterTest.submitValidDataForAllFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomationV3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="way2automation.features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="way2automation.features" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.RegisterTest" />
-      <option name="METHOD_NAME" value="submitValidDataForAllFields" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,13 +127,45 @@
       <module name="TestAutomationV3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="way2automation.features.*" />
+          <option name="PATTERN" value="way2automation.features.register.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="way2automation.features" />
-      <option name="MAIN_CLASS_NAME" value="way2automation.features.RegisterThroughModalTest" />
+      <option name="PACKAGE_NAME" value="way2automation.features.register" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.register.RegisterThroughModalTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterThroughModalTest.submitDefaultCountryAndNewAccountWithValidRequiredFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationV3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="way2automation.features.register.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="way2automation.features.register" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.register.RegisterThroughModalTest" />
+      <option name="METHOD_NAME" value="submitDefaultCountryAndNewAccountWithValidRequiredFields" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterThroughModalTest.submitDefaultCountryAndUseExistingAccountToRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationV3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="way2automation.features.register.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="way2automation.features.register" />
+      <option name="MAIN_CLASS_NAME" value="way2automation.features.register.RegisterThroughModalTest" />
+      <option name="METHOD_NAME" value="submitDefaultCountryAndUseExistingAccountToRegister" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,10 +173,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RegisterThroughModalTest" />
+        <item itemvalue="JUnit.RegisterThroughModalTest.submitDefaultCountryAndNewAccountWithValidRequiredFields" />
+        <item itemvalue="JUnit.RegisterThroughModalTest.submitDefaultCountryAndUseExistingAccountToRegister" />
         <item itemvalue="JUnit.RegisterTest" />
         <item itemvalue="JUnit.RegisterTest.submitEmptyRegistrationForm" />
-        <item itemvalue="JUnit.RegisterTest.submitValidDataForAllFields" />
-        <item itemvalue="JUnit.RegisterTest.firstest" />
       </list>
     </recent_temporary>
   </component>

@@ -1,4 +1,4 @@
-package way2automation.features;
+package way2automation.features.register;
 
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
@@ -6,7 +6,8 @@ import net.thucydides.core.annotations.Steps;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
-import way2automation.steps.RegisterSteps;
+import way2automation.features.LoginThroughModalTest;
+import way2automation.steps.register.RegisterSteps;
 
 @RunWith(SerenityRunner.class)
 public class RegisterTest {

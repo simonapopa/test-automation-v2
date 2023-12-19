@@ -1,4 +1,4 @@
-package way2automation.pages;
+package way2automation.pages.register;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -7,6 +7,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import way2automation.Constants;
+import way2automation.pages.AbstractPage;
 
 import java.util.List;
 

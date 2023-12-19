@@ -1,4 +1,4 @@
-package way2automation.features;
+package way2automation.features.register;
 
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
@@ -6,7 +6,7 @@ import net.thucydides.core.annotations.Steps;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
-import way2automation.steps.RegisterThroughModalSteps;
+import way2automation.steps.register.RegisterThroughModalSteps;
 
 @RunWith(SerenityRunner.class)
 
@@ -26,7 +26,7 @@ public class RegisterThroughModalTest {
     @Test
     public void submitDefaultCountryAndUseExistingAccountToRegister(){
         user.openRegistration();
-        user.submitRegistrationForm("test","123456789","test@test.com","","test","test","test");
+        user.submitRegistrationForm("test","123456789","test@test.com","India","test","test","test");
     }
 
     @Test
@@ -38,7 +38,7 @@ public class RegisterThroughModalTest {
     @Test
     public void submitDefaultCountryAndNewAccountWithValidRequiredFields(){
         user.openRegistration();
-        user.submitRegistrationForm("test","123456789","simonatretretrefdysjsdfedffkgfddfds@test.com","","test","test","test");
+        user.submitRegistrationForm("test","123456789","simonatretretrefdysjsdfedffkgfddfds@test.com","India","test","test","test");
         // need to generate accounts randomly
     }
 }

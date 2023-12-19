@@ -1,7 +1,7 @@
-package way2automation.steps;
+package way2automation.steps.register;
 
 import net.thucydides.core.annotations.Step;
-import way2automation.pages.RegisterPage;
+import way2automation.pages.register.RegisterPage;
 import way2automation.pages.WebsiteForTestingSeleniumPage;
 
 public class RegisterSteps {

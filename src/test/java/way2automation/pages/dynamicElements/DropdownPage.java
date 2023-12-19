@@ -58,7 +58,7 @@ public class DropdownPage extends AbstractPage {
 
         if (countryDropdown.containsValue(country)) {
             countryDropdown.selectByValue(country);
-            Assert.assertThat(countryDropdown.getSelectedValue(), is(country));
+            Assert.assertEquals(countryDropdown.getSelectedValue(), country);
         } else {
             Assert.assertFalse("Is in the list", countryDropdown.containsValue(country));
         }

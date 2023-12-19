@@ -126,7 +126,7 @@ public class RegisterPage extends AbstractPage {
 
     public void checkTitleInPage() {
         String text = "Registration";
-        if (text == findTitle.getText()) {
+        if (text.equals(findTitle.getText())) {
             Assert.assertTrue("Title is 'Registration'", findTitle.containsText(text));
         } else {
             Assert.assertTrue("Different values.", findTitle.containsText(text));

@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="508bd6a1-a7d3-4afd-a550-28a80666a869" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/WebsiteForTestingSeleniumPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/WebsiteForTestingSeleniumPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/requirements/way2automation.features-package-requirements.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/requirements/way2automation.features-package-requirements.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/way2automation/pages/WebsiteForTestingSeleniumPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/way2automation/pages/WebsiteForTestingSeleniumPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/DropdownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/dynamicElements/DropdownPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/way2automation/pages/register/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/way2automation/pages/register/RegisterPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,26 +54,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.RegisterTest.executor": "Run",
-    "JUnit.RegisterTest.submitEmptyRegistrationForm.executor": "Run",
-    "JUnit.RegisterThroughModalTest.executor": "Run",
-    "JUnit.RegisterThroughModalTest.submitDefaultCountryAndNewAccountWithValidRequiredFields.executor": "Run",
-    "JUnit.RegisterThroughModalTest.submitDefaultCountryAndUseExistingAccountToRegister.executor": "Run",
-    "JUnit.WebsiteForTestingSeleniumTest.clickOnBoxWithNameDropdown.executor": "Run",
-    "JUnit.WebsiteForTestingSeleniumTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/simonabucur/IdeaProjects/test-automation-v2/pom.xml",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.43103448",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.RegisterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTest.submitEmptyRegistrationForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterThroughModalTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterThroughModalTest.submitDefaultCountryAndNewAccountWithValidRequiredFields.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterThroughModalTest.submitDefaultCountryAndUseExistingAccountToRegister.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebsiteForTestingSeleniumTest.clickOnBoxWithNameDropdown.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebsiteForTestingSeleniumTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/simonabucur/IdeaProjects/test-automation-v2/pom.xml&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.43103448&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.archetype.catalogs&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />

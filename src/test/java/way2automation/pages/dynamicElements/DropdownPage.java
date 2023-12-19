@@ -41,7 +41,7 @@ public class DropdownPage extends AbstractPage {
 
     public void checkTitleInPage() {
         String text = "Dropdown";
-        if (text == findTitle.getValue()) {
+        if (text.equals(findTitle.getValue())) {
             Assert.assertTrue("Title is Dropdown", findTitle.containsText(text));
         } else {
             Assert.assertTrue("Different values.", findTitle.containsText(text));

@@ -47,39 +47,27 @@ public class WebsiteForTestingSeleniumPage extends AbstractPage {
     WebElementFacade boxesAlert;
 
     public int returnCountedBoxesForInteraction() {
-        int count = 0;
-        count = getDriver().findElements(By.cssSelector(".row div:nth-child(1) ul li")).size();
-        return count;
+        return getDriver().findElements(By.cssSelector(".row div:nth-child(1) ul li")).size();
     }
 
     public int returnCountedBoxesForWidget() {
-        int count = 0;
-        count = getDriver().findElements(By.cssSelector(".row div:nth-child(2) .boxed_style li")).size();
-        return count;
+        return getDriver().findElements(By.cssSelector(".row div:nth-child(2) .boxed_style li")).size();
     }
 
     public int returnCountedBoxesForFramesAndWindows() {
-        int count = 0;
-        count = getDriver().findElements(By.cssSelector(".row div:nth-child(3) .boxed_style li")).size();
-        return count;
+        return getDriver().findElements(By.cssSelector(".row div:nth-child(3) .boxed_style li")).size();
     }
 
     public int returnCountedBoxesForDynamicElements() {
-        int count = 0;
-        count = getDriver().findElements(By.cssSelector(".row div:nth-child(4) .boxed_style li")).size();
-        return count;
+        return getDriver().findElements(By.cssSelector(".row div:nth-child(4) .boxed_style li")).size();
     }
 
     public int returnCountedBoxedForRegistration() {
-        int count = 0;
-        count = getDriver().findElements(By.cssSelector(".row div:nth-child(5) .boxed_style li")).size();
-        return count;
+        return getDriver().findElements(By.cssSelector(".row div:nth-child(5) .boxed_style li")).size();
     }
 
     public int returnCountedBoxesForAlert() {
-        int count = 0;
-        count = getDriver().findElements(By.cssSelector(".row div:nth-child(6) .boxed_style li")).size();
-        return count;
+        return getDriver().findElements(By.cssSelector(".row div:nth-child(6) .boxed_style li")).size();
     }
 
     public void countAllBoxesPerHeader() {

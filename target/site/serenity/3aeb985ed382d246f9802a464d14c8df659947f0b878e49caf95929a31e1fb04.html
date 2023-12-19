@@ -141,16 +141,13 @@
             <a href="capabilities.html"><i class="bi bi-journal-text"></i> Requirements</a>
         </li>
         <li >
-            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="bi bi-chat-text"></i> Capabilities</a>
-        </li>
-        <li >
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
         <li >
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="bi bi-chat-text"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 14-12-2023 12:18</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 19-12-2023 16:35</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -173,6 +170,24 @@
                         </td>
                         <td valign="top">
                             <p class="tag">
+                                    <span class="badge example-tag tag-badge" style="background:default;">
+                                    <i class="bi bi-tag-fill"></i>&nbsp;
+                                        <a class="tagLink" style="background:default;"
+                                           href="6fe0671aeea9e76b6998ee682216d11c7748a4152740df0586f3c256ecb3f5da.html">Chrome
+                                        </a>
+                                </span>
+                                    <span class="badge example-tag tag-badge" style="background:default;">
+                                    <i class="bi bi-tag-fill"></i>&nbsp;
+                                        <a class="tagLink" style="background:default;"
+                                           href="f55cf301e8f51d63aebeb8bc8dbe880df940586e2a502c7a3e24c2b639523f8f.html">Windows
+                                        </a>
+                                </span>
+                                    <span class="badge example-tag tag-badge" style="background:default;">
+                                    <i class="bi bi-tag-fill"></i>&nbsp;
+                                        <a class="tagLink" style="background:default;"
+                                           href="59736924e81ea98f655ac8eba7cd96079d8d80131e0c4360daf32a724d0b38a0.html">Chrome, Windows
+                                        </a>
+                                </span>
                                     <span class='context-icon'><i class='bi bi-browser-chrome' title='Chrome'></i> <i class='bi bi-windows' title='Windows'></i></span>
                             </p>
                         </td>
@@ -218,6 +233,7 @@
                     Steps
                 </th>
 
+                    <th width="150" class="greentext">Screenshots</th>
                 <th width="130" class="greentext">Outcome</th>
                 <th width="100" class="greentext"><i title="Duration" class="bi bi-stopwatch"></i></th>
             </tr>
@@ -225,12 +241,12 @@
                 <td colspan="5"></td>
             </tr>
 
-                <tr class="test-ERROR">
+                <tr class="test-SUCCESS">
 
                     <td width="50" class="step-icon">
                         <a name="0"></a>
                             <span style="margin-left: 20px;"
-                                  class="top-level-icon"><a href='##beforetable'><i class='bi bi-exclamation-triangle-fill error-icon ' title='ERROR'></i></a>
+                                  class="top-level-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
                                 </span>
                     </td>
 
@@ -244,60 +260,24 @@
                         </div>
                     </td>
 
-                    <td width="130"><span class="top-level-step">ERROR</span></td>
-                    <td width="100"><span class="top-level-step">9s 275ms</span></td>
-                </tr>
-                    <tr class="test-ERROR">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="3" class="error-message-cell">
+                        <td width="160" class="SUCCESS-text">
 
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-1"
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-1">
-            <div class="card">
-                <div class="card-header">
-                    <h4>net.thucydides.core.webdriver.DriverConfigurationError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>way2automation.pages.AbstractPage.windowMaximize(AbstractPage.java:31)<br />way2automation.steps.LoginThroughModalSteps.openLogin(LoginThroughModalSteps.java:15)<br />way2automation.features.LoginThroughModalTest.loginWithExistingAccount(LoginThroughModalTest.java:35)<br />way2automation.features.RegisterTest.submitEmptyRegistrationForm(RegisterTest.java:24)<br /></pre>
-                    </div>
-
-                    <h4>
-                        Caused by: net.thucydides.core.webdriver.DriverConfigurationError
-                    </h4>
-                    <div>
-                            <pre>WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver<br>WebDriver reported the following message: Unable to establish websocket connection to http://localhost:63744/devtools/browser/295087d1-7b99-4e1c-90e1-ed0de0ba1e0e<br>Build info: version: '4.8.0', revision: '267030adea'<br>System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'<br>Driver info: driver.version: ChromeDriver<br>See below for more details.</pre>
-                        <pre>way2automation.pages.AbstractPage.windowMaximize(AbstractPage.java :31)<br />way2automation.steps.LoginThroughModalSteps.openLogin(LoginThroughModalSteps.java :15)<br />way2automation.features.LoginThroughModalTest.loginWithExistingAccount(LoginThroughModalTest.java :35)<br />way2automation.features.RegisterTest.submitEmptyRegistrationForm(RegisterTest.java :24)<br /></pre>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                                <a href="3aeb985ed382d246f9802a464d14c8df659947f0b878e49caf95929a31e1fb04_screenshots.html#screenshots?screenshot=0">
+                                    <img src="d992e027895341ff8f545b94d29deb28cf2b922025ef82856e35ae336fdf4558.png"
+                                         href="d992e027895341ff8f545b94d29deb28cf2b922025ef82856e35ae336fdf4558.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
                         </td>
-                    </tr>
-                <tr class="test-SKIPPED">
+                    <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">12s 854ms</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
 
                     <td width="50" class="step-icon">
                         <a name="1"></a>
                             <span style="margin-left: 20px;"
-                                  class="top-level-icon"><a href='##beforetable'><i class='bi bi-skip-forward skipped-icon ' title='SKIPPED'></i></a>
+                                  class="top-level-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
                                 </span>
                     </td>
 
@@ -311,15 +291,24 @@
                         </div>
                     </td>
 
-                    <td width="130"><span class="top-level-step">SKIPPED</span></td>
-                    <td width="100"><span class="top-level-step">006ms</span></td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="3aeb985ed382d246f9802a464d14c8df659947f0b878e49caf95929a31e1fb04_screenshots.html#screenshots?screenshot=1">
+                                    <img src="4ec184b12358f1383582a2cb1dda6ee5cc2eb88d8d5da11958490c5f4b73008a.png"
+                                         href="4ec184b12358f1383582a2cb1dda6ee5cc2eb88d8d5da11958490c5f4b73008a.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">2s 070ms</span></td>
                 </tr>
-                <tr class="test-SKIPPED">
+                <tr class="test-ERROR">
 
                     <td width="50" class="step-icon">
                         <a name="2"></a>
                             <span style="margin-left: 20px;"
-                                  class="top-level-icon"><a href='##beforetable'><i class='bi bi-skip-forward skipped-icon ' title='SKIPPED'></i></a>
+                                  class="top-level-icon"><a href='##beforetable'><i class='bi bi-exclamation-triangle-fill error-icon ' title='ERROR'></i></a>
                                 </span>
                     </td>
 
@@ -333,9 +322,56 @@
                         </div>
                     </td>
 
-                    <td width="130"><span class="top-level-step">SKIPPED</span></td>
-                    <td width="100"><span class="top-level-step">001ms</span></td>
+                        <td width="160" class="ERROR-text">
+
+                                <a href="3aeb985ed382d246f9802a464d14c8df659947f0b878e49caf95929a31e1fb04_screenshots.html#screenshots?screenshot=2">
+                                    <img src="79ab8baeed12f5f4247288a1169f070c84ce9d03e64243d908d70a20f962026b.png"
+                                         href="79ab8baeed12f5f4247288a1169f070c84ce9d03e64243d908d70a20f962026b.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="130"><span class="top-level-step">ERROR</span></td>
+                    <td width="100"><span class="top-level-step">2s 998ms</span></td>
                 </tr>
+                    <tr class="test-ERROR">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="4" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">org.openqa.selenium.ElementNotInteractableException: element not interactable<br>  (Session info: chrome=120.0.6099.110)<br>Build info: version: &#39;4.9.0&#39;, revision: &#39;d7057100a6&#39;<br>System info: os.name: &#39;Windows 10&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;1.8.0_301&#39;<br>Driver info: org.openqa.selenium.chrome.ChromeDriver<br>Command: [18920e499f323807afb1eb3ac7a91068, clickElement {id=2EDE6E3CF9DBDB9FCD101C18CC51FA8B_element_52}]<br>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.110, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\SIMONA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59367}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59367/devtoo..., se:cdpVersion: 120.0.6099.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br>Element: [[ChromeDriver: chrome on WINDOWS (18920e499f323807afb1eb3ac7a91068)] -&gt; css selector: .row div:nth-child(5) ul li a[href*=&quot;registration.php&quot;]]<br>Session ID: 18920e499f323807afb1eb3ac7a91068</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-3"
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-3">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.ElementNotInteractableException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>way2automation.pages.WebsiteForTestingSeleniumPage.clickOnBoxRegistration(WebsiteForTestingSeleniumPage.java:115)<br />way2automation.steps.RegisterSteps.currentPageIsRegistration(RegisterSteps.java:13)<br />way2automation.features.RegisterTest.submitEmptyRegistrationForm(RegisterTest.java:25)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                        </td>
+                    </tr>
                 <tr class="test-SKIPPED">
 
                     <td width="50" class="step-icon">
@@ -355,13 +391,16 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SKIPPED-text">
+
+                        </td>
                     <td width="130"><span class="top-level-step">SKIPPED</span></td>
-                    <td width="100"><span class="top-level-step">002ms</span></td>
+                    <td width="100"><span class="top-level-step">003ms</span></td>
                 </tr>
             <tr class="test-ERROR">
-                    <td colspan="2"></td>
+                    <td colspan="3"></td>
                 <td width="130"><span class="top-level-step"><em>ERROR</em></span></td>
-                <td width="100"><span class="top-level-step"><em>12.43s</em></span></td>
+                <td width="100"><span class="top-level-step"><em>21.36s</em></span></td>
             </tr>
 
         </table>
@@ -374,7 +413,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-12">
-            <span class="version">Serenity BDD version 3.6.12</span>
+            <span class="version">Serenity BDD version 3.7.1</span>
         </div>
     </div>
 </div>

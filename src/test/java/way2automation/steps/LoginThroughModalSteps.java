@@ -1,6 +1,5 @@
 package way2automation.steps;
 
-import com.sun.xml.internal.bind.v2.runtime.reflect.opt.Const;
 import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

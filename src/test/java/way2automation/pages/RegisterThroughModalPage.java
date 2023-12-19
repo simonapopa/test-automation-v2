@@ -10,8 +10,6 @@ import way2automation.Constants;
 
 import java.util.List;
 
-import static org.hamcrest.Matchers.is;
-
 @DefaultUrl(Constants.URL)
 public class RegisterThroughModalPage extends AbstractPage {
 

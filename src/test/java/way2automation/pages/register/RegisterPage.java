@@ -1,13 +1,15 @@
-package way2automation.pages;
+package way2automation.pages.register;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.junit.Assert;
 import way2automation.Constants;
+import way2automation.pages.AbstractPage;
+
 import java.util.List;
 
-@DefaultUrl(Constants.URL)
+@DefaultUrl(Constants.REGISTRATION_URL)
 public class RegisterPage extends AbstractPage {
     @FindBy(css = ".text_box .heading")
     WebElementFacade findTitle;
@@ -124,7 +126,7 @@ public class RegisterPage extends AbstractPage {
 
     public void checkTitleInPage() {
         String text = "Registration";
-        if (text == findTitle.getText()) {
+        if (text.equals(findTitle.getText())) {
             Assert.assertTrue("Title is 'Registration'", findTitle.containsText(text));
         } else {
             Assert.assertTrue("Different values.", findTitle.containsText(text));

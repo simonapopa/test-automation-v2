@@ -1,16 +1,19 @@
-package way2automation.steps;
+package way2automation.steps.register;
 
 import net.thucydides.core.annotations.Step;
-import way2automation.pages.RegisterPage;
-import way2automation.pages.WebsiteForTestingSeleniumPage;
+import way2automation.pages.register.RegisterPage;
 
 public class RegisterSteps {
-    WebsiteForTestingSeleniumPage initialPage;
     RegisterPage registerPage;
 
     @Step
+    public void openRegisterPage() {
+        registerPage.windowMaximize();
+        registerPage.open();
+    }
+
+    @Step
     public void currentPageIsRegistration() {
-        initialPage.clickOnBoxRegistration();
         registerPage.checkTitleInPage();
     }
 

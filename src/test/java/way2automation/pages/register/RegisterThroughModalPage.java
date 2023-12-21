@@ -1,4 +1,4 @@
-package way2automation.pages;
+package way2automation.pages.register;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -7,9 +7,9 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import way2automation.Constants;
-import java.util.List;
+import way2automation.pages.AbstractPage;
 
-import static org.hamcrest.Matchers.is;
+import java.util.List;
 
 @DefaultUrl(Constants.URL)
 public class RegisterThroughModalPage extends AbstractPage {
@@ -64,7 +64,7 @@ public class RegisterThroughModalPage extends AbstractPage {
 
     public void enterCountry(String country) {
         countryField.selectByValue(country);
-        Assert.assertThat(countryField.getSelectedValue(), is(country));
+        Assert.assertEquals(countryField.getSelectedValue(), country);
     }
 
     public void enterCity(String city) {
@@ -95,7 +95,7 @@ public class RegisterThroughModalPage extends AbstractPage {
     }
 
     public void verifyWarningMessage() {
-        String existingMessage = "Username or Password already exists.";
+        String existingMessage = "This is just a dummy form, you just clicked SUBMIT BUTTON";
         waitABit(5000);
         boolean isModalDisplayed = isModalDisplayed();
 
@@ -103,8 +103,6 @@ public class RegisterThroughModalPage extends AbstractPage {
             String s = messageText.getText();
             Assert.assertEquals(s, existingMessage);
         } else {
-
-//            System.out.println("ce avem aici -> " + isModalDisplayed);
             Assert.assertFalse(isModalDisplayed);
         }
     }

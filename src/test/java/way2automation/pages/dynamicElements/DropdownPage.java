@@ -9,7 +9,7 @@ import java.util.List;
 import static org.hamcrest.Matchers.is;
 import way2automation.Constants;
 
-@DefaultUrl(Constants.URL)
+@DefaultUrl(Constants.DROPDOWN_URL)
 public class DropdownPage extends AbstractPage {
 
     @FindBy(css = "#wrapper > div > h1")
@@ -41,7 +41,7 @@ public class DropdownPage extends AbstractPage {
 
     public void checkTitleInPage() {
         String text = "Dropdown";
-        if (text == findTitle.getValue()) {
+        if (text.equals(findTitle.getValue())) {
             Assert.assertTrue("Title is Dropdown", findTitle.containsText(text));
         } else {
             Assert.assertTrue("Different values.", findTitle.containsText(text));
@@ -58,7 +58,7 @@ public class DropdownPage extends AbstractPage {
 
         if (countryDropdown.containsValue(country)) {
             countryDropdown.selectByValue(country);
-            Assert.assertThat(countryDropdown.getSelectedValue(), is(country));
+            Assert.assertEquals(countryDropdown.getSelectedValue(), country);
         } else {
             Assert.assertFalse("Is in the list", countryDropdown.containsValue(country));
         }

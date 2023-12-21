@@ -33,11 +33,4 @@ public class WebsiteForTestingSeleniumTest {
         login.loginWithExistingAccount();
         user.countBoxesHeaderDependent();
     }
-
-    @Test
-//    Assignment 4: Click on the box with name DROPDOWN
-    public void clickOnBoxWithNameDropdown() {
-        login.loginWithExistingAccount();
-        user.findBoxDropdownAndClickOnIt();
-    }
 }

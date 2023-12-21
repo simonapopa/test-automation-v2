@@ -1,4 +1,4 @@
-package way2automation.features;
+package way2automation.features.register;
 
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
@@ -6,7 +6,7 @@ import net.thucydides.core.annotations.Steps;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
-import way2automation.steps.RegisterSteps;
+import way2automation.steps.register.RegisterSteps;
 
 @RunWith(SerenityRunner.class)
 public class RegisterTest {
@@ -14,14 +14,11 @@ public class RegisterTest {
     public WebDriver webdriver;
 
     @Steps
-    LoginThroughModalTest login;
-
-    @Steps
     RegisterSteps registerSteps;
 
     @Test
     public void submitEmptyRegistrationForm() {
-        login.loginWithExistingAccount();
+        registerSteps.openRegisterPage();
         registerSteps.currentPageIsRegistration();
         // must add warning message validation in tests
         registerSteps.completeForm("", "", "", "", "India", "", "", "", "", "", "", "", "", "");
@@ -29,7 +26,7 @@ public class RegisterTest {
 
     @Test
     public void submitValidDataForAllFields() {
-        login.loginWithExistingAccount();
+        registerSteps.openRegisterPage();
         registerSteps.currentPageIsRegistration();
         registerSteps.completeForm("firstname", "lastname", "Divorced", "Reading", "India", "1", "1", "2014", "01232656974", "test", "test@example.com", "test", "test", "test");
     }

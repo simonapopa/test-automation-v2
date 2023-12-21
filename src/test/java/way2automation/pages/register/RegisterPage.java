@@ -9,7 +9,7 @@ import way2automation.pages.AbstractPage;
 
 import java.util.List;
 
-@DefaultUrl(Constants.URL)
+@DefaultUrl(Constants.REGISTRATION_URL)
 public class RegisterPage extends AbstractPage {
     @FindBy(css = ".text_box .heading")
     WebElementFacade findTitle;

@@ -9,7 +9,7 @@ import java.util.List;
 import static org.hamcrest.Matchers.is;
 import way2automation.Constants;
 
-@DefaultUrl(Constants.URL)
+@DefaultUrl(Constants.DROPDOWN_URL)
 public class DropdownPage extends AbstractPage {
 
     @FindBy(css = "#wrapper > div > h1")

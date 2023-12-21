@@ -7,7 +7,7 @@ import net.thucydides.core.annotations.DefaultUrl;
 import org.junit.Assert;
 import way2automation.Constants;
 
-@DefaultUrl(Constants.URL)
+@DefaultUrl(Constants.SUBMIT_BUTTON_URL)
 public class SubmitButtonPage extends AbstractPage {
 
     //title
@@ -62,7 +62,7 @@ public class SubmitButtonPage extends AbstractPage {
     public void checkTitleInPage() {
         String text = "Submit Button Clicked";
 
-        if (text == findTitle.getText()) {
+        if (text.equals(findTitle.getText())) {
             Assert.assertTrue("Title is 'Submit button clicked'", findTitle.containsText(text));
         } else {
             Assert.assertTrue("Different values.", findTitle.containsText(text));

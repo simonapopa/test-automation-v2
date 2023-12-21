@@ -32,6 +32,20 @@ public class RegisterTest {
     }
 
     @Test
-    public void submitTwoHobbiesAndRestOfFields() {
+    public void submitTwoHobbiesAndMandatoryFields() {
+        registerSteps.openRegisterPage();
+        registerSteps.currentPageIsRegistration();
+        registerSteps.completeFormWithTwoHobbies("firstname", "lastname", "Divorced", "Reading", "Dance", "India", "1", "1", "2014", "01232656974", "test", "test@example.com", "description text", "test", "test");
     }
+
+    @Test
+    public void submitRegistrationWithInvalidEmailAddress(){
+        registerSteps.openRegisterPage();
+        registerSteps.currentPageIsRegistration();
+        registerSteps.completeForm("firstname", "lastname", "Divorced", "Reading", "India", "1", "1", "2014", "01232656974", "test", "test#example,com", "test", "test", "test");
+        registerSteps.validateField();
+    }
+
+
+    //negative
 }

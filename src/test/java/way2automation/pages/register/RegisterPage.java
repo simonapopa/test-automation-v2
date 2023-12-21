@@ -21,6 +21,8 @@ public class RegisterPage extends AbstractPage {
     List<WebElementFacade> radioButtonMaritalStatus;
     @FindBy(css = "#register_form > fieldset:nth-child(3) > div > label")
     List<WebElementFacade> checkboxButtonsHobby;
+    @FindBy(css = "#register_form > fieldset.fieldset.padding-bottom.error_p > div > label.relative > label")
+    WebElementFacade hobbyMessageValidator;
     @FindBy(css = "fieldset > select")
     WebElementFacade dropdownCountry;
     @FindBy(css = ".time_feild:nth-child(2) select")
@@ -31,18 +33,26 @@ public class RegisterPage extends AbstractPage {
     WebElementFacade dropdownYear;
     @FindBy(css = ".fieldset input[name=phone]")
     WebElementFacade inputPhone;
+    @FindBy(css = "#register_form > fieldset:nth-child(6) > label.error_p")
+    WebElementFacade phoneMessageValidator;
     @FindBy(css = ".fieldset input[name=username]")
     WebElementFacade inputUsername;
     @FindBy(css = ".fieldset input[name=email]")
     WebElementFacade inputEmail;
+    @FindBy(css = "#register_form > fieldset:nth-child(8) > label.error_p")
+    WebElementFacade emailMessageValidator;
     @FindBy(css = "fieldset input[type=file]")
     WebElementFacade buttonChooseFile;
     @FindBy(css = "fieldset > textarea")
     WebElementFacade inputAboutYourself;
     @FindBy(css = ".fieldset input[name=password]")
     WebElementFacade inputPassword;
+    @FindBy(css = "#register_form > fieldset:nth-child(11) > label.error_p")
+    WebElementFacade passwordMessageValidator;
     @FindBy(css = ".fieldset input[name=c_password]")
     WebElementFacade inputConfirmPassword;
+    @FindBy(css = "#register_form > fieldset:nth-child(12) > label.error_p")
+    WebElementFacade confirmPasswordMessageValidator;
     @FindBy(css = "fieldset input[type=submit]")
     WebElementFacade buttonSubmit;
 
@@ -79,7 +89,6 @@ public class RegisterPage extends AbstractPage {
             }
         }
     }
-
     public void selectCountry(String country) {
         dropdownCountry.selectByValue(country);
     }
@@ -91,7 +100,6 @@ public class RegisterPage extends AbstractPage {
             dropdownYear.selectByValue(year);
         }
     }
-
     public void enterPhone(String phone) {
         inputPhone.type(phone);
     }
@@ -129,7 +137,39 @@ public class RegisterPage extends AbstractPage {
         if (text.equals(findTitle.getText())) {
             Assert.assertTrue("Title is 'Registration'", findTitle.containsText(text));
         } else {
-            Assert.assertTrue("Different values.", findTitle.containsText(text));
+            Assert.assertFalse("Different values.", findTitle.containsText(text));
+        }
+    }
+    public void checkMessage() {
+        String message = "This field is required.";
+        if (message.equals(hobbyMessageValidator)) {
+            Assert.assertTrue(message, hobbyMessageValidator.containsText(message));
+        } else {
+            Assert.assertFalse(message, hobbyMessageValidator.containsText(message));
+        }
+
+        if (message.equals(phoneMessageValidator)) {
+            Assert.assertTrue(message, phoneMessageValidator.containsText(message));
+        } else {
+            Assert.assertFalse(message, phoneMessageValidator.containsText(message));
+        }
+
+        if (message.equals(emailMessageValidator)) {
+            Assert.assertTrue(message, emailMessageValidator.containsText(message));
+        } else {
+            Assert.assertFalse(message, emailMessageValidator.containsText(message));
+        }
+
+        if (message.equals(passwordMessageValidator)) {
+            Assert.assertTrue(message, passwordMessageValidator.containsText(message));
+        } else {
+            Assert.assertFalse(message, passwordMessageValidator.containsText(message));
+        }
+
+        if (message.equals(confirmPasswordMessageValidator)) {
+            Assert.assertTrue(message, confirmPasswordMessageValidator.containsText(message));
+        } else {
+            Assert.assertFalse(message, confirmPasswordMessageValidator.containsText(message));
         }
     }
 }

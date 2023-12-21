@@ -17,24 +17,24 @@
     </properties>
 
     <repositories>
-      <repository>
-        <snapshots>
-        <enabled>false</enabled>
-        </snapshots>
-        <id>central</id>
-        <name>bintray</name>
-        <url>https://repo1.maven.org/maven2/</url>
-      </repository>
+        <repository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>central</id>
+            <name>bintray</name>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
     </repositories>
     <pluginRepositories>
-      <pluginRepository>
-        <snapshots>
-        <enabled>false</enabled>
-        </snapshots>
-        <id>central</id>
-        <name>bintray-plugins</name>
-        <url>https://repo1.maven.org/maven2/</url>
-      </pluginRepository>
+        <pluginRepository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>central</id>
+            <name>bintray-plugins</name>
+            <url>https://repo1.maven.org/maven2/</url>
+        </pluginRepository>
     </pluginRepositories>
 
     <dependencies>
@@ -73,7 +73,9 @@
                 </os>
             </activation>
             <properties>
-                <webdriver.chrome.path>${basedir}${file.separator}src${file.separator}chromedriver${file.separator}chromedriver.exe</webdriver.chrome.path>
+                <webdriver.chrome.path>
+                    ${basedir}${file.separator}src${file.separator}chromedriver${file.separator}chromedriver.exe
+                </webdriver.chrome.path>
             </properties>
         </profile>
         <profile>
@@ -84,7 +86,8 @@
                 </os>
             </activation>
             <properties>
-                <webdriver.chrome.path>${basedir}${file.separator}resources${file.separator}chromedriver2</webdriver.chrome.path>
+                <webdriver.chrome.path>${basedir}${file.separator}resources${file.separator}chromedriver2
+                </webdriver.chrome.path>
             </properties>
         </profile>
     </profiles>

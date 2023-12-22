@@ -55,7 +55,12 @@ public class RegisterSteps {
         registerPage.clickSubmit();
     }
     @Step
-    public void validateField(){
-        registerPage.checkMessage();
+    public void validateEmptyFields(){
+        registerPage.checkRequiredMessage();
+    }
+
+    @Step
+    public void validateEmailFormat(){
+        registerPage.checkEmailFormat();
     }
 }

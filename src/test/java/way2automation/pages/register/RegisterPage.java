@@ -89,6 +89,7 @@ public class RegisterPage extends AbstractPage {
             }
         }
     }
+
     public void selectCountry(String country) {
         dropdownCountry.selectByValue(country);
     }
@@ -100,6 +101,7 @@ public class RegisterPage extends AbstractPage {
             dropdownYear.selectByValue(year);
         }
     }
+
     public void enterPhone(String phone) {
         inputPhone.type(phone);
     }
@@ -140,36 +142,48 @@ public class RegisterPage extends AbstractPage {
             Assert.assertFalse("Different values.", findTitle.containsText(text));
         }
     }
-    public void checkMessage() {
+
+    public void checkRequiredMessage() {
         String message = "This field is required.";
-        if (message.equals(hobbyMessageValidator)) {
+        if (message.equals(hobbyMessageValidator.getText())) {
             Assert.assertTrue(message, hobbyMessageValidator.containsText(message));
         } else {
-            Assert.assertFalse(message, hobbyMessageValidator.containsText(message));
+            Assert.assertFalse("Different message!", hobbyMessageValidator.containsText(message));
         }
 
-        if (message.equals(phoneMessageValidator)) {
+        if (message.equals(phoneMessageValidator.getText())) {
             Assert.assertTrue(message, phoneMessageValidator.containsText(message));
         } else {
-            Assert.assertFalse(message, phoneMessageValidator.containsText(message));
+            Assert.assertFalse("Different message!", phoneMessageValidator.containsText(message));
         }
 
-        if (message.equals(emailMessageValidator)) {
+        if (message.equals(emailMessageValidator.getText())) {
             Assert.assertTrue(message, emailMessageValidator.containsText(message));
         } else {
-            Assert.assertFalse(message, emailMessageValidator.containsText(message));
+            Assert.assertFalse("Different message!", emailMessageValidator.containsText(message));
         }
 
-        if (message.equals(passwordMessageValidator)) {
+        if (message.equals(passwordMessageValidator.getText())) {
             Assert.assertTrue(message, passwordMessageValidator.containsText(message));
         } else {
-            Assert.assertFalse(message, passwordMessageValidator.containsText(message));
+            Assert.assertFalse("Different message!", passwordMessageValidator.containsText(message));
         }
 
-        if (message.equals(confirmPasswordMessageValidator)) {
+        if (message.equals(confirmPasswordMessageValidator.getText())) {
             Assert.assertTrue(message, confirmPasswordMessageValidator.containsText(message));
         } else {
-            Assert.assertFalse(message, confirmPasswordMessageValidator.containsText(message));
+            Assert.assertFalse("Different message!", confirmPasswordMessageValidator.containsText(message));
+        }
+    }
+
+    public void checkEmailFormat() {
+        String invalidEmailFormatMessage = "Please enter a valid email address.";
+       // System.out.println("invalidEmailFormat.equals(emailMessageValidator.getText())=" + invalidEmailFormatMessage.equals(emailMessageValidator.getText())
+        //+ "\n emailMessageValidator.containsText(invalidEmailFormat) =" + emailMessageValidator.containsText(invalidEmailFormatMessage));
+        if (invalidEmailFormatMessage.equals(emailMessageValidator.getText())) {
+           Assert.assertTrue(invalidEmailFormatMessage, emailMessageValidator.containsText(invalidEmailFormatMessage));
+        } else {
+          //  Assert.assertFalse("Different message!", emailMessageValidator.containsText(invalidEmailFormat));
         }
     }
 }

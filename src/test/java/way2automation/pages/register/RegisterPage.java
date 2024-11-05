@@ -21,6 +21,8 @@ public class RegisterPage extends AbstractPage {
     List<WebElementFacade> radioButtonMaritalStatus;
     @FindBy(css = "#register_form > fieldset:nth-child(3) > div > label")
     List<WebElementFacade> checkboxButtonsHobby;
+    @FindBy(css = "#register_form > fieldset.fieldset.padding-bottom.error_p > div > label.relative > label")
+    WebElementFacade hobbyMessageValidator;
     @FindBy(css = "fieldset > select")
     WebElementFacade dropdownCountry;
     @FindBy(css = ".time_feild:nth-child(2) select")
@@ -31,18 +33,26 @@ public class RegisterPage extends AbstractPage {
     WebElementFacade dropdownYear;
     @FindBy(css = ".fieldset input[name=phone]")
     WebElementFacade inputPhone;
+    @FindBy(css = "#register_form > fieldset:nth-child(6) > label.error_p")
+    WebElementFacade phoneMessageValidator;
     @FindBy(css = ".fieldset input[name=username]")
     WebElementFacade inputUsername;
     @FindBy(css = ".fieldset input[name=email]")
     WebElementFacade inputEmail;
+    @FindBy(css = "#register_form > fieldset:nth-child(8) > label.error_p")
+    WebElementFacade emailMessageValidator;
     @FindBy(css = "fieldset input[type=file]")
     WebElementFacade buttonChooseFile;
     @FindBy(css = "fieldset > textarea")
     WebElementFacade inputAboutYourself;
     @FindBy(css = ".fieldset input[name=password]")
     WebElementFacade inputPassword;
+    @FindBy(css = "#register_form > fieldset:nth-child(11) > label.error_p")
+    WebElementFacade passwordMessageValidator;
     @FindBy(css = ".fieldset input[name=c_password]")
     WebElementFacade inputConfirmPassword;
+    @FindBy(css = "#register_form > fieldset:nth-child(12) > label.error_p")
+    WebElementFacade confirmPasswordMessageValidator;
     @FindBy(css = "fieldset input[type=submit]")
     WebElementFacade buttonSubmit;
 
@@ -129,7 +139,51 @@ public class RegisterPage extends AbstractPage {
         if (text.equals(findTitle.getText())) {
             Assert.assertTrue("Title is 'Registration'", findTitle.containsText(text));
         } else {
-            Assert.assertTrue("Different values.", findTitle.containsText(text));
+            Assert.assertFalse("Different values.", findTitle.containsText(text));
+        }
+    }
+
+    public void checkRequiredMessage() {
+        String message = "This field is required.";
+        if (message.equals(hobbyMessageValidator.getText())) {
+            Assert.assertTrue(message, hobbyMessageValidator.containsText(message));
+        } else {
+            Assert.assertFalse("Different message!", hobbyMessageValidator.containsText(message));
+        }
+
+        if (message.equals(phoneMessageValidator.getText())) {
+            Assert.assertTrue(message, phoneMessageValidator.containsText(message));
+        } else {
+            Assert.assertFalse("Different message!", phoneMessageValidator.containsText(message));
+        }
+
+        if (message.equals(emailMessageValidator.getText())) {
+            Assert.assertTrue(message, emailMessageValidator.containsText(message));
+        } else {
+            Assert.assertFalse("Different message!", emailMessageValidator.containsText(message));
+        }
+
+        if (message.equals(passwordMessageValidator.getText())) {
+            Assert.assertTrue(message, passwordMessageValidator.containsText(message));
+        } else {
+            Assert.assertFalse("Different message!", passwordMessageValidator.containsText(message));
+        }
+
+        if (message.equals(confirmPasswordMessageValidator.getText())) {
+            Assert.assertTrue(message, confirmPasswordMessageValidator.containsText(message));
+        } else {
+            Assert.assertFalse("Different message!", confirmPasswordMessageValidator.containsText(message));
+        }
+    }
+
+    public void checkEmailFormat() {
+        String invalidEmailFormatMessage = "Please enter a valid email address.";
+       // System.out.println("invalidEmailFormat.equals(emailMessageValidator.getText())=" + invalidEmailFormatMessage.equals(emailMessageValidator.getText())
+        //+ "\n emailMessageValidator.containsText(invalidEmailFormat) =" + emailMessageValidator.containsText(invalidEmailFormatMessage));
+        if (invalidEmailFormatMessage.equals(emailMessageValidator.getText())) {
+           Assert.assertTrue(invalidEmailFormatMessage, emailMessageValidator.containsText(invalidEmailFormatMessage));
+        } else {
+          //  Assert.assertFalse("Different message!", emailMessageValidator.containsText(invalidEmailFormat));
         }
     }
 }

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="way2automation.features.LoginThroughModalTest" skipped="0" tests="1" time="14.96" timestamp="2019-10-11T16:29:47.506+03:00[Europe/Athens]"><testcase classname="way2automation.features.LoginThroughModalTest" name="Login with credentials"><failure message="Undefined default URL for page object AbstractPage" type="java.lang.AssertionError">Undefined default URL for page object AbstractPage</failure><system-err>Undefined default URL for page object AbstractPage&#13;
-way2automation.steps.LoginThroughModalSteps.openLogin(LoginThroughModalSteps.java:18)&#13;
-way2automation.features.LoginThroughModalTest.loginWithCredentials(LoginThroughModalTest.java:42)&#13;
-</system-err></testcase></testsuite>

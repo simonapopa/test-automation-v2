@@ -33,7 +33,6 @@ public class RegisterSteps {
         registerPage.enterAboutYourself(description);
         registerPage.enterPassword(password);
         registerPage.enterConfirmPassword(confirm);
-        registerPage.clickSubmit();
     }
 
     @Step
@@ -52,7 +51,6 @@ public class RegisterSteps {
         registerPage.enterAboutYourself(description);
         registerPage.enterPassword(password);
         registerPage.enterConfirmPassword(confirm);
-        registerPage.clickSubmit();
     }
     @Step
     public void validateEmptyFields(){
@@ -62,5 +60,10 @@ public class RegisterSteps {
     @Step
     public void validateEmailFormat(){
         registerPage.checkEmailFormat();
+    }
+
+    @Step
+    public void submitForm(){
+        registerPage.clickSubmit();
     }
 }

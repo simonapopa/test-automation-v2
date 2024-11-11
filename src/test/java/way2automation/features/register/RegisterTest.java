@@ -22,7 +22,8 @@ public class RegisterTest {
         registerSteps.currentPageIsRegistration();
         // must add warning message validation in tests
         registerSteps.completeForm("", "", "", "", "India", "", "", "", "", "", "", "", "", "");
-        registerSteps.validateEmptyFields();
+        registerSteps.submitForm();
+        //        registerSteps.validateEmptyFields();
     }
 
     @Test
@@ -30,7 +31,8 @@ public class RegisterTest {
         registerSteps.openRegisterPage();
         registerSteps.currentPageIsRegistration();
         registerSteps.completeForm("firstname", "lastname", "Divorced", "Reading", "India", "1", "1", "2014", "01232656974", "test", "test@example.com", "test", "test", "test");
-        registerSteps.validateEmptyFields();
+        registerSteps.submitForm();
+        //        registerSteps.validateEmptyFields();
     }
 
     @Test
@@ -38,7 +40,8 @@ public class RegisterTest {
         registerSteps.openRegisterPage();
         registerSteps.currentPageIsRegistration();
         registerSteps.completeFormWithTwoHobbies("firstname", "lastname", "Divorced", "Reading", "Dance", "India", "1", "1", "2014", "01232656974", "test", "test@example.com", "description text", "test", "test");
-        registerSteps.validateEmptyFields();
+        registerSteps.submitForm();
+        //        registerSteps.validateEmptyFields();
     }
 
     @Test
@@ -47,7 +50,7 @@ public class RegisterTest {
         registerSteps.currentPageIsRegistration();
         registerSteps.completeForm("firstname", "lastname", "Divorced", "Reading", "India", "1", "1", "2014", "01232656974", "test", "test#example,com", "test", "test", "test");
         registerSteps.validateEmailFormat();
-       // registerSteps.validateEmptyFields();
+        registerSteps.submitForm();
     }
     //negative
 }

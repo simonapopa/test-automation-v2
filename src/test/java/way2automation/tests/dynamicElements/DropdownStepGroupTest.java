@@ -1,4 +1,4 @@
-package way2automation.features.dynamicElements;
+package way2automation.tests.dynamicElements;
 
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
@@ -7,7 +7,7 @@ import net.thucydides.core.annotations.Steps;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
-import way2automation.features.LoginThroughModalTest;
+import way2automation.tests.LoginThroughModalTest;
 import way2automation.steps.dynamicElements.DropdownSteps;
 import way2automation.steps.WebsiteForTestingSeleniumSteps;
 

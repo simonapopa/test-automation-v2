@@ -5,12 +5,14 @@
 Use this section to tell people about which versions of your project are
 currently being supported with security updates.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version | Tool                  | Supported          |
+|---------|-----------------------|--------------------|
+| 3.7.1   | Serenity              | :white_check_mark: |
+| 4.13.2  | Junit                 | :white_check_mark: |
+| 2.19.1  | Maven Surefire Plugin | :white_check_mark: |
+| 2.22.2  | Maven Failsafe Plugin | :white_check_mark: |
+| 11      | JDK & Java            | :white_check_mark: |
+| 3.9.8   | Maven                 |                    |
 
 ## Reporting a Vulnerability
 

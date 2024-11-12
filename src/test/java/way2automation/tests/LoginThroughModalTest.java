@@ -1,4 +1,4 @@
-package way2automation.features;
+package way2automation.tests;
 
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;

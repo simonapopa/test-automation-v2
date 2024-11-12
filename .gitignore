@@ -1,5 +1,8 @@
 /src/test/java/way2automation/MainClass.java
-/target
+/target/
 /node_modules
 .idea
 .idea/workspace.xml
+*.iml
+.gradle
+

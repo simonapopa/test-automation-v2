@@ -2,6 +2,6 @@
 
 This project is my own and contains different struggles I keep trying to resolve and learn from each.
 
-Serenity project with JUnit and Webdriver.
+Serenity BDD project with JUnit, Maven and Webdriver.
 
 My Trello board: https://trello.com/b/nh7pugl9/way2automation-board

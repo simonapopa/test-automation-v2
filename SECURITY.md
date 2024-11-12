@@ -12,7 +12,7 @@ currently being supported with security updates.
 | 2.19.1  | Maven Surefire Plugin | :white_check_mark: |
 | 2.22.2  | Maven Failsafe Plugin | :white_check_mark: |
 | 11      | JDK & Java            | :white_check_mark: |
-| 3.9.8   | Maven                 |                    |
+| 3.9.8   | Maven                 | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
